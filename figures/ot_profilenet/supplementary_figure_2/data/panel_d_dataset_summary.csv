@@ -1,0 +1,6 @@
+measure,value,source
+protein_targets,7258,Methods 4.1.1 and Supplementary Figure 2d
+unique_compounds,1255941,Methods 4.1.1 and Supplementary Figure 2d
+positive_pairs,1105014,Methods 4.1.1 and Supplementary Figure 2c
+negative_pairs,997753,Methods 4.1.1 and Supplementary Figure 2c
+total_pairs,2102767,Methods 4.1.1 and Supplementary Figure 2d

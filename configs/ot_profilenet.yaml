@@ -1,0 +1,24 @@
+model: OT-ProfileNet
+task: multi-task target activity regression
+target_families: [GPCR, IonChannel, Enzyme, Kinase, NHR, Transporter, Other]
+output_order: [pK, pAC50]
+pretraining:
+  protein_embedding: esm2
+  embedding_size: 1280
+  hidden_size: 512
+  ppi_embedding_size: 512
+  modulator_embedding_size: 256
+  attention_heads: 2
+  dropout: 0.2
+  learning_rate: 0.0001
+  epochs: 100
+  early_stopping_patience: 10
+  seed: 2024
+finetuning:
+  train_batch_size: 128
+  test_batch_size: 128
+  learning_rate: 0.0001
+  epochs: 200
+  early_stopping_patience: 25
+  train_fraction: 0.9
+selected_weight_pattern: PreMOTA/regression_multitask/model_fintune_save/{family}/ratio_0.9batch128LR_1e-4random_0_esm2.pt

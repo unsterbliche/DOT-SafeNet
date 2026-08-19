@@ -1,0 +1,10 @@
+model: DOT-SafeNet
+stage: A2-mono-lite base training
+dataset: AC50_Cmax_oldpremota_newppb_balanced_random5seed
+folds: 5
+input: {exposure_features: 1, target_activity_features: 194, target_exposure_products: 194, total_features: 389, interaction_mode: product}
+output: {soc_tasks: 18}
+positive_soft_pseudo_labels: '0.30103:0.92:0.60,0.60206:0.96:0.80,-0.30103:0.75:0.20'
+negative_soft_pseudo_labels: '-0.60206:0.02:0.80,-0.30103:0.04:0.60,0.30103:0.18:0.20,0.60206:0.30:0.10'
+monotonicity: {dose_log10_deltas: [0.30103, 0.60206], loss_weight: 0.5, margin: 0.0, batch_size: 512}
+training: {batch_size: 64, learning_rate: 0.0001, patience: 25, completed_epochs_by_fold: [50, 62, 52, 52, 55]}

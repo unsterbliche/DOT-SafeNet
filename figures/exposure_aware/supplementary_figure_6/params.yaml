@@ -1,0 +1,33 @@
+figure:
+  panel_size: [3.35, 2.35]
+  tsne_size: [3.35, 2.75]
+  table_size: [4.2, 2.25]
+  composite_size: [7.2, 9.4]
+  dpi: 300
+text:
+  font_family: Arial
+  font_size: 9
+  title_size: 10
+  label_size: 10
+  tick_size: 8.5
+  legend_size: 8.5
+colors:
+  ppb: "#2166AC"
+  cmax: "#D6604D"
+  chembl: "#B8D3E8"
+  task: "#D6604D"
+  histogram_alpha: 0.86
+axes:
+  full_frame: true
+  grid: false
+tsne:
+  seed: 20260804
+  chembl_sample: 10000
+  fingerprint_bits: 1024
+  radius: 2
+  pca_components: 40
+  perplexity: 35
+  iterations: 750
+export:
+  formats: [png, pdf, svg]
+  transparent: false

@@ -1,0 +1,17 @@
+figure:
+  width_mm: 183
+  height_mm: 78
+  dpi: 300
+colors:
+  drug: "#2AA6A8"
+  drug_light: "#DDF3F2"
+  soc: "#D6606D"
+  soc_light: "#FBE4E7"
+  pair: "#7B6FB0"
+  head: "#2166AC"
+  head_light: "#E1ECF6"
+  training: "#F4D77A"
+  training_light: "#FFF8DA"
+  grey: "#687078"
+  light_grey: "#E8ECEF"
+

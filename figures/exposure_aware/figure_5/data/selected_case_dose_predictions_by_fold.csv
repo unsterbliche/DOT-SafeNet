@@ -1,0 +1,231 @@
+figure_id,display_drug,Drug,task_name,adr_short,dose_mg_day,anchor_dose_mg_day,fold,adr_score,label_true,reported_ensemble_anchor_pred,adjusted_log10_free_cmax
+meclofenamic_acid,MECLOFENAMIC ACID,SIDER767,Gastrointestinal disorders,Gastrointestinal,25.0,150.0,1,0.9414750337600708,1.0,0.943496608,-0.553509533405304
+meclofenamic_acid,MECLOFENAMIC ACID,SIDER767,Gastrointestinal disorders,Gastrointestinal,50.0,150.0,1,0.9034284949302673,1.0,0.943496608,-0.25247955322265625
+meclofenamic_acid,MECLOFENAMIC ACID,SIDER767,Gastrointestinal disorders,Gastrointestinal,100.0,150.0,1,0.9245338439941406,1.0,0.943496608,0.04855043813586235
+meclofenamic_acid,MECLOFENAMIC ACID,SIDER767,Gastrointestinal disorders,Gastrointestinal,150.0,150.0,1,0.9537695646286011,1.0,0.943496608,0.22464169561862946
+meclofenamic_acid,MECLOFENAMIC ACID,SIDER767,Gastrointestinal disorders,Gastrointestinal,200.0,150.0,1,0.9649588465690613,1.0,0.943496608,0.34958043694496155
+meclofenamic_acid,MECLOFENAMIC ACID,SIDER767,Gastrointestinal disorders,Gastrointestinal,300.0,150.0,1,0.9715780019760132,1.0,0.943496608,0.5256717205047607
+meclofenamic_acid,MECLOFENAMIC ACID,SIDER767,Gastrointestinal disorders,Gastrointestinal,400.0,150.0,1,0.9752655625343323,1.0,0.943496608,0.6506104469299316
+citalopram,Citalopram,SIDER433,Cardiac disorders,Cardiac,5.0,20.0,1,0.14505413174629211,1.0,0.787215674,-2.2885146141052246
+citalopram,Citalopram,SIDER433,Cardiac disorders,Cardiac,10.0,20.0,1,0.27176862955093384,1.0,0.787215674,-1.9874845743179321
+citalopram,Citalopram,SIDER433,Cardiac disorders,Cardiac,20.0,20.0,1,0.6066398620605469,1.0,0.787215674,-1.6864545345306396
+citalopram,Citalopram,SIDER433,Cardiac disorders,Cardiac,30.0,20.0,1,0.8192259073257446,1.0,0.787215674,-1.510363221168518
+citalopram,Citalopram,SIDER433,Cardiac disorders,Cardiac,40.0,20.0,1,0.9185616970062256,1.0,0.787215674,-1.3854244947433472
+citalopram,Citalopram,SIDER433,Cardiac disorders,Cardiac,60.0,20.0,1,0.9612348079681396,1.0,0.787215674,-1.2093333005905151
+spironolactone,Spironolactone,spironolactone,Reproductive system and breast disorders,Reproductive,12.5,25.0,1,0.264945924282074,1.0,0.54158596,-2.547407865524292
+spironolactone,Spironolactone,spironolactone,Reproductive system and breast disorders,Reproductive,25.0,25.0,1,0.7389028072357178,1.0,0.54158596,-2.246377944946289
+spironolactone,Spironolactone,spironolactone,Reproductive system and breast disorders,Reproductive,50.0,25.0,1,0.8886760473251343,1.0,0.54158596,-1.9453479051589966
+spironolactone,Spironolactone,spironolactone,Reproductive system and breast disorders,Reproductive,100.0,25.0,1,0.916430652141571,1.0,0.54158596,-1.6443179845809937
+sunitinib,Sunitinib,sunitinib,Cardiac disorders,Cardiac,12.5,43.75,1,0.5862939357757568,1.0,0.768386632,-2.4691569805145264
+sunitinib,Sunitinib,sunitinib,Cardiac disorders,Cardiac,25.0,43.75,1,0.89740389585495,1.0,0.768386632,-2.1681270599365234
+sunitinib,Sunitinib,sunitinib,Cardiac disorders,Cardiac,37.5,43.75,1,0.9462008476257324,1.0,0.768386632,-1.9920357465744019
+sunitinib,Sunitinib,sunitinib,Cardiac disorders,Cardiac,50.0,43.75,1,0.9601024985313416,1.0,0.768386632,-1.867097020149231
+sunitinib,Sunitinib,sunitinib,Cardiac disorders,Cardiac,75.0,43.75,1,0.9716617465019226,1.0,0.768386632,-1.691005825996399
+candesartan,CANDESARTAN CILEXETIL,SIDER372,Vascular disorders,Vascular,4.0,32.0,1,0.4489077627658844,1.0,0.911574112,-3.420396566390991
+candesartan,CANDESARTAN CILEXETIL,SIDER372,Vascular disorders,Vascular,8.0,32.0,1,0.8331697583198547,1.0,0.911574112,-3.1193666458129883
+candesartan,CANDESARTAN CILEXETIL,SIDER372,Vascular disorders,Vascular,16.0,32.0,1,0.9183375239372253,1.0,0.911574112,-2.8183364868164062
+candesartan,CANDESARTAN CILEXETIL,SIDER372,Vascular disorders,Vascular,32.0,32.0,1,0.9501258730888367,1.0,0.911574112,-2.5173065662384033
+candesartan,CANDESARTAN CILEXETIL,SIDER372,Renal and urinary disorders,Renal,4.0,32.0,1,0.5720345377922058,1.0,0.8480497119999999,-3.420396566390991
+candesartan,CANDESARTAN CILEXETIL,SIDER372,Renal and urinary disorders,Renal,8.0,32.0,1,0.869855523109436,1.0,0.8480497119999999,-3.1193666458129883
+candesartan,CANDESARTAN CILEXETIL,SIDER372,Renal and urinary disorders,Renal,16.0,32.0,1,0.9299695491790771,1.0,0.8480497119999999,-2.8183364868164062
+candesartan,CANDESARTAN CILEXETIL,SIDER372,Renal and urinary disorders,Renal,32.0,32.0,1,0.9540643095970154,1.0,0.8480497119999999,-2.5173065662384033
+clozapine,Clozapine,clozapine,Nervous system disorders,Nervous,50.0,303.125,1,0.9599930644035339,1.0,0.968162102,-1.7915980815887451
+clozapine,Clozapine,clozapine,Nervous system disorders,Nervous,100.0,303.125,1,0.9749962091445923,1.0,0.968162102,-1.4905680418014526
+clozapine,Clozapine,clozapine,Nervous system disorders,Nervous,200.0,303.125,1,0.978543758392334,1.0,0.968162102,-1.1895380020141602
+clozapine,Clozapine,clozapine,Nervous system disorders,Nervous,300.0,303.125,1,0.9802120923995972,1.0,0.968162102,-1.0134468078613281
+clozapine,Clozapine,clozapine,Nervous system disorders,Nervous,400.0,303.125,1,0.9804651737213135,1.0,0.968162102,-0.8885080814361572
+clozapine,Clozapine,clozapine,Nervous system disorders,Nervous,600.0,303.125,1,0.9790284633636475,1.0,0.968162102,-0.7124168276786804
+cysteamine,Cysteamine,SIDER1229,Gastrointestinal disorders,Gastrointestinal,150.0,500.0,1,0.8659484386444092,1.0,0.945000638,0.9764055013656616
+cysteamine,Cysteamine,SIDER1229,Gastrointestinal disorders,Gastrointestinal,300.0,500.0,1,0.9181299805641174,1.0,0.945000638,1.277435541152954
+cysteamine,Cysteamine,SIDER1229,Gastrointestinal disorders,Gastrointestinal,500.0,500.0,1,0.9249083995819092,1.0,0.945000638,1.499284267425537
+cysteamine,Cysteamine,SIDER1229,Gastrointestinal disorders,Gastrointestinal,750.0,500.0,1,0.9280005097389221,1.0,0.945000638,1.6753755807876587
+cysteamine,Cysteamine,SIDER1229,Gastrointestinal disorders,Gastrointestinal,1000.0,500.0,1,0.9304983019828796,1.0,0.945000638,1.8003143072128296
+enzalutamide,Enzalutamide,SIDER220,Nervous system disorders,Nervous,40.0,160.0,1,0.9459212422370911,1.0,0.943508952,-0.9693883061408997
+enzalutamide,Enzalutamide,SIDER220,Nervous system disorders,Nervous,80.0,160.0,1,0.9415213465690613,1.0,0.943508952,-0.668358325958252
+enzalutamide,Enzalutamide,SIDER220,Nervous system disorders,Nervous,120.0,160.0,1,0.9215746521949768,1.0,0.943508952,-0.49226704239845276
+enzalutamide,Enzalutamide,SIDER220,Nervous system disorders,Nervous,160.0,160.0,1,0.9087894558906555,1.0,0.943508952,-0.36732831597328186
+enzalutamide,Enzalutamide,SIDER220,Nervous system disorders,Nervous,240.0,160.0,1,0.8875797986984253,1.0,0.943508952,-0.19123706221580505
+meclofenamic_acid,MECLOFENAMIC ACID,SIDER767,Gastrointestinal disorders,Gastrointestinal,25.0,150.0,2,0.12690290808677673,1.0,0.943496608,-0.553509533405304
+meclofenamic_acid,MECLOFENAMIC ACID,SIDER767,Gastrointestinal disorders,Gastrointestinal,50.0,150.0,2,0.3202098608016968,1.0,0.943496608,-0.25247955322265625
+meclofenamic_acid,MECLOFENAMIC ACID,SIDER767,Gastrointestinal disorders,Gastrointestinal,100.0,150.0,2,0.48187845945358276,1.0,0.943496608,0.04855043813586235
+meclofenamic_acid,MECLOFENAMIC ACID,SIDER767,Gastrointestinal disorders,Gastrointestinal,150.0,150.0,2,0.5848573446273804,1.0,0.943496608,0.22464169561862946
+meclofenamic_acid,MECLOFENAMIC ACID,SIDER767,Gastrointestinal disorders,Gastrointestinal,200.0,150.0,2,0.6684991121292114,1.0,0.943496608,0.34958043694496155
+meclofenamic_acid,MECLOFENAMIC ACID,SIDER767,Gastrointestinal disorders,Gastrointestinal,300.0,150.0,2,0.8099756836891174,1.0,0.943496608,0.5256717205047607
+meclofenamic_acid,MECLOFENAMIC ACID,SIDER767,Gastrointestinal disorders,Gastrointestinal,400.0,150.0,2,0.8741411566734314,1.0,0.943496608,0.6506104469299316
+citalopram,Citalopram,SIDER433,Cardiac disorders,Cardiac,5.0,20.0,2,0.055057212710380554,1.0,0.787215674,-2.2885146141052246
+citalopram,Citalopram,SIDER433,Cardiac disorders,Cardiac,10.0,20.0,2,0.08841522783041,1.0,0.787215674,-1.9874845743179321
+citalopram,Citalopram,SIDER433,Cardiac disorders,Cardiac,20.0,20.0,2,0.2337547242641449,1.0,0.787215674,-1.6864545345306396
+citalopram,Citalopram,SIDER433,Cardiac disorders,Cardiac,30.0,20.0,2,0.44059279561042786,1.0,0.787215674,-1.510363221168518
+citalopram,Citalopram,SIDER433,Cardiac disorders,Cardiac,40.0,20.0,2,0.7275202870368958,1.0,0.787215674,-1.3854244947433472
+citalopram,Citalopram,SIDER433,Cardiac disorders,Cardiac,60.0,20.0,2,0.9437524080276489,1.0,0.787215674,-1.2093333005905151
+spironolactone,Spironolactone,spironolactone,Reproductive system and breast disorders,Reproductive,12.5,25.0,2,0.1366930603981018,1.0,0.54158596,-2.547407865524292
+spironolactone,Spironolactone,spironolactone,Reproductive system and breast disorders,Reproductive,25.0,25.0,2,0.2561241686344147,1.0,0.54158596,-2.246377944946289
+spironolactone,Spironolactone,spironolactone,Reproductive system and breast disorders,Reproductive,50.0,25.0,2,0.818878173828125,1.0,0.54158596,-1.9453479051589966
+spironolactone,Spironolactone,spironolactone,Reproductive system and breast disorders,Reproductive,100.0,25.0,2,0.9340652227401733,1.0,0.54158596,-1.6443179845809937
+sunitinib,Sunitinib,sunitinib,Cardiac disorders,Cardiac,12.5,43.75,2,0.3225890100002289,1.0,0.768386632,-2.4691569805145264
+sunitinib,Sunitinib,sunitinib,Cardiac disorders,Cardiac,25.0,43.75,2,0.9486860632896423,1.0,0.768386632,-2.1681270599365234
+sunitinib,Sunitinib,sunitinib,Cardiac disorders,Cardiac,37.5,43.75,2,0.968219518661499,1.0,0.768386632,-1.9920357465744019
+sunitinib,Sunitinib,sunitinib,Cardiac disorders,Cardiac,50.0,43.75,2,0.9751718044281006,1.0,0.768386632,-1.867097020149231
+sunitinib,Sunitinib,sunitinib,Cardiac disorders,Cardiac,75.0,43.75,2,0.9808287620544434,1.0,0.768386632,-1.691005825996399
+candesartan,CANDESARTAN CILEXETIL,SIDER372,Vascular disorders,Vascular,4.0,32.0,2,0.7444456815719604,1.0,0.911574112,-3.420396566390991
+candesartan,CANDESARTAN CILEXETIL,SIDER372,Vascular disorders,Vascular,8.0,32.0,2,0.9199576377868652,1.0,0.911574112,-3.1193666458129883
+candesartan,CANDESARTAN CILEXETIL,SIDER372,Vascular disorders,Vascular,16.0,32.0,2,0.9613433480262756,1.0,0.911574112,-2.8183364868164062
+candesartan,CANDESARTAN CILEXETIL,SIDER372,Vascular disorders,Vascular,32.0,32.0,2,0.97735595703125,1.0,0.911574112,-2.5173065662384033
+candesartan,CANDESARTAN CILEXETIL,SIDER372,Renal and urinary disorders,Renal,4.0,32.0,2,0.5545916557312012,1.0,0.8480497119999999,-3.420396566390991
+candesartan,CANDESARTAN CILEXETIL,SIDER372,Renal and urinary disorders,Renal,8.0,32.0,2,0.924188494682312,1.0,0.8480497119999999,-3.1193666458129883
+candesartan,CANDESARTAN CILEXETIL,SIDER372,Renal and urinary disorders,Renal,16.0,32.0,2,0.9645057916641235,1.0,0.8480497119999999,-2.8183364868164062
+candesartan,CANDESARTAN CILEXETIL,SIDER372,Renal and urinary disorders,Renal,32.0,32.0,2,0.9758661985397339,1.0,0.8480497119999999,-2.5173065662384033
+clozapine,Clozapine,clozapine,Nervous system disorders,Nervous,50.0,303.125,2,0.9623610377311707,1.0,0.968162102,-1.7915980815887451
+clozapine,Clozapine,clozapine,Nervous system disorders,Nervous,100.0,303.125,2,0.9823853969573975,1.0,0.968162102,-1.4905680418014526
+clozapine,Clozapine,clozapine,Nervous system disorders,Nervous,200.0,303.125,2,0.9890696406364441,1.0,0.968162102,-1.1895380020141602
+clozapine,Clozapine,clozapine,Nervous system disorders,Nervous,300.0,303.125,2,0.9898836016654968,1.0,0.968162102,-1.0134468078613281
+clozapine,Clozapine,clozapine,Nervous system disorders,Nervous,400.0,303.125,2,0.989916980266571,1.0,0.968162102,-0.8885080814361572
+clozapine,Clozapine,clozapine,Nervous system disorders,Nervous,600.0,303.125,2,0.9893894195556641,1.0,0.968162102,-0.7124168276786804
+cysteamine,Cysteamine,SIDER1229,Gastrointestinal disorders,Gastrointestinal,150.0,500.0,2,0.31110143661499023,1.0,0.945000638,0.9764055013656616
+cysteamine,Cysteamine,SIDER1229,Gastrointestinal disorders,Gastrointestinal,300.0,500.0,2,0.6404674053192139,1.0,0.945000638,1.277435541152954
+cysteamine,Cysteamine,SIDER1229,Gastrointestinal disorders,Gastrointestinal,500.0,500.0,2,0.7550392746925354,1.0,0.945000638,1.499284267425537
+cysteamine,Cysteamine,SIDER1229,Gastrointestinal disorders,Gastrointestinal,750.0,500.0,2,0.8075531721115112,1.0,0.945000638,1.6753755807876587
+cysteamine,Cysteamine,SIDER1229,Gastrointestinal disorders,Gastrointestinal,1000.0,500.0,2,0.8328211903572083,1.0,0.945000638,1.8003143072128296
+enzalutamide,Enzalutamide,SIDER220,Nervous system disorders,Nervous,40.0,160.0,2,0.946146547794342,1.0,0.943508952,-0.9693883061408997
+enzalutamide,Enzalutamide,SIDER220,Nervous system disorders,Nervous,80.0,160.0,2,0.9481191039085388,1.0,0.943508952,-0.668358325958252
+enzalutamide,Enzalutamide,SIDER220,Nervous system disorders,Nervous,120.0,160.0,2,0.9439619779586792,1.0,0.943508952,-0.49226704239845276
+enzalutamide,Enzalutamide,SIDER220,Nervous system disorders,Nervous,160.0,160.0,2,0.9491003155708313,1.0,0.943508952,-0.36732831597328186
+enzalutamide,Enzalutamide,SIDER220,Nervous system disorders,Nervous,240.0,160.0,2,0.9542011022567749,1.0,0.943508952,-0.19123706221580505
+meclofenamic_acid,MECLOFENAMIC ACID,SIDER767,Gastrointestinal disorders,Gastrointestinal,25.0,150.0,3,0.7591033577919006,1.0,0.943496608,-0.553509533405304
+meclofenamic_acid,MECLOFENAMIC ACID,SIDER767,Gastrointestinal disorders,Gastrointestinal,50.0,150.0,3,0.8075916767120361,1.0,0.943496608,-0.25247955322265625
+meclofenamic_acid,MECLOFENAMIC ACID,SIDER767,Gastrointestinal disorders,Gastrointestinal,100.0,150.0,3,0.8770075440406799,1.0,0.943496608,0.04855043813586235
+meclofenamic_acid,MECLOFENAMIC ACID,SIDER767,Gastrointestinal disorders,Gastrointestinal,150.0,150.0,3,0.915292501449585,1.0,0.943496608,0.22464169561862946
+meclofenamic_acid,MECLOFENAMIC ACID,SIDER767,Gastrointestinal disorders,Gastrointestinal,200.0,150.0,3,0.9315163493156433,1.0,0.943496608,0.34958043694496155
+meclofenamic_acid,MECLOFENAMIC ACID,SIDER767,Gastrointestinal disorders,Gastrointestinal,300.0,150.0,3,0.954304039478302,1.0,0.943496608,0.5256717205047607
+meclofenamic_acid,MECLOFENAMIC ACID,SIDER767,Gastrointestinal disorders,Gastrointestinal,400.0,150.0,3,0.966042160987854,1.0,0.943496608,0.6506104469299316
+citalopram,Citalopram,SIDER433,Cardiac disorders,Cardiac,5.0,20.0,3,0.09784691780805588,1.0,0.787215674,-2.2885146141052246
+citalopram,Citalopram,SIDER433,Cardiac disorders,Cardiac,10.0,20.0,3,0.18799374997615814,1.0,0.787215674,-1.9874845743179321
+citalopram,Citalopram,SIDER433,Cardiac disorders,Cardiac,20.0,20.0,3,0.6525204181671143,1.0,0.787215674,-1.6864545345306396
+citalopram,Citalopram,SIDER433,Cardiac disorders,Cardiac,30.0,20.0,3,0.8648678064346313,1.0,0.787215674,-1.510363221168518
+citalopram,Citalopram,SIDER433,Cardiac disorders,Cardiac,40.0,20.0,3,0.926820695400238,1.0,0.787215674,-1.3854244947433472
+citalopram,Citalopram,SIDER433,Cardiac disorders,Cardiac,60.0,20.0,3,0.9609779715538025,1.0,0.787215674,-1.2093333005905151
+spironolactone,Spironolactone,spironolactone,Reproductive system and breast disorders,Reproductive,12.5,25.0,3,0.22205772995948792,1.0,0.54158596,-2.547407865524292
+spironolactone,Spironolactone,spironolactone,Reproductive system and breast disorders,Reproductive,25.0,25.0,3,0.8018640875816345,1.0,0.54158596,-2.246377944946289
+spironolactone,Spironolactone,spironolactone,Reproductive system and breast disorders,Reproductive,50.0,25.0,3,0.9223949313163757,1.0,0.54158596,-1.9453479051589966
+spironolactone,Spironolactone,spironolactone,Reproductive system and breast disorders,Reproductive,100.0,25.0,3,0.9518781900405884,1.0,0.54158596,-1.6443179845809937
+sunitinib,Sunitinib,sunitinib,Cardiac disorders,Cardiac,12.5,43.75,3,0.09878817200660706,1.0,0.768386632,-2.4691569805145264
+sunitinib,Sunitinib,sunitinib,Cardiac disorders,Cardiac,25.0,43.75,3,0.3012356162071228,1.0,0.768386632,-2.1681270599365234
+sunitinib,Sunitinib,sunitinib,Cardiac disorders,Cardiac,37.5,43.75,3,0.703275203704834,1.0,0.768386632,-1.9920357465744019
+sunitinib,Sunitinib,sunitinib,Cardiac disorders,Cardiac,50.0,43.75,3,0.8838105797767639,1.0,0.768386632,-1.867097020149231
+sunitinib,Sunitinib,sunitinib,Cardiac disorders,Cardiac,75.0,43.75,3,0.9346408247947693,1.0,0.768386632,-1.691005825996399
+candesartan,CANDESARTAN CILEXETIL,SIDER372,Vascular disorders,Vascular,4.0,32.0,3,0.8836645483970642,1.0,0.911574112,-3.420396566390991
+candesartan,CANDESARTAN CILEXETIL,SIDER372,Vascular disorders,Vascular,8.0,32.0,3,0.9230079054832458,1.0,0.911574112,-3.1193666458129883
+candesartan,CANDESARTAN CILEXETIL,SIDER372,Vascular disorders,Vascular,16.0,32.0,3,0.949486255645752,1.0,0.911574112,-2.8183364868164062
+candesartan,CANDESARTAN CILEXETIL,SIDER372,Vascular disorders,Vascular,32.0,32.0,3,0.9650042057037354,1.0,0.911574112,-2.5173065662384033
+candesartan,CANDESARTAN CILEXETIL,SIDER372,Renal and urinary disorders,Renal,4.0,32.0,3,0.9287396669387817,1.0,0.8480497119999999,-3.420396566390991
+candesartan,CANDESARTAN CILEXETIL,SIDER372,Renal and urinary disorders,Renal,8.0,32.0,3,0.9413310289382935,1.0,0.8480497119999999,-3.1193666458129883
+candesartan,CANDESARTAN CILEXETIL,SIDER372,Renal and urinary disorders,Renal,16.0,32.0,3,0.953872561454773,1.0,0.8480497119999999,-2.8183364868164062
+candesartan,CANDESARTAN CILEXETIL,SIDER372,Renal and urinary disorders,Renal,32.0,32.0,3,0.9628345966339111,1.0,0.8480497119999999,-2.5173065662384033
+clozapine,Clozapine,clozapine,Nervous system disorders,Nervous,50.0,303.125,3,0.9053432941436768,1.0,0.968162102,-1.7915980815887451
+clozapine,Clozapine,clozapine,Nervous system disorders,Nervous,100.0,303.125,3,0.9662486910820007,1.0,0.968162102,-1.4905680418014526
+clozapine,Clozapine,clozapine,Nervous system disorders,Nervous,200.0,303.125,3,0.9826129078865051,1.0,0.968162102,-1.1895380020141602
+clozapine,Clozapine,clozapine,Nervous system disorders,Nervous,300.0,303.125,3,0.9861554503440857,1.0,0.968162102,-1.0134468078613281
+clozapine,Clozapine,clozapine,Nervous system disorders,Nervous,400.0,303.125,3,0.9873948693275452,1.0,0.968162102,-0.8885080814361572
+clozapine,Clozapine,clozapine,Nervous system disorders,Nervous,600.0,303.125,3,0.9881948232650757,1.0,0.968162102,-0.7124168276786804
+cysteamine,Cysteamine,SIDER1229,Gastrointestinal disorders,Gastrointestinal,150.0,500.0,3,0.8909074664115906,1.0,0.945000638,0.9764055013656616
+cysteamine,Cysteamine,SIDER1229,Gastrointestinal disorders,Gastrointestinal,300.0,500.0,3,0.9029096364974976,1.0,0.945000638,1.277435541152954
+cysteamine,Cysteamine,SIDER1229,Gastrointestinal disorders,Gastrointestinal,500.0,500.0,3,0.9071581363677979,1.0,0.945000638,1.499284267425537
+cysteamine,Cysteamine,SIDER1229,Gastrointestinal disorders,Gastrointestinal,750.0,500.0,3,0.91023188829422,1.0,0.945000638,1.6753755807876587
+cysteamine,Cysteamine,SIDER1229,Gastrointestinal disorders,Gastrointestinal,1000.0,500.0,3,0.9143709540367126,1.0,0.945000638,1.8003143072128296
+enzalutamide,Enzalutamide,SIDER220,Nervous system disorders,Nervous,40.0,160.0,3,0.9164794683456421,1.0,0.943508952,-0.9693883061408997
+enzalutamide,Enzalutamide,SIDER220,Nervous system disorders,Nervous,80.0,160.0,3,0.9309350848197937,1.0,0.943508952,-0.668358325958252
+enzalutamide,Enzalutamide,SIDER220,Nervous system disorders,Nervous,120.0,160.0,3,0.9341862797737122,1.0,0.943508952,-0.49226704239845276
+enzalutamide,Enzalutamide,SIDER220,Nervous system disorders,Nervous,160.0,160.0,3,0.932494044303894,1.0,0.943508952,-0.36732831597328186
+enzalutamide,Enzalutamide,SIDER220,Nervous system disorders,Nervous,240.0,160.0,3,0.9365217685699463,1.0,0.943508952,-0.19123706221580505
+meclofenamic_acid,MECLOFENAMIC ACID,SIDER767,Gastrointestinal disorders,Gastrointestinal,25.0,150.0,4,0.9739716053009033,1.0,0.943496608,-0.553509533405304
+meclofenamic_acid,MECLOFENAMIC ACID,SIDER767,Gastrointestinal disorders,Gastrointestinal,50.0,150.0,4,0.9702708125114441,1.0,0.943496608,-0.25247955322265625
+meclofenamic_acid,MECLOFENAMIC ACID,SIDER767,Gastrointestinal disorders,Gastrointestinal,100.0,150.0,4,0.9436400532722473,1.0,0.943496608,0.04855043813586235
+meclofenamic_acid,MECLOFENAMIC ACID,SIDER767,Gastrointestinal disorders,Gastrointestinal,150.0,150.0,4,0.9179116487503052,1.0,0.943496608,0.22464169561862946
+meclofenamic_acid,MECLOFENAMIC ACID,SIDER767,Gastrointestinal disorders,Gastrointestinal,200.0,150.0,4,0.9269693493843079,1.0,0.943496608,0.34958043694496155
+meclofenamic_acid,MECLOFENAMIC ACID,SIDER767,Gastrointestinal disorders,Gastrointestinal,300.0,150.0,4,0.9412365555763245,1.0,0.943496608,0.5256717205047607
+meclofenamic_acid,MECLOFENAMIC ACID,SIDER767,Gastrointestinal disorders,Gastrointestinal,400.0,150.0,4,0.9562342166900635,1.0,0.943496608,0.6506104469299316
+citalopram,Citalopram,SIDER433,Cardiac disorders,Cardiac,5.0,20.0,4,0.06292915344238281,1.0,0.787215674,-2.2885146141052246
+citalopram,Citalopram,SIDER433,Cardiac disorders,Cardiac,10.0,20.0,4,0.12585219740867615,1.0,0.787215674,-1.9874845743179321
+citalopram,Citalopram,SIDER433,Cardiac disorders,Cardiac,20.0,20.0,4,0.5431656837463379,1.0,0.787215674,-1.6864545345306396
+citalopram,Citalopram,SIDER433,Cardiac disorders,Cardiac,30.0,20.0,4,0.8251713514328003,1.0,0.787215674,-1.510363221168518
+citalopram,Citalopram,SIDER433,Cardiac disorders,Cardiac,40.0,20.0,4,0.906595766544342,1.0,0.787215674,-1.3854244947433472
+citalopram,Citalopram,SIDER433,Cardiac disorders,Cardiac,60.0,20.0,4,0.9495345950126648,1.0,0.787215674,-1.2093333005905151
+spironolactone,Spironolactone,spironolactone,Reproductive system and breast disorders,Reproductive,12.5,25.0,4,0.09114494919776917,1.0,0.54158596,-2.547407865524292
+spironolactone,Spironolactone,spironolactone,Reproductive system and breast disorders,Reproductive,25.0,25.0,4,0.17165012657642365,1.0,0.54158596,-2.246377944946289
+spironolactone,Spironolactone,spironolactone,Reproductive system and breast disorders,Reproductive,50.0,25.0,4,0.42344170808792114,1.0,0.54158596,-1.9453479051589966
+spironolactone,Spironolactone,spironolactone,Reproductive system and breast disorders,Reproductive,100.0,25.0,4,0.8478176593780518,1.0,0.54158596,-1.6443179845809937
+sunitinib,Sunitinib,sunitinib,Cardiac disorders,Cardiac,12.5,43.75,4,0.945202112197876,1.0,0.768386632,-2.4691569805145264
+sunitinib,Sunitinib,sunitinib,Cardiac disorders,Cardiac,25.0,43.75,4,0.9665187001228333,1.0,0.768386632,-2.1681270599365234
+sunitinib,Sunitinib,sunitinib,Cardiac disorders,Cardiac,37.5,43.75,4,0.9714946746826172,1.0,0.768386632,-1.9920357465744019
+sunitinib,Sunitinib,sunitinib,Cardiac disorders,Cardiac,50.0,43.75,4,0.9742473363876343,1.0,0.768386632,-1.867097020149231
+sunitinib,Sunitinib,sunitinib,Cardiac disorders,Cardiac,75.0,43.75,4,0.9761577248573303,1.0,0.768386632,-1.691005825996399
+candesartan,CANDESARTAN CILEXETIL,SIDER372,Vascular disorders,Vascular,4.0,32.0,4,0.6672559380531311,1.0,0.911574112,-3.420396566390991
+candesartan,CANDESARTAN CILEXETIL,SIDER372,Vascular disorders,Vascular,8.0,32.0,4,0.8376207947731018,1.0,0.911574112,-3.1193666458129883
+candesartan,CANDESARTAN CILEXETIL,SIDER372,Vascular disorders,Vascular,16.0,32.0,4,0.904218852519989,1.0,0.911574112,-2.8183364868164062
+candesartan,CANDESARTAN CILEXETIL,SIDER372,Vascular disorders,Vascular,32.0,32.0,4,0.9401571154594421,1.0,0.911574112,-2.5173065662384033
+candesartan,CANDESARTAN CILEXETIL,SIDER372,Renal and urinary disorders,Renal,4.0,32.0,4,0.8499805927276611,1.0,0.8480497119999999,-3.420396566390991
+candesartan,CANDESARTAN CILEXETIL,SIDER372,Renal and urinary disorders,Renal,8.0,32.0,4,0.891819417476654,1.0,0.8480497119999999,-3.1193666458129883
+candesartan,CANDESARTAN CILEXETIL,SIDER372,Renal and urinary disorders,Renal,16.0,32.0,4,0.9261361956596375,1.0,0.8480497119999999,-2.8183364868164062
+candesartan,CANDESARTAN CILEXETIL,SIDER372,Renal and urinary disorders,Renal,32.0,32.0,4,0.9477842450141907,1.0,0.8480497119999999,-2.5173065662384033
+clozapine,Clozapine,clozapine,Nervous system disorders,Nervous,50.0,303.125,4,0.9760192632675171,1.0,0.968162102,-1.7915980815887451
+clozapine,Clozapine,clozapine,Nervous system disorders,Nervous,100.0,303.125,4,0.9821626543998718,1.0,0.968162102,-1.4905680418014526
+clozapine,Clozapine,clozapine,Nervous system disorders,Nervous,200.0,303.125,4,0.9858276844024658,1.0,0.968162102,-1.1895380020141602
+clozapine,Clozapine,clozapine,Nervous system disorders,Nervous,300.0,303.125,4,0.9866794347763062,1.0,0.968162102,-1.0134468078613281
+clozapine,Clozapine,clozapine,Nervous system disorders,Nervous,400.0,303.125,4,0.9869192242622375,1.0,0.968162102,-0.8885080814361572
+clozapine,Clozapine,clozapine,Nervous system disorders,Nervous,600.0,303.125,4,0.9873017072677612,1.0,0.968162102,-0.7124168276786804
+cysteamine,Cysteamine,SIDER1229,Gastrointestinal disorders,Gastrointestinal,150.0,500.0,4,0.7230858206748962,1.0,0.945000638,0.9764055013656616
+cysteamine,Cysteamine,SIDER1229,Gastrointestinal disorders,Gastrointestinal,300.0,500.0,4,0.9332456588745117,1.0,0.945000638,1.277435541152954
+cysteamine,Cysteamine,SIDER1229,Gastrointestinal disorders,Gastrointestinal,500.0,500.0,4,0.9609200954437256,1.0,0.945000638,1.499284267425537
+cysteamine,Cysteamine,SIDER1229,Gastrointestinal disorders,Gastrointestinal,750.0,500.0,4,0.9710145592689514,1.0,0.945000638,1.6753755807876587
+cysteamine,Cysteamine,SIDER1229,Gastrointestinal disorders,Gastrointestinal,1000.0,500.0,4,0.9748303890228271,1.0,0.945000638,1.8003143072128296
+enzalutamide,Enzalutamide,SIDER220,Nervous system disorders,Nervous,40.0,160.0,4,0.9384438991546631,1.0,0.943508952,-0.9693883061408997
+enzalutamide,Enzalutamide,SIDER220,Nervous system disorders,Nervous,80.0,160.0,4,0.9290152788162231,1.0,0.943508952,-0.668358325958252
+enzalutamide,Enzalutamide,SIDER220,Nervous system disorders,Nervous,120.0,160.0,4,0.9037771224975586,1.0,0.943508952,-0.49226704239845276
+enzalutamide,Enzalutamide,SIDER220,Nervous system disorders,Nervous,160.0,160.0,4,0.8675193190574646,1.0,0.943508952,-0.36732831597328186
+enzalutamide,Enzalutamide,SIDER220,Nervous system disorders,Nervous,240.0,160.0,4,0.799292266368866,1.0,0.943508952,-0.19123706221580505
+meclofenamic_acid,MECLOFENAMIC ACID,SIDER767,Gastrointestinal disorders,Gastrointestinal,25.0,150.0,5,0.4448951482772827,1.0,0.943496608,-0.553509533405304
+meclofenamic_acid,MECLOFENAMIC ACID,SIDER767,Gastrointestinal disorders,Gastrointestinal,50.0,150.0,5,0.834502637386322,1.0,0.943496608,-0.25247955322265625
+meclofenamic_acid,MECLOFENAMIC ACID,SIDER767,Gastrointestinal disorders,Gastrointestinal,100.0,150.0,5,0.8300443887710571,1.0,0.943496608,0.04855043813586235
+meclofenamic_acid,MECLOFENAMIC ACID,SIDER767,Gastrointestinal disorders,Gastrointestinal,150.0,150.0,5,0.818382740020752,1.0,0.943496608,0.22464169561862946
+meclofenamic_acid,MECLOFENAMIC ACID,SIDER767,Gastrointestinal disorders,Gastrointestinal,200.0,150.0,5,0.8789142370223999,1.0,0.943496608,0.34958043694496155
+meclofenamic_acid,MECLOFENAMIC ACID,SIDER767,Gastrointestinal disorders,Gastrointestinal,300.0,150.0,5,0.9230653047561646,1.0,0.943496608,0.5256717205047607
+meclofenamic_acid,MECLOFENAMIC ACID,SIDER767,Gastrointestinal disorders,Gastrointestinal,400.0,150.0,5,0.9338092803955078,1.0,0.943496608,0.6506104469299316
+citalopram,Citalopram,SIDER433,Cardiac disorders,Cardiac,5.0,20.0,5,0.10633767396211624,1.0,0.787215674,-2.2885146141052246
+citalopram,Citalopram,SIDER433,Cardiac disorders,Cardiac,10.0,20.0,5,0.3143872916698456,1.0,0.787215674,-1.9874845743179321
+citalopram,Citalopram,SIDER433,Cardiac disorders,Cardiac,20.0,20.0,5,0.7966336607933044,1.0,0.787215674,-1.6864545345306396
+citalopram,Citalopram,SIDER433,Cardiac disorders,Cardiac,30.0,20.0,5,0.9113900661468506,1.0,0.787215674,-1.510363221168518
+citalopram,Citalopram,SIDER433,Cardiac disorders,Cardiac,40.0,20.0,5,0.9429290890693665,1.0,0.787215674,-1.3854244947433472
+citalopram,Citalopram,SIDER433,Cardiac disorders,Cardiac,60.0,20.0,5,0.9657565355300903,1.0,0.787215674,-1.2093333005905151
+spironolactone,Spironolactone,spironolactone,Reproductive system and breast disorders,Reproductive,12.5,25.0,5,0.7494955658912659,1.0,0.54158596,-2.547407865524292
+spironolactone,Spironolactone,spironolactone,Reproductive system and breast disorders,Reproductive,25.0,25.0,5,0.8760356307029724,1.0,0.54158596,-2.246377944946289
+spironolactone,Spironolactone,spironolactone,Reproductive system and breast disorders,Reproductive,50.0,25.0,5,0.9290679097175598,1.0,0.54158596,-1.9453479051589966
+spironolactone,Spironolactone,spironolactone,Reproductive system and breast disorders,Reproductive,100.0,25.0,5,0.9427490830421448,1.0,0.54158596,-1.6443179845809937
+sunitinib,Sunitinib,sunitinib,Cardiac disorders,Cardiac,12.5,43.75,5,0.345628559589386,1.0,0.768386632,-2.4691569805145264
+sunitinib,Sunitinib,sunitinib,Cardiac disorders,Cardiac,25.0,43.75,5,0.8113758563995361,1.0,0.768386632,-2.1681270599365234
+sunitinib,Sunitinib,sunitinib,Cardiac disorders,Cardiac,37.5,43.75,5,0.9116231799125671,1.0,0.768386632,-1.9920357465744019
+sunitinib,Sunitinib,sunitinib,Cardiac disorders,Cardiac,50.0,43.75,5,0.9455406665802002,1.0,0.768386632,-1.867097020149231
+sunitinib,Sunitinib,sunitinib,Cardiac disorders,Cardiac,75.0,43.75,5,0.9629499912261963,1.0,0.768386632,-1.691005825996399
+candesartan,CANDESARTAN CILEXETIL,SIDER372,Vascular disorders,Vascular,4.0,32.0,5,0.20635537803173065,1.0,0.911574112,-3.420396566390991
+candesartan,CANDESARTAN CILEXETIL,SIDER372,Vascular disorders,Vascular,8.0,32.0,5,0.5183577537536621,1.0,0.911574112,-3.1193666458129883
+candesartan,CANDESARTAN CILEXETIL,SIDER372,Vascular disorders,Vascular,16.0,32.0,5,0.8530131578445435,1.0,0.911574112,-2.8183364868164062
+candesartan,CANDESARTAN CILEXETIL,SIDER372,Vascular disorders,Vascular,32.0,32.0,5,0.9300320744514465,1.0,0.911574112,-2.5173065662384033
+candesartan,CANDESARTAN CILEXETIL,SIDER372,Renal and urinary disorders,Renal,4.0,32.0,5,0.35593903064727783,1.0,0.8480497119999999,-3.420396566390991
+candesartan,CANDESARTAN CILEXETIL,SIDER372,Renal and urinary disorders,Renal,8.0,32.0,5,0.7992916107177734,1.0,0.8480497119999999,-3.1193666458129883
+candesartan,CANDESARTAN CILEXETIL,SIDER372,Renal and urinary disorders,Renal,16.0,32.0,5,0.915546178817749,1.0,0.8480497119999999,-2.8183364868164062
+candesartan,CANDESARTAN CILEXETIL,SIDER372,Renal and urinary disorders,Renal,32.0,32.0,5,0.9593399167060852,1.0,0.8480497119999999,-2.5173065662384033
+clozapine,Clozapine,clozapine,Nervous system disorders,Nervous,50.0,303.125,5,0.388060599565506,1.0,0.968162102,-1.7915980815887451
+clozapine,Clozapine,clozapine,Nervous system disorders,Nervous,100.0,303.125,5,0.5611520409584045,1.0,0.968162102,-1.4905680418014526
+clozapine,Clozapine,clozapine,Nervous system disorders,Nervous,200.0,303.125,5,0.8585121631622314,1.0,0.968162102,-1.1895380020141602
+clozapine,Clozapine,clozapine,Nervous system disorders,Nervous,300.0,303.125,5,0.9259868860244751,1.0,0.968162102,-1.0134468078613281
+clozapine,Clozapine,clozapine,Nervous system disorders,Nervous,400.0,303.125,5,0.9533781409263611,1.0,0.968162102,-0.8885080814361572
+clozapine,Clozapine,clozapine,Nervous system disorders,Nervous,600.0,303.125,5,0.9714379906654358,1.0,0.968162102,-0.7124168276786804
+cysteamine,Cysteamine,SIDER1229,Gastrointestinal disorders,Gastrointestinal,150.0,500.0,5,0.8311960697174072,1.0,0.945000638,0.9764055013656616
+cysteamine,Cysteamine,SIDER1229,Gastrointestinal disorders,Gastrointestinal,300.0,500.0,5,0.8903154134750366,1.0,0.945000638,1.277435541152954
+cysteamine,Cysteamine,SIDER1229,Gastrointestinal disorders,Gastrointestinal,500.0,500.0,5,0.9081506133079529,1.0,0.945000638,1.499284267425537
+cysteamine,Cysteamine,SIDER1229,Gastrointestinal disorders,Gastrointestinal,750.0,500.0,5,0.915424108505249,1.0,0.945000638,1.6753755807876587
+cysteamine,Cysteamine,SIDER1229,Gastrointestinal disorders,Gastrointestinal,1000.0,500.0,5,0.9201925992965698,1.0,0.945000638,1.8003143072128296
+enzalutamide,Enzalutamide,SIDER220,Nervous system disorders,Nervous,40.0,160.0,5,0.9736571907997131,1.0,0.943508952,-0.9693883061408997
+enzalutamide,Enzalutamide,SIDER220,Nervous system disorders,Nervous,80.0,160.0,5,0.9736706018447876,1.0,0.943508952,-0.668358325958252
+enzalutamide,Enzalutamide,SIDER220,Nervous system disorders,Nervous,120.0,160.0,5,0.9692701101303101,1.0,0.943508952,-0.49226704239845276
+enzalutamide,Enzalutamide,SIDER220,Nervous system disorders,Nervous,160.0,160.0,5,0.9647345542907715,1.0,0.943508952,-0.36732831597328186
+enzalutamide,Enzalutamide,SIDER220,Nervous system disorders,Nervous,240.0,160.0,5,0.9518417119979858,1.0,0.943508952,-0.19123706221580505

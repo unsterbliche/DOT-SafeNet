@@ -1,0 +1,17 @@
+item,panel,status,content,primary_source,prepared_file
+Figure 2,a,complete,Target-family counts,Supplementary Table 9,figure2_ab_target_family_statistics.csv
+Figure 2,b,complete,"Target, compound and pair counts",Supplementary Table 9,figure2_ab_target_family_statistics.csv
+Figure 2,c,complete,Observed and predicted pAC50,A100 old-model NumPy arrays,regression_predictions_row_level.csv
+Figure 2,d,complete,RMSE and PCC benchmark,A100 affinity_model_compare.xlsx,supplementary_table1_reported.csv
+Figure 2,e,complete,Held-out hERG scatter,A100 hERG prediction CSV,herg_external7_predictions.csv
+Figure 2,f,complete,Held-out hERG compound values,A100 hERG prediction CSV,herg_external7_predictions.csv
+Supplementary Figure 2,a,complete,Protein sequence lengths,"GitHub proteins.txt, 7,258 proteins",suppfig2a_protein_sequence_lengths.csv
+Supplementary Figure 2,b,complete,Compound counts per pretraining target,"V100 PreMOTA all_cpi_data_pro_final2.csv; grouped by uniprot_id",panel_b_compounds_per_target.csv
+Supplementary Figure 2,c,complete,Positive and negative pretraining pairs,Methods 4.1.1,suppfig2cd_pretraining_summary.csv
+Supplementary Figure 2,d,complete,Pretraining dataset totals,Methods 4.1.1,suppfig2cd_pretraining_summary.csv
+Supplementary Figure 3,a,complete,Pretraining loss,A100 loss.csv,suppfig3_pretraining_loss.csv
+Supplementary Figure 3,b-d,complete,Classification metrics,A100 model_compare_target.xlsx,suppfig3_classification_metrics.csv
+Supplementary Figure 4,a-f,complete,Observed and predicted pK,A100 old-model NumPy arrays,regression_predictions_row_level.csv
+Supplementary Table 1,all,complete_with_discrepancy,Affinity benchmark metrics,"SI, A100 workbook and arrays",supplementary_table1_consistency_audit.csv
+Supplementary Table 12,all,complete_with_discrepancy,Pretraining hyperparameters,"SI, train.py and loss.csv",supplementary_table12_hyperparameter_audit.csv
+Supplementary Table 13,all,complete_with_discrepancy,Fine-tuning hyperparameters,SI and fine-tuning code,supplementary_table13_hyperparameter_audit.csv

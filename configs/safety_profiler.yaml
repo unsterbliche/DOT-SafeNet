@@ -1,0 +1,17 @@
+model_chain: [OT-ProfileNet, PlasmaBindNet-Fu, DoseExpoNet, DOT-SafeNet]
+required_input: [smiles, dose_mg_day]
+recommended_input: [compound_id, name, route]
+target_activity_output: pAC50
+target_feature_transform: 6_minus_pAC50
+exposure_feature: log10_free_cmax_uM
+interaction_feature: target_feature_times_log10_free_cmax_uM
+target_count: 194
+soc_count: 18
+ensembles: {PlasmaBindNet-Fu: 5, DoseExpoNet: 5, DOT-SafeNet: 5}
+attribution:
+  method: target_replacement
+  reference: training_median
+  update_matching_interaction: true
+background_score:
+  reference: development_original
+  statistic: empirical_midrank_percentile

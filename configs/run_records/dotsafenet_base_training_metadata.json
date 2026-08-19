@@ -1,0 +1,252 @@
+{
+  "protocol": "oldPreMOTA+newPPB A2-mono-lite product interaction assembled 5-fold",
+  "dataset_dir": "/home/lixutong/station/projects/MultiSafeEvaluator/HetSia-SafeNet/Data/ADR_multitask_dataset_random_split/AC50_Cmax_oldpremota_newppb_balanced_random5seed",
+  "interaction_mode": "product",
+  "positive_delta_label_weights": "0.30103:0.92:0.60,0.60206:0.96:0.80,-0.30103:0.75:0.20",
+  "negative_delta_label_weights": "-0.60206:0.02:0.80,-0.30103:0.04:0.60,0.30103:0.18:0.20,0.60206:0.30:0.10",
+  "monotone_deltas": [
+    0.30103,
+    0.60206
+  ],
+  "monotone_lambda": 0.5,
+  "monotone_margin": 0.0,
+  "fold_weight_sources": {
+    "1": "/home/lixutong/station/projects/MultiSafeEvaluator/HetSia-SafeNet/result_split/oldpremota_newppb_a2mono_20260629/a2_mono_lite_product_5fold/fold_checkpoints/best_model_fold_1_weights",
+    "2": "/home/lixutong/station/projects/MultiSafeEvaluator/HetSia-SafeNet/result_split/oldpremota_newppb_a2mono_20260629/a2_mono_lite_product_fold_runs/fold_2/fold_checkpoints/best_model_fold_2_weights",
+    "3": "/home/lixutong/station/projects/MultiSafeEvaluator/HetSia-SafeNet/result_split/oldpremota_newppb_a2mono_20260629/a2_mono_lite_product_fold_runs/fold_3/fold_checkpoints/best_model_fold_3_weights",
+    "4": "/home/lixutong/station/projects/MultiSafeEvaluator/HetSia-SafeNet/result_split/oldpremota_newppb_a2mono_20260629/a2_mono_lite_product_fold_runs/fold_4/fold_checkpoints/best_model_fold_4_weights",
+    "5": "/home/lixutong/station/projects/MultiSafeEvaluator/HetSia-SafeNet/result_split/oldpremota_newppb_a2mono_20260629/a2_mono_lite_product_fold_runs/fold_5/fold_checkpoints/best_model_fold_5_weights"
+  },
+  "fold_summaries": [
+    {
+      "fold": 1,
+      "epochs_ran": 50,
+      "pseudo_summary": {
+        "real": 60176,
+        "positive_pseudo": 82053,
+        "negative_pseudo": 131300,
+        "augmented_total": 273529,
+        "mean_sample_weight": 0.5839970707893372,
+        "mean_soft_label": 0.42777785658836365
+      },
+      "valid_keras": [
+        0.2649158239364624,
+        0.8934530019760132,
+        0.9591776728630066,
+        0.8670939207077026,
+        0.9055725336074829
+      ],
+      "test_keras": [
+        0.7414038777351379,
+        0.6838410496711731,
+        0.7223842144012451,
+        0.6709312796592712,
+        0.5924855470657349
+      ],
+      "valid": {
+        "Acc": 0.8934529744101031,
+        "F1": 0.8859155931962137,
+        "Mcc": 0.786712068088173,
+        "Bacc": 0.894416221042437,
+        "Precision": 0.8670938980217331,
+        "Recall": 0.9055725301906009,
+        "AUC": 0.9592475137518757,
+        "AUPRC": 0.9466433190232605
+      },
+      "test": {
+        "Acc": 0.6838410280818658,
+        "F1": 0.629273057067113,
+        "Mcc": 0.3576155511034068,
+        "Bacc": 0.6759730920958346,
+        "Precision": 0.6709312704552216,
+        "Recall": 0.5924855491329479,
+        "AUC": 0.7223290667399315,
+        "AUPRC": 0.6899321124170705
+      }
+    },
+    {
+      "fold": 2,
+      "epochs_ran": 62,
+      "pseudo_summary": {
+        "real": 60177,
+        "positive_pseudo": 82404,
+        "negative_pseudo": 130836,
+        "augmented_total": 273417,
+        "mean_sample_weight": 0.5842034220695496,
+        "mean_soft_label": 0.42927736043930054
+      },
+      "valid_keras": [
+        0.27344855666160583,
+        0.8925817608833313,
+        0.9564679265022278,
+        0.865784227848053,
+        0.9003848433494568
+      ],
+      "test_keras": [
+        0.7521989941596985,
+        0.6871727705001831,
+        0.7235179543495178,
+        0.6915066838264465,
+        0.5583289265632629
+      ],
+      "valid": {
+        "Acc": 0.8925817601701675,
+        "F1": 0.8827456102162242,
+        "Mcc": 0.7842233778257823,
+        "Bacc": 0.8933029427867349,
+        "Precision": 0.8657842300028465,
+        "Recall": 0.9003848431024275,
+        "AUC": 0.9565288812346981,
+        "AUPRC": 0.9385898188337658
+      },
+      "test": {
+        "Acc": 0.68717277486911,
+        "F1": 0.6178223579008577,
+        "Mcc": 0.3639685445881031,
+        "Bacc": 0.6760761778808076,
+        "Precision": 0.6915066710055321,
+        "Recall": 0.5583289542827115,
+        "AUC": 0.7233757817433932,
+        "AUPRC": 0.696838443339721
+      }
+    },
+    {
+      "fold": 3,
+      "epochs_ran": 52,
+      "pseudo_summary": {
+        "real": 60177,
+        "positive_pseudo": 82107,
+        "negative_pseudo": 131232,
+        "augmented_total": 273516,
+        "mean_sample_weight": 0.5840282440185547,
+        "mean_soft_label": 0.4280035197734833
+      },
+      "valid_keras": [
+        0.27104511857032776,
+        0.8921829462051392,
+        0.9570198655128479,
+        0.868884801864624,
+        0.8990517854690552
+      ],
+      "test_keras": [
+        0.7464435696601868,
+        0.6755116581916809,
+        0.7234095335006714,
+        0.6643313765525818,
+        0.5730425715446472
+      ],
+      "valid": {
+        "Acc": 0.8921829300717894,
+        "F1": 0.8837109262976772,
+        "Mcc": 0.7836661673126827,
+        "Bacc": 0.8927424034607632,
+        "Precision": 0.8688848160157903,
+        "Recall": 0.8990517870167761,
+        "AUC": 0.9570193119000521,
+        "AUPRC": 0.9425116833016745
+      },
+      "test": {
+        "Acc": 0.6755116611137554,
+        "F1": 0.6153195090986036,
+        "Mcc": 0.3401235125823587,
+        "Bacc": 0.6666865714422204,
+        "Precision": 0.6643314042034725,
+        "Recall": 0.5730425643720441,
+        "AUC": 0.7234232103473442,
+        "AUPRC": 0.6988998033779421
+      }
+    },
+    {
+      "fold": 4,
+      "epochs_ran": 52,
+      "pseudo_summary": {
+        "real": 60177,
+        "positive_pseudo": 82041,
+        "negative_pseudo": 131320,
+        "augmented_total": 273538,
+        "mean_sample_weight": 0.5839892625808716,
+        "mean_soft_label": 0.4277205765247345
+      },
+      "valid_keras": [
+        0.26670143008232117,
+        0.8917840719223022,
+        0.9586936831474304,
+        0.8648686408996582,
+        0.9046095609664917
+      ],
+      "test_keras": [
+        0.7290863990783691,
+        0.6876487135887146,
+        0.7283846735954285,
+        0.6787768602371216,
+        0.5890699028968811
+      ],
+      "valid": {
+        "Acc": 0.8917840999734113,
+        "F1": 0.8842928216062544,
+        "Mcc": 0.783450277634313,
+        "Bacc": 0.8927970088699688,
+        "Precision": 0.864868622271653,
+        "Recall": 0.9046095681256362,
+        "AUC": 0.9586899786571432,
+        "AUPRC": 0.9463958717408025
+      },
+      "test": {
+        "Acc": 0.6876487386958591,
+        "F1": 0.6307497538331691,
+        "Mcc": 0.36517817267573854,
+        "Bacc": 0.6791586942802474,
+        "Precision": 0.6787768695125643,
+        "Recall": 0.5890698896479243,
+        "AUC": 0.7284211852030984,
+        "AUPRC": 0.6928928102219146
+      }
+    },
+    {
+      "fold": 5,
+      "epochs_ran": 55,
+      "pseudo_summary": {
+        "real": 60177,
+        "positive_pseudo": 82083,
+        "negative_pseudo": 131264,
+        "augmented_total": 273524,
+        "mean_sample_weight": 0.5840140581130981,
+        "mean_soft_label": 0.42790064215660095
+      },
+      "valid_keras": [
+        0.269644558429718,
+        0.8928476572036743,
+        0.9573224186897278,
+        0.8632904291152954,
+        0.9090776443481445
+      ],
+      "test_keras": [
+        0.7450440526008606,
+        0.6865777969360352,
+        0.7224568724632263,
+        0.6755542159080505,
+        0.5924855470657349
+      ],
+      "valid": {
+        "Acc": 0.8928476469024196,
+        "F1": 0.8855926188786374,
+        "Mcc": 0.7858834898312148,
+        "Bacc": 0.8941550152554394,
+        "Precision": 0.8632904386329043,
+        "Recall": 0.9090776628296663,
+        "AUC": 0.9573256271666314,
+        "AUPRC": 0.9415933094579184
+      },
+      "test": {
+        "Acc": 0.6865778200856735,
+        "F1": 0.6312989921612542,
+        "Mcc": 0.36311860919714145,
+        "Bacc": 0.6784741795251517,
+        "Precision": 0.6755542240862792,
+        "Recall": 0.5924855491329479,
+        "AUC": 0.7224791811285813,
+        "AUPRC": 0.7028106897647975
+      }
+    }
+  ]
+}

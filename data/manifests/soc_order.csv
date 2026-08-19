@@ -1,0 +1,19 @@
+﻿soc_index,soc_code,soc_name
+1,BLO,Blood and lymphatic system disorders
+2,CAR,Cardiac disorders
+3,EAR,Ear and labyrinth disorders
+4,END,Endocrine disorder
+5,EYE,Eye disorders
+6,GAS,Gastrointestinal disorders
+7,HEP,Hepatobiliary disorders
+8,IMM,Immune system disorders
+9,INF,Infections and infestations
+10,MET,Metabolism and nutrition disorders
+11,MUS,Musculoskeletal and connective tissue disorders
+12,NER,Nervous system disorders
+13,PSY,Psychiatric disorders
+14,REN,Renal and urinary disorders
+15,REP,Reproductive system and breast disorders
+16,RES,"Respiratory, thoracic and mediastinal disorders"
+17,SKI,Skin and subcutaneous tissue disorders
+18,VAS,Vascular disorders

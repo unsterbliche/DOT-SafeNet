@@ -1,0 +1,29 @@
+figure:
+  panel_width_in: 3.35
+  panel_height_in: 2.45
+  composite_width_in: 7.2
+  composite_height_in: 5.15
+  dpi: 300
+text:
+  font_family: Arial
+  font_size: 9
+  title_size: 10
+  label_size: 10
+  tick_size: 8.5
+  legend_size: 9
+  drug_name_x: 0.96
+  drug_name_y: 0.06
+colors:
+  prediction: "#2166AC"
+  interval: "#B8D3E8"
+  observed: "#B2182B"
+axes:
+  full_frame: true
+  x_log_base: 2
+layout:
+  wspace: 0.28
+  hspace: 0.38
+  legend_y: 0.015
+export:
+  formats: [png, pdf, svg]
+  transparent: false

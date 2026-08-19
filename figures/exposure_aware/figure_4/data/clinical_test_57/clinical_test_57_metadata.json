@@ -1,0 +1,7 @@
+{
+  "selection_rule": "canonical_smiles in the archived CT-ADE matched test-drug manifest",
+  "drug_manifest": "figures/adr_arch_suite_20260520/oldpremota_newppb_film_mccstop_20260630/test_clinical_dose_matched_drugs_20260708/test_split_ctade_dose_matched_drugs.csv",
+  "n_manifest_drugs": 57,
+  "n_evaluated_drugs": 57,
+  "n_drug_soc_pairs": 907
+}

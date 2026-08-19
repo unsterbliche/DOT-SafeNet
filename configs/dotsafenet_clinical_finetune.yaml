@@ -1,0 +1,12 @@
+model: DOT-SafeNet
+stage: CT-ADE clinical-dose fine-tuning
+initial_weights: DOT-SafeNet A2-mono-lite five-fold checkpoints
+trainable_scope: task_head
+folds: 5
+seed: 2025
+epochs: 12
+batch_size: 128
+learning_rate: 0.000007
+early_stopping_patience: 4
+clinical_loss_weight: 0.35
+reported_test_metrics: {drugs: 57, baseline_auroc: 0.724005685, finetuned_auroc: 0.726494464, baseline_auprc: 0.696274772, finetuned_auprc: 0.701788472}

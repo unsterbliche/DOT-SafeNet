@@ -1,0 +1,5 @@
+compound_id,name,smiles,dose_mg_day,route,pred_ppb_mean,predicted_cmax_ug_ml_mean,free_cmax_uM,log10_free_cmax_uM
+PAPER_MECLOFENAMIC_150,Meclofenamic acid,Cc1ccc(Cl)c(Nc2ccccc2C(=O)O)c1Cl,150.0,oral,,,1.1182796905047452,0.048550437585763
+PAPER_CITALOPRAM_20,Citalopram,CN(C)CCCC1(c2ccc(F)cc2)OCc2cc(C#N)ccc21,20.0,oral,,,0.10292372478370178,-0.987484505169266
+PAPER_SPIRONOLACTONE_25,Spironolactone,CC(=O)S[C@@H]1CC2=CC(=O)CC[C@]2(C)[C@H]2CC[C@@]3(C)[C@@H](CC[C@@]34CCC(=O)O4)[C@H]12,25.0,oral,,,0.02268203820543404,-1.644317922371695
+PAPER_CANDESARTAN_CILEXETIL_32,Candesartan cilexetil,CCOc1nc2cccc(C(=O)OC(C)OC(=O)OC3CCCCC3)c2n1Cc1ccc(-c2ccccc2-c2nn[nH]n2)cc1,32.0,oral,,,0.009496060833833907,-2.022456511859515

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="199.62125pt" height="33.2496pt" viewBox="0 0 199.62125 33.2496" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-08-17T18:52:36.360940</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.8.0, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 33.2496 
+L 199.62125 33.2496 
+L 199.62125 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="legend_1">
+    <g id="line2d_1">
+     <defs>
+      <path id="m0b420f177d" d="M -3.5 3.5 
+L 3.5 3.5 
+L 3.5 -3.5 
+L -3.5 -3.5 
+z
+" style="stroke: #000000; stroke-opacity: 0; stroke-linejoin: miter"/>
+     </defs>
+     <g>
+      <use xlink:href="#m0b420f177d" x="18.4" y="15.8948" style="fill: #075aa6; stroke: #000000; stroke-opacity: 0; stroke-linejoin: miter"/>
+     </g>
+    </g>
+    <g id="text_1">
+     <text style="font: 8px 'Arial', 'Helvetica', 'Liberation Sans', sans-serif; text-anchor: start" x="30" y="18.6948" transform="rotate(-0 30 18.6948)">Direct evidence</text>
+    </g>
+    <g id="line2d_2">
+     <defs>
+      <path id="mb790fc241b" d="M -3.5 3.5 
+L 3.5 3.5 
+L 3.5 -3.5 
+L -3.5 -3.5 
+z
+" style="stroke: #000000; stroke-opacity: 0; stroke-linejoin: miter"/>
+     </defs>
+     <g>
+      <use xlink:href="#mb790fc241b" x="105.13375" y="15.8948" style="fill: #e9a04f; fill-opacity: 0.48; stroke: #000000; stroke-opacity: 0; stroke-linejoin: miter"/>
+     </g>
+    </g>
+    <g id="text_2">
+     <text style="font: 8px 'Arial', 'Helvetica', 'Liberation Sans', sans-serif; text-anchor: start" x="116.73375" y="18.6948" transform="rotate(-0 116.73375 18.6948)">Secondary evidence</text>
+    </g>
+   </g>
+  </g>
+ </g>
+</svg>

@@ -1,0 +1,11 @@
+DOT-SafeNet
+Copyright 2026 Jin Liu, Buying Niu, Gang Wang, Jingxin Rao, Zhiyi Chen,
+Ning Qu, Xiaochu Tong, Mingyue Zheng and Xutong Li.
+
+This product includes software adapted from MIT-licensed projects. The
+corresponding copyright and license notices are provided in
+THIRD_PARTY_NOTICES.md and the licenses directory.
+
+Figure rendering code uses conventions derived from Yuan1z0825/nature-skills,
+distributed under the Apache License 2.0. Its license text is retained in the
+figure source package.

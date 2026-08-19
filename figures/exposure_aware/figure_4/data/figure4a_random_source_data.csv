@@ -1,0 +1,4 @@
+model,auroc_mean,auroc_sd,n,repeat_unit,source,display_name
+MLDNN,0.7003,0.0061,5,published random seeds,Original Supplementary Table 6,MLDNN
+Multi-AttentiveFP,0.6878,0.0077,5,published random seeds,Original Supplementary Table 6,Multi-AttentiveFP
+A2-mono-lite,0.7240056850324696,0.0025186285820205,5,held-out KFold models,Old PreMOTA + new PPB A2-mono-lite product-interaction run,DOT-SafeNet

@@ -1,0 +1,908 @@
+smiles,task_name,label_true,before_pred,after_pred
+CC[C@H](C)[C@H](NC(=O)[C@H](Cc1ccccc1)NC(=O)[C@H](CC(=O)O)NC(=O)[C@H](CCCNC(=N)N)NC(=O)[C@H](C)NC(=O)[C@H](C)NC(=O)[C@H](CC(C)C)NC(=O)[C@H](CC(N)=O)NC(=O)[C@H](CC(=O)O)NC(=O)[C@H](CC(C)C)NC(=O)[C@@H](NC(=O)[C@@H](NC(=O)[C@H](CC(N)=O)NC(=O)[C@H](CCSC)NC(=O)[C@H](CCC(=O)O)NC(=O)[C@H](CC(=O)O)NC(=O)[C@H](CO)NC(=O)[C@H](Cc1ccccc1)NC(=O)[C@H](CO)NC(=O)CNC(=O)[C@H](CC(=O)O)NC(=O)CNC(=O)[C@@H](N)Cc1c[nH]cn1)[C@@H](C)O)[C@@H](C)CC)C(=O)N[C@@H](CC(N)=O)C(=O)N[C@@H](Cc1c[nH]c2ccccc12)C(=O)N[C@@H](CC(C)C)C(=O)N[C@H](C(=O)N[C@@H](CCC(N)=O)C(=O)N[C@H](C(=O)N[C@@H](CCCCN)C(=O)N[C@H](C(=O)N[C@H](C(=O)N[C@@H](CC(=O)O)C(=O)O)[C@@H](C)O)[C@@H](C)CC)[C@@H](C)O)[C@@H](C)CC,Blood and lymphatic system disorders,0.0,0.63216954,0.6477889
+CC[C@H](C)[C@H](NC(=O)[C@H](Cc1ccccc1)NC(=O)[C@H](CC(=O)O)NC(=O)[C@H](CCCNC(=N)N)NC(=O)[C@H](C)NC(=O)[C@H](C)NC(=O)[C@H](CC(C)C)NC(=O)[C@H](CC(N)=O)NC(=O)[C@H](CC(=O)O)NC(=O)[C@H](CC(C)C)NC(=O)[C@@H](NC(=O)[C@@H](NC(=O)[C@H](CC(N)=O)NC(=O)[C@H](CCSC)NC(=O)[C@H](CCC(=O)O)NC(=O)[C@H](CC(=O)O)NC(=O)[C@H](CO)NC(=O)[C@H](Cc1ccccc1)NC(=O)[C@H](CO)NC(=O)CNC(=O)[C@H](CC(=O)O)NC(=O)CNC(=O)[C@@H](N)Cc1c[nH]cn1)[C@@H](C)O)[C@@H](C)CC)C(=O)N[C@@H](CC(N)=O)C(=O)N[C@@H](Cc1c[nH]c2ccccc12)C(=O)N[C@@H](CC(C)C)C(=O)N[C@H](C(=O)N[C@@H](CCC(N)=O)C(=O)N[C@H](C(=O)N[C@@H](CCCCN)C(=O)N[C@H](C(=O)N[C@H](C(=O)N[C@@H](CC(=O)O)C(=O)O)[C@@H](C)O)[C@@H](C)CC)[C@@H](C)O)[C@@H](C)CC,Cardiac disorders,1.0,0.5786233,0.6072509
+CC[C@H](C)[C@H](NC(=O)[C@H](Cc1ccccc1)NC(=O)[C@H](CC(=O)O)NC(=O)[C@H](CCCNC(=N)N)NC(=O)[C@H](C)NC(=O)[C@H](C)NC(=O)[C@H](CC(C)C)NC(=O)[C@H](CC(N)=O)NC(=O)[C@H](CC(=O)O)NC(=O)[C@H](CC(C)C)NC(=O)[C@@H](NC(=O)[C@@H](NC(=O)[C@H](CC(N)=O)NC(=O)[C@H](CCSC)NC(=O)[C@H](CCC(=O)O)NC(=O)[C@H](CC(=O)O)NC(=O)[C@H](CO)NC(=O)[C@H](Cc1ccccc1)NC(=O)[C@H](CO)NC(=O)CNC(=O)[C@H](CC(=O)O)NC(=O)CNC(=O)[C@@H](N)Cc1c[nH]cn1)[C@@H](C)O)[C@@H](C)CC)C(=O)N[C@@H](CC(N)=O)C(=O)N[C@@H](Cc1c[nH]c2ccccc12)C(=O)N[C@@H](CC(C)C)C(=O)N[C@H](C(=O)N[C@@H](CCC(N)=O)C(=O)N[C@H](C(=O)N[C@@H](CCCCN)C(=O)N[C@H](C(=O)N[C@H](C(=O)N[C@@H](CC(=O)O)C(=O)O)[C@@H](C)O)[C@@H](C)CC)[C@@H](C)O)[C@@H](C)CC,Ear and labyrinth disorders,0.0,0.14783727,0.1331156
+CC[C@H](C)[C@H](NC(=O)[C@H](Cc1ccccc1)NC(=O)[C@H](CC(=O)O)NC(=O)[C@H](CCCNC(=N)N)NC(=O)[C@H](C)NC(=O)[C@H](C)NC(=O)[C@H](CC(C)C)NC(=O)[C@H](CC(N)=O)NC(=O)[C@H](CC(=O)O)NC(=O)[C@H](CC(C)C)NC(=O)[C@@H](NC(=O)[C@@H](NC(=O)[C@H](CC(N)=O)NC(=O)[C@H](CCSC)NC(=O)[C@H](CCC(=O)O)NC(=O)[C@H](CC(=O)O)NC(=O)[C@H](CO)NC(=O)[C@H](Cc1ccccc1)NC(=O)[C@H](CO)NC(=O)CNC(=O)[C@H](CC(=O)O)NC(=O)CNC(=O)[C@@H](N)Cc1c[nH]cn1)[C@@H](C)O)[C@@H](C)CC)C(=O)N[C@@H](CC(N)=O)C(=O)N[C@@H](Cc1c[nH]c2ccccc12)C(=O)N[C@@H](CC(C)C)C(=O)N[C@H](C(=O)N[C@@H](CCC(N)=O)C(=O)N[C@H](C(=O)N[C@@H](CCCCN)C(=O)N[C@H](C(=O)N[C@H](C(=O)N[C@@H](CC(=O)O)C(=O)O)[C@@H](C)O)[C@@H](C)CC)[C@@H](C)O)[C@@H](C)CC,Endocrine disorder,0.0,0.1013917,0.10406857
+CC[C@H](C)[C@H](NC(=O)[C@H](Cc1ccccc1)NC(=O)[C@H](CC(=O)O)NC(=O)[C@H](CCCNC(=N)N)NC(=O)[C@H](C)NC(=O)[C@H](C)NC(=O)[C@H](CC(C)C)NC(=O)[C@H](CC(N)=O)NC(=O)[C@H](CC(=O)O)NC(=O)[C@H](CC(C)C)NC(=O)[C@@H](NC(=O)[C@@H](NC(=O)[C@H](CC(N)=O)NC(=O)[C@H](CCSC)NC(=O)[C@H](CCC(=O)O)NC(=O)[C@H](CC(=O)O)NC(=O)[C@H](CO)NC(=O)[C@H](Cc1ccccc1)NC(=O)[C@H](CO)NC(=O)CNC(=O)[C@H](CC(=O)O)NC(=O)CNC(=O)[C@@H](N)Cc1c[nH]cn1)[C@@H](C)O)[C@@H](C)CC)C(=O)N[C@@H](CC(N)=O)C(=O)N[C@@H](Cc1c[nH]c2ccccc12)C(=O)N[C@@H](CC(C)C)C(=O)N[C@H](C(=O)N[C@@H](CCC(N)=O)C(=O)N[C@H](C(=O)N[C@@H](CCCCN)C(=O)N[C@H](C(=O)N[C@H](C(=O)N[C@@H](CC(=O)O)C(=O)O)[C@@H](C)O)[C@@H](C)CC)[C@@H](C)O)[C@@H](C)CC,Eye disorders,0.0,0.1050787,0.12277397
+CC[C@H](C)[C@H](NC(=O)[C@H](Cc1ccccc1)NC(=O)[C@H](CC(=O)O)NC(=O)[C@H](CCCNC(=N)N)NC(=O)[C@H](C)NC(=O)[C@H](C)NC(=O)[C@H](CC(C)C)NC(=O)[C@H](CC(N)=O)NC(=O)[C@H](CC(=O)O)NC(=O)[C@H](CC(C)C)NC(=O)[C@@H](NC(=O)[C@@H](NC(=O)[C@H](CC(N)=O)NC(=O)[C@H](CCSC)NC(=O)[C@H](CCC(=O)O)NC(=O)[C@H](CC(=O)O)NC(=O)[C@H](CO)NC(=O)[C@H](Cc1ccccc1)NC(=O)[C@H](CO)NC(=O)CNC(=O)[C@H](CC(=O)O)NC(=O)CNC(=O)[C@@H](N)Cc1c[nH]cn1)[C@@H](C)O)[C@@H](C)CC)C(=O)N[C@@H](CC(N)=O)C(=O)N[C@@H](Cc1c[nH]c2ccccc12)C(=O)N[C@@H](CC(C)C)C(=O)N[C@H](C(=O)N[C@@H](CCC(N)=O)C(=O)N[C@H](C(=O)N[C@@H](CCCCN)C(=O)N[C@H](C(=O)N[C@H](C(=O)N[C@@H](CC(=O)O)C(=O)O)[C@@H](C)O)[C@@H](C)CC)[C@@H](C)O)[C@@H](C)CC,Gastrointestinal disorders,1.0,0.85839665,0.9243603
+CC[C@H](C)[C@H](NC(=O)[C@H](Cc1ccccc1)NC(=O)[C@H](CC(=O)O)NC(=O)[C@H](CCCNC(=N)N)NC(=O)[C@H](C)NC(=O)[C@H](C)NC(=O)[C@H](CC(C)C)NC(=O)[C@H](CC(N)=O)NC(=O)[C@H](CC(=O)O)NC(=O)[C@H](CC(C)C)NC(=O)[C@@H](NC(=O)[C@@H](NC(=O)[C@H](CC(N)=O)NC(=O)[C@H](CCSC)NC(=O)[C@H](CCC(=O)O)NC(=O)[C@H](CC(=O)O)NC(=O)[C@H](CO)NC(=O)[C@H](Cc1ccccc1)NC(=O)[C@H](CO)NC(=O)CNC(=O)[C@H](CC(=O)O)NC(=O)CNC(=O)[C@@H](N)Cc1c[nH]cn1)[C@@H](C)O)[C@@H](C)CC)C(=O)N[C@@H](CC(N)=O)C(=O)N[C@@H](Cc1c[nH]c2ccccc12)C(=O)N[C@@H](CC(C)C)C(=O)N[C@H](C(=O)N[C@@H](CCC(N)=O)C(=O)N[C@H](C(=O)N[C@@H](CCCCN)C(=O)N[C@H](C(=O)N[C@H](C(=O)N[C@@H](CC(=O)O)C(=O)O)[C@@H](C)O)[C@@H](C)CC)[C@@H](C)O)[C@@H](C)CC,Hepatobiliary disorders,1.0,0.20652592,0.18206915
+CC[C@H](C)[C@H](NC(=O)[C@H](Cc1ccccc1)NC(=O)[C@H](CC(=O)O)NC(=O)[C@H](CCCNC(=N)N)NC(=O)[C@H](C)NC(=O)[C@H](C)NC(=O)[C@H](CC(C)C)NC(=O)[C@H](CC(N)=O)NC(=O)[C@H](CC(=O)O)NC(=O)[C@H](CC(C)C)NC(=O)[C@@H](NC(=O)[C@@H](NC(=O)[C@H](CC(N)=O)NC(=O)[C@H](CCSC)NC(=O)[C@H](CCC(=O)O)NC(=O)[C@H](CC(=O)O)NC(=O)[C@H](CO)NC(=O)[C@H](Cc1ccccc1)NC(=O)[C@H](CO)NC(=O)CNC(=O)[C@H](CC(=O)O)NC(=O)CNC(=O)[C@@H](N)Cc1c[nH]cn1)[C@@H](C)O)[C@@H](C)CC)C(=O)N[C@@H](CC(N)=O)C(=O)N[C@@H](Cc1c[nH]c2ccccc12)C(=O)N[C@@H](CC(C)C)C(=O)N[C@H](C(=O)N[C@@H](CCC(N)=O)C(=O)N[C@H](C(=O)N[C@@H](CCCCN)C(=O)N[C@H](C(=O)N[C@H](C(=O)N[C@@H](CC(=O)O)C(=O)O)[C@@H](C)O)[C@@H](C)CC)[C@@H](C)O)[C@@H](C)CC,Immune system disorders,0.0,0.7774803,0.8131416
+CC[C@H](C)[C@H](NC(=O)[C@H](Cc1ccccc1)NC(=O)[C@H](CC(=O)O)NC(=O)[C@H](CCCNC(=N)N)NC(=O)[C@H](C)NC(=O)[C@H](C)NC(=O)[C@H](CC(C)C)NC(=O)[C@H](CC(N)=O)NC(=O)[C@H](CC(=O)O)NC(=O)[C@H](CC(C)C)NC(=O)[C@@H](NC(=O)[C@@H](NC(=O)[C@H](CC(N)=O)NC(=O)[C@H](CCSC)NC(=O)[C@H](CCC(=O)O)NC(=O)[C@H](CC(=O)O)NC(=O)[C@H](CO)NC(=O)[C@H](Cc1ccccc1)NC(=O)[C@H](CO)NC(=O)CNC(=O)[C@H](CC(=O)O)NC(=O)CNC(=O)[C@@H](N)Cc1c[nH]cn1)[C@@H](C)O)[C@@H](C)CC)C(=O)N[C@@H](CC(N)=O)C(=O)N[C@@H](Cc1c[nH]c2ccccc12)C(=O)N[C@@H](CC(C)C)C(=O)N[C@H](C(=O)N[C@@H](CCC(N)=O)C(=O)N[C@H](C(=O)N[C@@H](CCCCN)C(=O)N[C@H](C(=O)N[C@H](C(=O)N[C@@H](CC(=O)O)C(=O)O)[C@@H](C)O)[C@@H](C)CC)[C@@H](C)O)[C@@H](C)CC,Infections and infestations,0.0,0.56241566,0.57357633
+CC[C@H](C)[C@H](NC(=O)[C@H](Cc1ccccc1)NC(=O)[C@H](CC(=O)O)NC(=O)[C@H](CCCNC(=N)N)NC(=O)[C@H](C)NC(=O)[C@H](C)NC(=O)[C@H](CC(C)C)NC(=O)[C@H](CC(N)=O)NC(=O)[C@H](CC(=O)O)NC(=O)[C@H](CC(C)C)NC(=O)[C@@H](NC(=O)[C@@H](NC(=O)[C@H](CC(N)=O)NC(=O)[C@H](CCSC)NC(=O)[C@H](CCC(=O)O)NC(=O)[C@H](CC(=O)O)NC(=O)[C@H](CO)NC(=O)[C@H](Cc1ccccc1)NC(=O)[C@H](CO)NC(=O)CNC(=O)[C@H](CC(=O)O)NC(=O)CNC(=O)[C@@H](N)Cc1c[nH]cn1)[C@@H](C)O)[C@@H](C)CC)C(=O)N[C@@H](CC(N)=O)C(=O)N[C@@H](Cc1c[nH]c2ccccc12)C(=O)N[C@@H](CC(C)C)C(=O)N[C@H](C(=O)N[C@@H](CCC(N)=O)C(=O)N[C@H](C(=O)N[C@@H](CCCCN)C(=O)N[C@H](C(=O)N[C@H](C(=O)N[C@@H](CC(=O)O)C(=O)O)[C@@H](C)O)[C@@H](C)CC)[C@@H](C)O)[C@@H](C)CC,Metabolism and nutrition disorders,0.0,0.65685093,0.6876644
+CC[C@H](C)[C@H](NC(=O)[C@H](Cc1ccccc1)NC(=O)[C@H](CC(=O)O)NC(=O)[C@H](CCCNC(=N)N)NC(=O)[C@H](C)NC(=O)[C@H](C)NC(=O)[C@H](CC(C)C)NC(=O)[C@H](CC(N)=O)NC(=O)[C@H](CC(=O)O)NC(=O)[C@H](CC(C)C)NC(=O)[C@@H](NC(=O)[C@@H](NC(=O)[C@H](CC(N)=O)NC(=O)[C@H](CCSC)NC(=O)[C@H](CCC(=O)O)NC(=O)[C@H](CC(=O)O)NC(=O)[C@H](CO)NC(=O)[C@H](Cc1ccccc1)NC(=O)[C@H](CO)NC(=O)CNC(=O)[C@H](CC(=O)O)NC(=O)CNC(=O)[C@@H](N)Cc1c[nH]cn1)[C@@H](C)O)[C@@H](C)CC)C(=O)N[C@@H](CC(N)=O)C(=O)N[C@@H](Cc1c[nH]c2ccccc12)C(=O)N[C@@H](CC(C)C)C(=O)N[C@H](C(=O)N[C@@H](CCC(N)=O)C(=O)N[C@H](C(=O)N[C@@H](CCCCN)C(=O)N[C@H](C(=O)N[C@H](C(=O)N[C@@H](CC(=O)O)C(=O)O)[C@@H](C)O)[C@@H](C)CC)[C@@H](C)O)[C@@H](C)CC,Musculoskeletal and connective tissue disorders,0.0,0.7345119,0.76407415
+CC[C@H](C)[C@H](NC(=O)[C@H](Cc1ccccc1)NC(=O)[C@H](CC(=O)O)NC(=O)[C@H](CCCNC(=N)N)NC(=O)[C@H](C)NC(=O)[C@H](C)NC(=O)[C@H](CC(C)C)NC(=O)[C@H](CC(N)=O)NC(=O)[C@H](CC(=O)O)NC(=O)[C@H](CC(C)C)NC(=O)[C@@H](NC(=O)[C@@H](NC(=O)[C@H](CC(N)=O)NC(=O)[C@H](CCSC)NC(=O)[C@H](CCC(=O)O)NC(=O)[C@H](CC(=O)O)NC(=O)[C@H](CO)NC(=O)[C@H](Cc1ccccc1)NC(=O)[C@H](CO)NC(=O)CNC(=O)[C@H](CC(=O)O)NC(=O)CNC(=O)[C@@H](N)Cc1c[nH]cn1)[C@@H](C)O)[C@@H](C)CC)C(=O)N[C@@H](CC(N)=O)C(=O)N[C@@H](Cc1c[nH]c2ccccc12)C(=O)N[C@@H](CC(C)C)C(=O)N[C@H](C(=O)N[C@@H](CCC(N)=O)C(=O)N[C@H](C(=O)N[C@@H](CCCCN)C(=O)N[C@H](C(=O)N[C@H](C(=O)N[C@@H](CC(=O)O)C(=O)O)[C@@H](C)O)[C@@H](C)CC)[C@@H](C)O)[C@@H](C)CC,Nervous system disorders,1.0,0.8435268,0.9165021
+CC[C@H](C)[C@H](NC(=O)[C@H](Cc1ccccc1)NC(=O)[C@H](CC(=O)O)NC(=O)[C@H](CCCNC(=N)N)NC(=O)[C@H](C)NC(=O)[C@H](C)NC(=O)[C@H](CC(C)C)NC(=O)[C@H](CC(N)=O)NC(=O)[C@H](CC(=O)O)NC(=O)[C@H](CC(C)C)NC(=O)[C@@H](NC(=O)[C@@H](NC(=O)[C@H](CC(N)=O)NC(=O)[C@H](CCSC)NC(=O)[C@H](CCC(=O)O)NC(=O)[C@H](CC(=O)O)NC(=O)[C@H](CO)NC(=O)[C@H](Cc1ccccc1)NC(=O)[C@H](CO)NC(=O)CNC(=O)[C@H](CC(=O)O)NC(=O)CNC(=O)[C@@H](N)Cc1c[nH]cn1)[C@@H](C)O)[C@@H](C)CC)C(=O)N[C@@H](CC(N)=O)C(=O)N[C@@H](Cc1c[nH]c2ccccc12)C(=O)N[C@@H](CC(C)C)C(=O)N[C@H](C(=O)N[C@@H](CCC(N)=O)C(=O)N[C@H](C(=O)N[C@@H](CCCCN)C(=O)N[C@H](C(=O)N[C@H](C(=O)N[C@@H](CC(=O)O)C(=O)O)[C@@H](C)O)[C@@H](C)CC)[C@@H](C)O)[C@@H](C)CC,Psychiatric disorders,0.0,0.3788902,0.37354124
+CC[C@H](C)[C@H](NC(=O)[C@H](Cc1ccccc1)NC(=O)[C@H](CC(=O)O)NC(=O)[C@H](CCCNC(=N)N)NC(=O)[C@H](C)NC(=O)[C@H](C)NC(=O)[C@H](CC(C)C)NC(=O)[C@H](CC(N)=O)NC(=O)[C@H](CC(=O)O)NC(=O)[C@H](CC(C)C)NC(=O)[C@@H](NC(=O)[C@@H](NC(=O)[C@H](CC(N)=O)NC(=O)[C@H](CCSC)NC(=O)[C@H](CCC(=O)O)NC(=O)[C@H](CC(=O)O)NC(=O)[C@H](CO)NC(=O)[C@H](Cc1ccccc1)NC(=O)[C@H](CO)NC(=O)CNC(=O)[C@H](CC(=O)O)NC(=O)CNC(=O)[C@@H](N)Cc1c[nH]cn1)[C@@H](C)O)[C@@H](C)CC)C(=O)N[C@@H](CC(N)=O)C(=O)N[C@@H](Cc1c[nH]c2ccccc12)C(=O)N[C@@H](CC(C)C)C(=O)N[C@H](C(=O)N[C@@H](CCC(N)=O)C(=O)N[C@H](C(=O)N[C@@H](CCCCN)C(=O)N[C@H](C(=O)N[C@H](C(=O)N[C@@H](CC(=O)O)C(=O)O)[C@@H](C)O)[C@@H](C)CC)[C@@H](C)O)[C@@H](C)CC,Renal and urinary disorders,0.0,0.55820185,0.5683622
+CC[C@H](C)[C@H](NC(=O)[C@H](Cc1ccccc1)NC(=O)[C@H](CC(=O)O)NC(=O)[C@H](CCCNC(=N)N)NC(=O)[C@H](C)NC(=O)[C@H](C)NC(=O)[C@H](CC(C)C)NC(=O)[C@H](CC(N)=O)NC(=O)[C@H](CC(=O)O)NC(=O)[C@H](CC(C)C)NC(=O)[C@@H](NC(=O)[C@@H](NC(=O)[C@H](CC(N)=O)NC(=O)[C@H](CCSC)NC(=O)[C@H](CCC(=O)O)NC(=O)[C@H](CC(=O)O)NC(=O)[C@H](CO)NC(=O)[C@H](Cc1ccccc1)NC(=O)[C@H](CO)NC(=O)CNC(=O)[C@H](CC(=O)O)NC(=O)CNC(=O)[C@@H](N)Cc1c[nH]cn1)[C@@H](C)O)[C@@H](C)CC)C(=O)N[C@@H](CC(N)=O)C(=O)N[C@@H](Cc1c[nH]c2ccccc12)C(=O)N[C@@H](CC(C)C)C(=O)N[C@H](C(=O)N[C@@H](CCC(N)=O)C(=O)N[C@H](C(=O)N[C@@H](CCCCN)C(=O)N[C@H](C(=O)N[C@H](C(=O)N[C@@H](CC(=O)O)C(=O)O)[C@@H](C)O)[C@@H](C)CC)[C@@H](C)O)[C@@H](C)CC,Reproductive system and breast disorders,0.0,0.14018634,0.13277516
+CC[C@H](C)[C@H](NC(=O)[C@H](Cc1ccccc1)NC(=O)[C@H](CC(=O)O)NC(=O)[C@H](CCCNC(=N)N)NC(=O)[C@H](C)NC(=O)[C@H](C)NC(=O)[C@H](CC(C)C)NC(=O)[C@H](CC(N)=O)NC(=O)[C@H](CC(=O)O)NC(=O)[C@H](CC(C)C)NC(=O)[C@@H](NC(=O)[C@@H](NC(=O)[C@H](CC(N)=O)NC(=O)[C@H](CCSC)NC(=O)[C@H](CCC(=O)O)NC(=O)[C@H](CC(=O)O)NC(=O)[C@H](CO)NC(=O)[C@H](Cc1ccccc1)NC(=O)[C@H](CO)NC(=O)CNC(=O)[C@H](CC(=O)O)NC(=O)CNC(=O)[C@@H](N)Cc1c[nH]cn1)[C@@H](C)O)[C@@H](C)CC)C(=O)N[C@@H](CC(N)=O)C(=O)N[C@@H](Cc1c[nH]c2ccccc12)C(=O)N[C@@H](CC(C)C)C(=O)N[C@H](C(=O)N[C@@H](CCC(N)=O)C(=O)N[C@H](C(=O)N[C@@H](CCCCN)C(=O)N[C@H](C(=O)N[C@H](C(=O)N[C@@H](CC(=O)O)C(=O)O)[C@@H](C)O)[C@@H](C)CC)[C@@H](C)O)[C@@H](C)CC,"Respiratory, thoracic and mediastinal disorders",1.0,0.8112656,0.85119486
+CC[C@H](C)[C@H](NC(=O)[C@H](Cc1ccccc1)NC(=O)[C@H](CC(=O)O)NC(=O)[C@H](CCCNC(=N)N)NC(=O)[C@H](C)NC(=O)[C@H](C)NC(=O)[C@H](CC(C)C)NC(=O)[C@H](CC(N)=O)NC(=O)[C@H](CC(=O)O)NC(=O)[C@H](CC(C)C)NC(=O)[C@@H](NC(=O)[C@@H](NC(=O)[C@H](CC(N)=O)NC(=O)[C@H](CCSC)NC(=O)[C@H](CCC(=O)O)NC(=O)[C@H](CC(=O)O)NC(=O)[C@H](CO)NC(=O)[C@H](Cc1ccccc1)NC(=O)[C@H](CO)NC(=O)CNC(=O)[C@H](CC(=O)O)NC(=O)CNC(=O)[C@@H](N)Cc1c[nH]cn1)[C@@H](C)O)[C@@H](C)CC)C(=O)N[C@@H](CC(N)=O)C(=O)N[C@@H](Cc1c[nH]c2ccccc12)C(=O)N[C@@H](CC(C)C)C(=O)N[C@H](C(=O)N[C@@H](CCC(N)=O)C(=O)N[C@H](C(=O)N[C@@H](CCCCN)C(=O)N[C@H](C(=O)N[C@H](C(=O)N[C@@H](CC(=O)O)C(=O)O)[C@@H](C)O)[C@@H](C)CC)[C@@H](C)O)[C@@H](C)CC,Skin and subcutaneous tissue disorders,1.0,0.925712,0.9638867
+CC[C@H](C)[C@H](NC(=O)[C@H](Cc1ccccc1)NC(=O)[C@H](CC(=O)O)NC(=O)[C@H](CCCNC(=N)N)NC(=O)[C@H](C)NC(=O)[C@H](C)NC(=O)[C@H](CC(C)C)NC(=O)[C@H](CC(N)=O)NC(=O)[C@H](CC(=O)O)NC(=O)[C@H](CC(C)C)NC(=O)[C@@H](NC(=O)[C@@H](NC(=O)[C@H](CC(N)=O)NC(=O)[C@H](CCSC)NC(=O)[C@H](CCC(=O)O)NC(=O)[C@H](CC(=O)O)NC(=O)[C@H](CO)NC(=O)[C@H](Cc1ccccc1)NC(=O)[C@H](CO)NC(=O)CNC(=O)[C@H](CC(=O)O)NC(=O)CNC(=O)[C@@H](N)Cc1c[nH]cn1)[C@@H](C)O)[C@@H](C)CC)C(=O)N[C@@H](CC(N)=O)C(=O)N[C@@H](Cc1c[nH]c2ccccc12)C(=O)N[C@@H](CC(C)C)C(=O)N[C@H](C(=O)N[C@@H](CCC(N)=O)C(=O)N[C@H](C(=O)N[C@@H](CCCCN)C(=O)N[C@H](C(=O)N[C@H](C(=O)N[C@@H](CC(=O)O)C(=O)O)[C@@H](C)O)[C@@H](C)CC)[C@@H](C)O)[C@@H](C)CC,Vascular disorders,1.0,0.7911695,0.83961344
+Cc1c(O)c(=O)ccn1C,Blood and lymphatic system disorders,1.0,0.92505395,0.941765
+Cc1c(O)c(=O)ccn1C,Cardiac disorders,1.0,0.85641015,0.90448195
+Cc1c(O)c(=O)ccn1C,Ear and labyrinth disorders,1.0,0.5248059,0.5252534
+Cc1c(O)c(=O)ccn1C,Endocrine disorder,0.0,0.7274673,0.74155134
+Cc1c(O)c(=O)ccn1C,Eye disorders,1.0,0.6530519,0.67798537
+Cc1c(O)c(=O)ccn1C,Gastrointestinal disorders,1.0,0.9447618,0.9808531
+Cc1c(O)c(=O)ccn1C,Hepatobiliary disorders,1.0,0.8899737,0.91341466
+Cc1c(O)c(=O)ccn1C,Immune system disorders,1.0,0.8697057,0.9040562
+Cc1c(O)c(=O)ccn1C,Infections and infestations,1.0,0.9220201,0.94544536
+Cc1c(O)c(=O)ccn1C,Metabolism and nutrition disorders,1.0,0.9184588,0.9516268
+Cc1c(O)c(=O)ccn1C,Musculoskeletal and connective tissue disorders,1.0,0.9013319,0.9288162
+Cc1c(O)c(=O)ccn1C,Nervous system disorders,1.0,0.92220086,0.9721427
+Cc1c(O)c(=O)ccn1C,Psychiatric disorders,1.0,0.8638453,0.8908882
+Cc1c(O)c(=O)ccn1C,Renal and urinary disorders,1.0,0.89122796,0.91996217
+Cc1c(O)c(=O)ccn1C,Reproductive system and breast disorders,1.0,0.7854563,0.8100669
+Cc1c(O)c(=O)ccn1C,"Respiratory, thoracic and mediastinal disorders",1.0,0.90509146,0.9381277
+Cc1c(O)c(=O)ccn1C,Skin and subcutaneous tissue disorders,1.0,0.94669735,0.9769815
+Cc1c(O)c(=O)ccn1C,Vascular disorders,1.0,0.91610414,0.95147514
+C#C[C@]1(OC(C)=O)CC[C@H]2[C@@H]3CCC4=CC(=O)CC[C@@H]4[C@H]3CC[C@@]21C,Blood and lymphatic system disorders,1.0,0.013865037,0.012142015
+C#C[C@]1(OC(C)=O)CC[C@H]2[C@@H]3CCC4=CC(=O)CC[C@@H]4[C@H]3CC[C@@]21C,Cardiac disorders,1.0,0.042257,0.046177
+C#C[C@]1(OC(C)=O)CC[C@H]2[C@@H]3CCC4=CC(=O)CC[C@@H]4[C@H]3CC[C@@]21C,Ear and labyrinth disorders,0.0,0.026540592,0.020389324
+C#C[C@]1(OC(C)=O)CC[C@H]2[C@@H]3CCC4=CC(=O)CC[C@@H]4[C@H]3CC[C@@]21C,Endocrine disorder,0.0,0.021414638,0.020518275
+C#C[C@]1(OC(C)=O)CC[C@H]2[C@@H]3CCC4=CC(=O)CC[C@@H]4[C@H]3CC[C@@]21C,Eye disorders,1.0,0.043070868,0.055034447
+C#C[C@]1(OC(C)=O)CC[C@H]2[C@@H]3CCC4=CC(=O)CC[C@@H]4[C@H]3CC[C@@]21C,Gastrointestinal disorders,1.0,0.0665183,0.061756242
+C#C[C@]1(OC(C)=O)CC[C@H]2[C@@H]3CCC4=CC(=O)CC[C@@H]4[C@H]3CC[C@@]21C,Hepatobiliary disorders,1.0,0.02851817,0.01812176
+C#C[C@]1(OC(C)=O)CC[C@H]2[C@@H]3CCC4=CC(=O)CC[C@@H]4[C@H]3CC[C@@]21C,Immune system disorders,1.0,0.02883522,0.03466194
+C#C[C@]1(OC(C)=O)CC[C@H]2[C@@H]3CCC4=CC(=O)CC[C@@H]4[C@H]3CC[C@@]21C,Infections and infestations,1.0,0.039305657,0.035337918
+C#C[C@]1(OC(C)=O)CC[C@H]2[C@@H]3CCC4=CC(=O)CC[C@@H]4[C@H]3CC[C@@]21C,Metabolism and nutrition disorders,1.0,0.025870832,0.026650168
+C#C[C@]1(OC(C)=O)CC[C@H]2[C@@H]3CCC4=CC(=O)CC[C@@H]4[C@H]3CC[C@@]21C,Musculoskeletal and connective tissue disorders,1.0,0.03196762,0.0273756
+C#C[C@]1(OC(C)=O)CC[C@H]2[C@@H]3CCC4=CC(=O)CC[C@@H]4[C@H]3CC[C@@]21C,Nervous system disorders,1.0,0.055448335,0.05825929
+C#C[C@]1(OC(C)=O)CC[C@H]2[C@@H]3CCC4=CC(=O)CC[C@@H]4[C@H]3CC[C@@]21C,Psychiatric disorders,1.0,0.029321892,0.024982603
+C#C[C@]1(OC(C)=O)CC[C@H]2[C@@H]3CCC4=CC(=O)CC[C@@H]4[C@H]3CC[C@@]21C,Renal and urinary disorders,0.0,0.018715806,0.015504863
+C#C[C@]1(OC(C)=O)CC[C@H]2[C@@H]3CCC4=CC(=O)CC[C@@H]4[C@H]3CC[C@@]21C,Reproductive system and breast disorders,1.0,0.046942193,0.0413742
+C#C[C@]1(OC(C)=O)CC[C@H]2[C@@H]3CCC4=CC(=O)CC[C@@H]4[C@H]3CC[C@@]21C,"Respiratory, thoracic and mediastinal disorders",1.0,0.041032698,0.05136951
+C#C[C@]1(OC(C)=O)CC[C@H]2[C@@H]3CCC4=CC(=O)CC[C@@H]4[C@H]3CC[C@@]21C,Skin and subcutaneous tissue disorders,1.0,0.07883387,0.070223145
+C#C[C@]1(OC(C)=O)CC[C@H]2[C@@H]3CCC4=CC(=O)CC[C@@H]4[C@H]3CC[C@@]21C,Vascular disorders,1.0,0.045039758,0.030684806
+CC(=O)Nc1cccc(-n2c(=O)n(C3CC3)c(=O)c3c(Nc4ccc(I)cc4F)n(C)c(=O)c(C)c32)c1,Blood and lymphatic system disorders,1.0,0.014131611,0.012185296
+CC(=O)Nc1cccc(-n2c(=O)n(C3CC3)c(=O)c3c(Nc4ccc(I)cc4F)n(C)c(=O)c(C)c32)c1,Cardiac disorders,1.0,0.018275106,0.019354103
+CC(=O)Nc1cccc(-n2c(=O)n(C3CC3)c(=O)c3c(Nc4ccc(I)cc4F)n(C)c(=O)c(C)c32)c1,Ear and labyrinth disorders,1.0,0.017375112,0.012764408
+CC(=O)Nc1cccc(-n2c(=O)n(C3CC3)c(=O)c3c(Nc4ccc(I)cc4F)n(C)c(=O)c(C)c32)c1,Endocrine disorder,1.0,0.013152818,0.012536743
+CC(=O)Nc1cccc(-n2c(=O)n(C3CC3)c(=O)c3c(Nc4ccc(I)cc4F)n(C)c(=O)c(C)c32)c1,Eye disorders,1.0,0.012596397,0.017007219
+CC(=O)Nc1cccc(-n2c(=O)n(C3CC3)c(=O)c3c(Nc4ccc(I)cc4F)n(C)c(=O)c(C)c32)c1,Gastrointestinal disorders,1.0,0.023684062,0.021454358
+CC(=O)Nc1cccc(-n2c(=O)n(C3CC3)c(=O)c3c(Nc4ccc(I)cc4F)n(C)c(=O)c(C)c32)c1,Hepatobiliary disorders,1.0,0.017753495,0.010435504
+CC(=O)Nc1cccc(-n2c(=O)n(C3CC3)c(=O)c3c(Nc4ccc(I)cc4F)n(C)c(=O)c(C)c32)c1,Immune system disorders,1.0,0.016924536,0.020332046
+CC(=O)Nc1cccc(-n2c(=O)n(C3CC3)c(=O)c3c(Nc4ccc(I)cc4F)n(C)c(=O)c(C)c32)c1,Infections and infestations,1.0,0.015253147,0.012802772
+CC(=O)Nc1cccc(-n2c(=O)n(C3CC3)c(=O)c3c(Nc4ccc(I)cc4F)n(C)c(=O)c(C)c32)c1,Metabolism and nutrition disorders,1.0,0.024328362,0.024252422
+CC(=O)Nc1cccc(-n2c(=O)n(C3CC3)c(=O)c3c(Nc4ccc(I)cc4F)n(C)c(=O)c(C)c32)c1,Musculoskeletal and connective tissue disorders,1.0,0.022748925,0.018705204
+CC(=O)Nc1cccc(-n2c(=O)n(C3CC3)c(=O)c3c(Nc4ccc(I)cc4F)n(C)c(=O)c(C)c32)c1,Nervous system disorders,1.0,0.01930656,0.018670812
+CC(=O)Nc1cccc(-n2c(=O)n(C3CC3)c(=O)c3c(Nc4ccc(I)cc4F)n(C)c(=O)c(C)c32)c1,Psychiatric disorders,1.0,0.014854003,0.011835307
+CC(=O)Nc1cccc(-n2c(=O)n(C3CC3)c(=O)c3c(Nc4ccc(I)cc4F)n(C)c(=O)c(C)c32)c1,Renal and urinary disorders,1.0,0.018280156,0.014771313
+CC(=O)Nc1cccc(-n2c(=O)n(C3CC3)c(=O)c3c(Nc4ccc(I)cc4F)n(C)c(=O)c(C)c32)c1,Reproductive system and breast disorders,1.0,0.01828258,0.015109065
+CC(=O)Nc1cccc(-n2c(=O)n(C3CC3)c(=O)c3c(Nc4ccc(I)cc4F)n(C)c(=O)c(C)c32)c1,"Respiratory, thoracic and mediastinal disorders",1.0,0.020347565,0.025702922
+CC(=O)Nc1cccc(-n2c(=O)n(C3CC3)c(=O)c3c(Nc4ccc(I)cc4F)n(C)c(=O)c(C)c32)c1,Skin and subcutaneous tissue disorders,1.0,0.01693948,0.013364934
+CC(=O)Nc1cccc(-n2c(=O)n(C3CC3)c(=O)c3c(Nc4ccc(I)cc4F)n(C)c(=O)c(C)c32)c1,Vascular disorders,1.0,0.02502146,0.016172534
+COc1cc(C(=O)NS(=O)(=O)c2ccccc2C)ccc1Cc1cn(C)c2ccc(NC(=O)OC3CCCC3)cc12,Blood and lymphatic system disorders,1.0,0.06327635,0.058357038
+COc1cc(C(=O)NS(=O)(=O)c2ccccc2C)ccc1Cc1cn(C)c2ccc(NC(=O)OC3CCCC3)cc12,Cardiac disorders,0.0,0.08437238,0.0882608
+COc1cc(C(=O)NS(=O)(=O)c2ccccc2C)ccc1Cc1cn(C)c2ccc(NC(=O)OC3CCCC3)cc12,Ear and labyrinth disorders,1.0,0.058397368,0.047768757
+COc1cc(C(=O)NS(=O)(=O)c2ccccc2C)ccc1Cc1cn(C)c2ccc(NC(=O)OC3CCCC3)cc12,Endocrine disorder,0.0,0.03478583,0.03336244
+COc1cc(C(=O)NS(=O)(=O)c2ccccc2C)ccc1Cc1cn(C)c2ccc(NC(=O)OC3CCCC3)cc12,Eye disorders,1.0,0.053393114,0.06534962
+COc1cc(C(=O)NS(=O)(=O)c2ccccc2C)ccc1Cc1cn(C)c2ccc(NC(=O)OC3CCCC3)cc12,Gastrointestinal disorders,1.0,0.07262255,0.06770393
+COc1cc(C(=O)NS(=O)(=O)c2ccccc2C)ccc1Cc1cn(C)c2ccc(NC(=O)OC3CCCC3)cc12,Hepatobiliary disorders,1.0,0.06984767,0.050915606
+COc1cc(C(=O)NS(=O)(=O)c2ccccc2C)ccc1Cc1cn(C)c2ccc(NC(=O)OC3CCCC3)cc12,Immune system disorders,1.0,0.04629501,0.053017627
+COc1cc(C(=O)NS(=O)(=O)c2ccccc2C)ccc1Cc1cn(C)c2ccc(NC(=O)OC3CCCC3)cc12,Infections and infestations,1.0,0.04216582,0.037101682
+COc1cc(C(=O)NS(=O)(=O)c2ccccc2C)ccc1Cc1cn(C)c2ccc(NC(=O)OC3CCCC3)cc12,Metabolism and nutrition disorders,1.0,0.06174181,0.06190357
+COc1cc(C(=O)NS(=O)(=O)c2ccccc2C)ccc1Cc1cn(C)c2ccc(NC(=O)OC3CCCC3)cc12,Musculoskeletal and connective tissue disorders,1.0,0.072177894,0.06395683
+COc1cc(C(=O)NS(=O)(=O)c2ccccc2C)ccc1Cc1cn(C)c2ccc(NC(=O)OC3CCCC3)cc12,Nervous system disorders,1.0,0.06886159,0.06789749
+COc1cc(C(=O)NS(=O)(=O)c2ccccc2C)ccc1Cc1cn(C)c2ccc(NC(=O)OC3CCCC3)cc12,Psychiatric disorders,1.0,0.07742489,0.06885513
+COc1cc(C(=O)NS(=O)(=O)c2ccccc2C)ccc1Cc1cn(C)c2ccc(NC(=O)OC3CCCC3)cc12,Renal and urinary disorders,1.0,0.081426695,0.07308993
+COc1cc(C(=O)NS(=O)(=O)c2ccccc2C)ccc1Cc1cn(C)c2ccc(NC(=O)OC3CCCC3)cc12,Reproductive system and breast disorders,1.0,0.061720863,0.0545244
+COc1cc(C(=O)NS(=O)(=O)c2ccccc2C)ccc1Cc1cn(C)c2ccc(NC(=O)OC3CCCC3)cc12,"Respiratory, thoracic and mediastinal disorders",1.0,0.0712384,0.08281947
+COc1cc(C(=O)NS(=O)(=O)c2ccccc2C)ccc1Cc1cn(C)c2ccc(NC(=O)OC3CCCC3)cc12,Skin and subcutaneous tissue disorders,1.0,0.07500023,0.06480445
+COc1cc(C(=O)NS(=O)(=O)c2ccccc2C)ccc1Cc1cn(C)c2ccc(NC(=O)OC3CCCC3)cc12,Vascular disorders,1.0,0.046965443,0.0322756
+O=C(O)Cn1nnc(-c2cc(N3CCC(Oc4cc(F)ccc4Br)CC3)no2)n1,Ear and labyrinth disorders,0.0,0.03152626,0.024438264
+O=C(O)Cn1nnc(-c2cc(N3CCC(Oc4cc(F)ccc4Br)CC3)no2)n1,Immune system disorders,0.0,0.026275218,0.03094487
+O=C(O)Cn1nnc(-c2cc(N3CCC(Oc4cc(F)ccc4Br)CC3)no2)n1,Musculoskeletal and connective tissue disorders,0.0,0.03596471,0.030577019
+O=C(O)Cn1nnc(-c2cc(N3CCC(Oc4cc(F)ccc4Br)CC3)no2)n1,Nervous system disorders,0.0,0.032774787,0.03189548
+O=C(O)Cn1nnc(-c2cc(N3CCC(Oc4cc(F)ccc4Br)CC3)no2)n1,Psychiatric disorders,0.0,0.028587904,0.02381973
+O=C(O)Cn1nnc(-c2cc(N3CCC(Oc4cc(F)ccc4Br)CC3)no2)n1,"Respiratory, thoracic and mediastinal disorders",0.0,0.03292954,0.040554393
+O=C(O)Cn1nnc(-c2cc(N3CCC(Oc4cc(F)ccc4Br)CC3)no2)n1,Skin and subcutaneous tissue disorders,0.0,0.026049245,0.021093007
+O=C(O)Cn1nnc(-c2cc(N3CCC(Oc4cc(F)ccc4Br)CC3)no2)n1,Vascular disorders,0.0,0.031630874,0.02070486
+C=CC(=O)N1CCC([C@@H]2CCNc3c(C(N)=O)c(-c4ccc(Oc5ccccc5)cc4)nn32)CC1,Blood and lymphatic system disorders,1.0,0.9365108,0.9516606
+C=CC(=O)N1CCC([C@@H]2CCNc3c(C(N)=O)c(-c4ccc(Oc5ccccc5)cc4)nn32)CC1,Cardiac disorders,1.0,0.926996,0.9612169
+C=CC(=O)N1CCC([C@@H]2CCNc3c(C(N)=O)c(-c4ccc(Oc5ccccc5)cc4)nn32)CC1,Ear and labyrinth disorders,0.0,0.8830354,0.89106345
+C=CC(=O)N1CCC([C@@H]2CCNc3c(C(N)=O)c(-c4ccc(Oc5ccccc5)cc4)nn32)CC1,Endocrine disorder,0.0,0.76021475,0.7755469
+C=CC(=O)N1CCC([C@@H]2CCNc3c(C(N)=O)c(-c4ccc(Oc5ccccc5)cc4)nn32)CC1,Eye disorders,1.0,0.89929765,0.9302106
+C=CC(=O)N1CCC([C@@H]2CCNc3c(C(N)=O)c(-c4ccc(Oc5ccccc5)cc4)nn32)CC1,Gastrointestinal disorders,1.0,0.9440331,0.9804454
+C=CC(=O)N1CCC([C@@H]2CCNc3c(C(N)=O)c(-c4ccc(Oc5ccccc5)cc4)nn32)CC1,Hepatobiliary disorders,1.0,0.9137589,0.93451375
+C=CC(=O)N1CCC([C@@H]2CCNc3c(C(N)=O)c(-c4ccc(Oc5ccccc5)cc4)nn32)CC1,Immune system disorders,1.0,0.9042535,0.9345135
+C=CC(=O)N1CCC([C@@H]2CCNc3c(C(N)=O)c(-c4ccc(Oc5ccccc5)cc4)nn32)CC1,Infections and infestations,1.0,0.91444427,0.93880486
+C=CC(=O)N1CCC([C@@H]2CCNc3c(C(N)=O)c(-c4ccc(Oc5ccccc5)cc4)nn32)CC1,Metabolism and nutrition disorders,1.0,0.92608356,0.9573056
+C=CC(=O)N1CCC([C@@H]2CCNc3c(C(N)=O)c(-c4ccc(Oc5ccccc5)cc4)nn32)CC1,Musculoskeletal and connective tissue disorders,1.0,0.93286514,0.95509684
+C=CC(=O)N1CCC([C@@H]2CCNc3c(C(N)=O)c(-c4ccc(Oc5ccccc5)cc4)nn32)CC1,Nervous system disorders,1.0,0.93570775,0.9795466
+C=CC(=O)N1CCC([C@@H]2CCNc3c(C(N)=O)c(-c4ccc(Oc5ccccc5)cc4)nn32)CC1,Psychiatric disorders,1.0,0.9387615,0.95725834
+C=CC(=O)N1CCC([C@@H]2CCNc3c(C(N)=O)c(-c4ccc(Oc5ccccc5)cc4)nn32)CC1,Renal and urinary disorders,1.0,0.9354906,0.95722485
+C=CC(=O)N1CCC([C@@H]2CCNc3c(C(N)=O)c(-c4ccc(Oc5ccccc5)cc4)nn32)CC1,Reproductive system and breast disorders,0.0,0.87495863,0.8978481
+C=CC(=O)N1CCC([C@@H]2CCNc3c(C(N)=O)c(-c4ccc(Oc5ccccc5)cc4)nn32)CC1,"Respiratory, thoracic and mediastinal disorders",1.0,0.94002116,0.96555156
+C=CC(=O)N1CCC([C@@H]2CCNc3c(C(N)=O)c(-c4ccc(Oc5ccccc5)cc4)nn32)CC1,Skin and subcutaneous tissue disorders,1.0,0.9354019,0.97005385
+C=CC(=O)N1CCC([C@@H]2CCNc3c(C(N)=O)c(-c4ccc(Oc5ccccc5)cc4)nn32)CC1,Vascular disorders,1.0,0.919421,0.95390135
+Cc1ccc(C)c(OCCCC(C)(C)C(=O)O)c1,Blood and lymphatic system disorders,1.0,0.91705424,0.93464065
+Cc1ccc(C)c(OCCCC(C)(C)C(=O)O)c1,Cardiac disorders,1.0,0.9119218,0.9503772
+Cc1ccc(C)c(OCCCC(C)(C)C(=O)O)c1,Ear and labyrinth disorders,1.0,0.87461656,0.8827783
+Cc1ccc(C)c(OCCCC(C)(C)C(=O)O)c1,Endocrine disorder,0.0,0.9033983,0.91212237
+Cc1ccc(C)c(OCCCC(C)(C)C(=O)O)c1,Eye disorders,1.0,0.9056455,0.9356034
+Cc1ccc(C)c(OCCCC(C)(C)C(=O)O)c1,Gastrointestinal disorders,1.0,0.93748176,0.9769008
+Cc1ccc(C)c(OCCCC(C)(C)C(=O)O)c1,Hepatobiliary disorders,1.0,0.92585015,0.9450497
+Cc1ccc(C)c(OCCCC(C)(C)C(=O)O)c1,Immune system disorders,1.0,0.884142,0.91704726
+Cc1ccc(C)c(OCCCC(C)(C)C(=O)O)c1,Infections and infestations,1.0,0.902327,0.92831224
+Cc1ccc(C)c(OCCCC(C)(C)C(=O)O)c1,Metabolism and nutrition disorders,1.0,0.9269082,0.9579238
+Cc1ccc(C)c(OCCCC(C)(C)C(=O)O)c1,Musculoskeletal and connective tissue disorders,1.0,0.92381465,0.9477785
+Cc1ccc(C)c(OCCCC(C)(C)C(=O)O)c1,Nervous system disorders,1.0,0.9280045,0.97546864
+Cc1ccc(C)c(OCCCC(C)(C)C(=O)O)c1,Psychiatric disorders,1.0,0.9423853,0.96019053
+Cc1ccc(C)c(OCCCC(C)(C)C(=O)O)c1,Renal and urinary disorders,1.0,0.9209976,0.945517
+Cc1ccc(C)c(OCCCC(C)(C)C(=O)O)c1,Reproductive system and breast disorders,1.0,0.9000658,0.9210082
+Cc1ccc(C)c(OCCCC(C)(C)C(=O)O)c1,"Respiratory, thoracic and mediastinal disorders",1.0,0.9218899,0.95186484
+Cc1ccc(C)c(OCCCC(C)(C)C(=O)O)c1,Skin and subcutaneous tissue disorders,1.0,0.9281024,0.96520835
+Cc1ccc(C)c(OCCCC(C)(C)C(=O)O)c1,Vascular disorders,1.0,0.91201574,0.9477353
+CC(C)C(=O)c1c(C(C)C)nn2ccccc12,Psychiatric disorders,0.0,0.36790368,0.3645164
+CC(C)C(=O)c1c(C(C)C)nn2ccccc12,Reproductive system and breast disorders,0.0,0.18253328,0.17467475
+CC(C)C(=O)c1c(C(C)C)nn2ccccc12,Skin and subcutaneous tissue disorders,0.0,0.7381833,0.79032755
+Cc1cc(NS(=O)(=O)c2ccc(N)cc2)no1,Blood and lymphatic system disorders,1.0,0.961316,0.97230875
+Cc1cc(NS(=O)(=O)c2ccc(N)cc2)no1,Cardiac disorders,1.0,0.8947757,0.9366814
+Cc1cc(NS(=O)(=O)c2ccc(N)cc2)no1,Ear and labyrinth disorders,1.0,0.9383485,0.94430506
+Cc1cc(NS(=O)(=O)c2ccc(N)cc2)no1,Endocrine disorder,0.0,0.89502263,0.9035876
+Cc1cc(NS(=O)(=O)c2ccc(N)cc2)no1,Eye disorders,1.0,0.9258963,0.9519407
+Cc1cc(NS(=O)(=O)c2ccc(N)cc2)no1,Gastrointestinal disorders,1.0,0.9383393,0.9776214
+Cc1cc(NS(=O)(=O)c2ccc(N)cc2)no1,Hepatobiliary disorders,1.0,0.95252395,0.96702754
+Cc1cc(NS(=O)(=O)c2ccc(N)cc2)no1,Immune system disorders,1.0,0.9370594,0.9608165
+Cc1cc(NS(=O)(=O)c2ccc(N)cc2)no1,Infections and infestations,1.0,0.92772853,0.9501537
+Cc1cc(NS(=O)(=O)c2ccc(N)cc2)no1,Metabolism and nutrition disorders,1.0,0.9356132,0.9641868
+Cc1cc(NS(=O)(=O)c2ccc(N)cc2)no1,Musculoskeletal and connective tissue disorders,1.0,0.928789,0.9517665
+Cc1cc(NS(=O)(=O)c2ccc(N)cc2)no1,Nervous system disorders,1.0,0.94118905,0.98180366
+Cc1cc(NS(=O)(=O)c2ccc(N)cc2)no1,Psychiatric disorders,1.0,0.9313699,0.95118314
+Cc1cc(NS(=O)(=O)c2ccc(N)cc2)no1,Renal and urinary disorders,1.0,0.9395484,0.9603936
+Cc1cc(NS(=O)(=O)c2ccc(N)cc2)no1,Reproductive system and breast disorders,0.0,0.93692166,0.95314944
+Cc1cc(NS(=O)(=O)c2ccc(N)cc2)no1,"Respiratory, thoracic and mediastinal disorders",1.0,0.91956955,0.9499578
+Cc1cc(NS(=O)(=O)c2ccc(N)cc2)no1,Skin and subcutaneous tissue disorders,1.0,0.9545024,0.9813225
+Cc1cc(NS(=O)(=O)c2ccc(N)cc2)no1,Vascular disorders,1.0,0.90654093,0.94377124
+CCCCCC(O)C=CC1C(O)CC(=O)C1CCCCCCC(=O)O,Blood and lymphatic system disorders,1.0,0.012544501,0.01121662
+CCCCCC(O)C=CC1C(O)CC(=O)C1CCCCCCC(=O)O,Cardiac disorders,1.0,0.09196813,0.10401684
+CCCCCC(O)C=CC1C(O)CC(=O)C1CCCCCCC(=O)O,Ear and labyrinth disorders,0.0,0.023921808,0.018470783
+CCCCCC(O)C=CC1C(O)CC(=O)C1CCCCCCC(=O)O,Endocrine disorder,0.0,0.007204514,0.0069767106
+CCCCCC(O)C=CC1C(O)CC(=O)C1CCCCCCC(=O)O,Eye disorders,1.0,0.049374644,0.06521316
+CCCCCC(O)C=CC1C(O)CC(=O)C1CCCCCCC(=O)O,Gastrointestinal disorders,1.0,0.15568206,0.1512994
+CCCCCC(O)C=CC1C(O)CC(=O)C1CCCCCCC(=O)O,Hepatobiliary disorders,1.0,0.012344476,0.0072065126
+CCCCCC(O)C=CC1C(O)CC(=O)C1CCCCCCC(=O)O,Immune system disorders,0.0,0.06672977,0.07911167
+CCCCCC(O)C=CC1C(O)CC(=O)C1CCCCCCC(=O)O,Infections and infestations,1.0,0.031287454,0.02911639
+CCCCCC(O)C=CC1C(O)CC(=O)C1CCCCCCC(=O)O,Metabolism and nutrition disorders,1.0,0.024278086,0.026393907
+CCCCCC(O)C=CC1C(O)CC(=O)C1CCCCCCC(=O)O,Musculoskeletal and connective tissue disorders,1.0,0.04744842,0.042765357
+CCCCCC(O)C=CC1C(O)CC(=O)C1CCCCCCC(=O)O,Nervous system disorders,1.0,0.4748646,0.56782687
+CCCCCC(O)C=CC1C(O)CC(=O)C1CCCCCCC(=O)O,Psychiatric disorders,1.0,0.034547817,0.03047082
+CCCCCC(O)C=CC1C(O)CC(=O)C1CCCCCCC(=O)O,Renal and urinary disorders,1.0,0.029280834,0.026026646
+CCCCCC(O)C=CC1C(O)CC(=O)C1CCCCCCC(=O)O,Reproductive system and breast disorders,1.0,0.025715606,0.022694044
+CCCCCC(O)C=CC1C(O)CC(=O)C1CCCCCCC(=O)O,"Respiratory, thoracic and mediastinal disorders",1.0,0.123526804,0.14831963
+CCCCCC(O)C=CC1C(O)CC(=O)C1CCCCCCC(=O)O,Skin and subcutaneous tissue disorders,1.0,0.40477997,0.4385162
+CCCCCC(O)C=CC1C(O)CC(=O)C1CCCCCCC(=O)O,Vascular disorders,1.0,0.104167804,0.08110852
+CCCNS(=O)(=O)Nc1ncnc(OCCOc2ncc(Br)cn2)c1-c1ccc(Br)cc1,Blood and lymphatic system disorders,1.0,0.46856266,0.47328687
+CCCNS(=O)(=O)Nc1ncnc(OCCOc2ncc(Br)cn2)c1-c1ccc(Br)cc1,Cardiac disorders,1.0,0.28543162,0.29832044
+CCCNS(=O)(=O)Nc1ncnc(OCCOc2ncc(Br)cn2)c1-c1ccc(Br)cc1,Ear and labyrinth disorders,1.0,0.08624788,0.07337525
+CCCNS(=O)(=O)Nc1ncnc(OCCOc2ncc(Br)cn2)c1-c1ccc(Br)cc1,Endocrine disorder,1.0,0.07681368,0.07788113
+CCCNS(=O)(=O)Nc1ncnc(OCCOc2ncc(Br)cn2)c1-c1ccc(Br)cc1,Eye disorders,1.0,0.12323255,0.14137247
+CCCNS(=O)(=O)Nc1ncnc(OCCOc2ncc(Br)cn2)c1-c1ccc(Br)cc1,Gastrointestinal disorders,1.0,0.7941547,0.86149806
+CCCNS(=O)(=O)Nc1ncnc(OCCOc2ncc(Br)cn2)c1-c1ccc(Br)cc1,Hepatobiliary disorders,1.0,0.33566105,0.32197437
+CCCNS(=O)(=O)Nc1ncnc(OCCOc2ncc(Br)cn2)c1-c1ccc(Br)cc1,Immune system disorders,1.0,0.25310624,0.26451147
+CCCNS(=O)(=O)Nc1ncnc(OCCOc2ncc(Br)cn2)c1-c1ccc(Br)cc1,Infections and infestations,1.0,0.22309065,0.21396387
+CCCNS(=O)(=O)Nc1ncnc(OCCOc2ncc(Br)cn2)c1-c1ccc(Br)cc1,Metabolism and nutrition disorders,1.0,0.40216005,0.40738243
+CCCNS(=O)(=O)Nc1ncnc(OCCOc2ncc(Br)cn2)c1-c1ccc(Br)cc1,Musculoskeletal and connective tissue disorders,1.0,0.4530992,0.45421737
+CCCNS(=O)(=O)Nc1ncnc(OCCOc2ncc(Br)cn2)c1-c1ccc(Br)cc1,Nervous system disorders,1.0,0.6815772,0.7478279
+CCCNS(=O)(=O)Nc1ncnc(OCCOc2ncc(Br)cn2)c1-c1ccc(Br)cc1,Psychiatric disorders,1.0,0.48260447,0.4880355
+CCCNS(=O)(=O)Nc1ncnc(OCCOc2ncc(Br)cn2)c1-c1ccc(Br)cc1,Renal and urinary disorders,1.0,0.36316982,0.3580807
+CCCNS(=O)(=O)Nc1ncnc(OCCOc2ncc(Br)cn2)c1-c1ccc(Br)cc1,Reproductive system and breast disorders,1.0,0.124242,0.1162768
+CCCNS(=O)(=O)Nc1ncnc(OCCOc2ncc(Br)cn2)c1-c1ccc(Br)cc1,"Respiratory, thoracic and mediastinal disorders",1.0,0.4441657,0.45699555
+CCCNS(=O)(=O)Nc1ncnc(OCCOc2ncc(Br)cn2)c1-c1ccc(Br)cc1,Skin and subcutaneous tissue disorders,1.0,0.68813914,0.7310662
+CCCNS(=O)(=O)Nc1ncnc(OCCOc2ncc(Br)cn2)c1-c1ccc(Br)cc1,Vascular disorders,1.0,0.49604136,0.49422085
+C=CC(N)CCC(=O)O,Blood and lymphatic system disorders,1.0,0.8693752,0.89038914
+C=CC(N)CCC(=O)O,Cardiac disorders,1.0,0.77079266,0.82120925
+C=CC(N)CCC(=O)O,Ear and labyrinth disorders,1.0,0.30746925,0.2953889
+C=CC(N)CCC(=O)O,Endocrine disorder,1.0,0.10733068,0.10922942
+C=CC(N)CCC(=O)O,Eye disorders,1.0,0.82000744,0.8573183
+C=CC(N)CCC(=O)O,Gastrointestinal disorders,1.0,0.90659606,0.95862705
+C=CC(N)CCC(=O)O,Hepatobiliary disorders,1.0,0.84580714,0.8717753
+C=CC(N)CCC(=O)O,Immune system disorders,1.0,0.7608642,0.79522014
+C=CC(N)CCC(=O)O,Infections and infestations,1.0,0.8479808,0.8779348
+C=CC(N)CCC(=O)O,Metabolism and nutrition disorders,1.0,0.84910864,0.8915723
+C=CC(N)CCC(=O)O,Musculoskeletal and connective tissue disorders,1.0,0.85255957,0.8841135
+C=CC(N)CCC(=O)O,Nervous system disorders,1.0,0.88559574,0.94920367
+C=CC(N)CCC(=O)O,Psychiatric disorders,1.0,0.83744305,0.8653672
+C=CC(N)CCC(=O)O,Renal and urinary disorders,1.0,0.7644949,0.7954408
+C=CC(N)CCC(=O)O,Reproductive system and breast disorders,1.0,0.5368165,0.54519284
+C=CC(N)CCC(=O)O,"Respiratory, thoracic and mediastinal disorders",1.0,0.8577766,0.896585
+C=CC(N)CCC(=O)O,Skin and subcutaneous tissue disorders,1.0,0.90815085,0.95124435
+C=CC(N)CCC(=O)O,Vascular disorders,1.0,0.8523907,0.89833874
+CN(C)CCCC1(c2ccc(F)cc2)OCc2cc(C#N)ccc21,Blood and lymphatic system disorders,1.0,0.8143139,0.8362755
+CN(C)CCCC1(c2ccc(F)cc2)OCc2cc(C#N)ccc21,Cardiac disorders,1.0,0.582273,0.6066397
+CN(C)CCCC1(c2ccc(F)cc2)OCc2cc(C#N)ccc21,Ear and labyrinth disorders,1.0,0.4131964,0.40818623
+CN(C)CCCC1(c2ccc(F)cc2)OCc2cc(C#N)ccc21,Endocrine disorder,1.0,0.12649406,0.12705652
+CN(C)CCCC1(c2ccc(F)cc2)OCc2cc(C#N)ccc21,Eye disorders,1.0,0.6677472,0.6958254
+CN(C)CCCC1(c2ccc(F)cc2)OCc2cc(C#N)ccc21,Gastrointestinal disorders,1.0,0.8569369,0.92127126
+CN(C)CCCC1(c2ccc(F)cc2)OCc2cc(C#N)ccc21,Hepatobiliary disorders,1.0,0.73239017,0.7566366
+CN(C)CCCC1(c2ccc(F)cc2)OCc2cc(C#N)ccc21,Immune system disorders,1.0,0.6105169,0.62654036
+CN(C)CCCC1(c2ccc(F)cc2)OCc2cc(C#N)ccc21,Infections and infestations,1.0,0.710126,0.7354531
+CN(C)CCCC1(c2ccc(F)cc2)OCc2cc(C#N)ccc21,Metabolism and nutrition disorders,1.0,0.73763686,0.77807105
+CN(C)CCCC1(c2ccc(F)cc2)OCc2cc(C#N)ccc21,Musculoskeletal and connective tissue disorders,1.0,0.74205387,0.77181697
+CN(C)CCCC1(c2ccc(F)cc2)OCc2cc(C#N)ccc21,Nervous system disorders,1.0,0.80086416,0.87612265
+CN(C)CCCC1(c2ccc(F)cc2)OCc2cc(C#N)ccc21,Psychiatric disorders,1.0,0.79455316,0.82237357
+CN(C)CCCC1(c2ccc(F)cc2)OCc2cc(C#N)ccc21,Renal and urinary disorders,1.0,0.7601744,0.79062295
+CN(C)CCCC1(c2ccc(F)cc2)OCc2cc(C#N)ccc21,Reproductive system and breast disorders,1.0,0.43982834,0.43900993
+CN(C)CCCC1(c2ccc(F)cc2)OCc2cc(C#N)ccc21,"Respiratory, thoracic and mediastinal disorders",1.0,0.75864965,0.7954193
+CN(C)CCCC1(c2ccc(F)cc2)OCc2cc(C#N)ccc21,Skin and subcutaneous tissue disorders,1.0,0.79435694,0.8483605
+CN(C)CCCC1(c2ccc(F)cc2)OCc2cc(C#N)ccc21,Vascular disorders,1.0,0.7067728,0.7467455
+CN(C)C(=N)NC(=N)N,Blood and lymphatic system disorders,1.0,0.92738086,0.9436149
+CN(C)C(=N)NC(=N)N,Cardiac disorders,1.0,0.9476987,0.9749289
+CN(C)C(=N)NC(=N)N,Ear and labyrinth disorders,1.0,0.9375619,0.94358236
+CN(C)C(=N)NC(=N)N,Endocrine disorder,1.0,0.8756859,0.88540685
+CN(C)C(=N)NC(=N)N,Eye disorders,1.0,0.9579719,0.9761088
+CN(C)C(=N)NC(=N)N,Gastrointestinal disorders,1.0,0.94561344,0.98136824
+CN(C)C(=N)NC(=N)N,Hepatobiliary disorders,1.0,0.9209043,0.94057447
+CN(C)C(=N)NC(=N)N,Immune system disorders,1.0,0.9095044,0.93890476
+CN(C)C(=N)NC(=N)N,Infections and infestations,1.0,0.9394342,0.9596583
+CN(C)C(=N)NC(=N)N,Metabolism and nutrition disorders,1.0,0.9449005,0.97061324
+CN(C)C(=N)NC(=N)N,Musculoskeletal and connective tissue disorders,1.0,0.9480176,0.96694875
+CN(C)C(=N)NC(=N)N,Nervous system disorders,1.0,0.9416812,0.9822405
+CN(C)C(=N)NC(=N)N,Psychiatric disorders,1.0,0.96496445,0.9776793
+CN(C)C(=N)NC(=N)N,Renal and urinary disorders,1.0,0.9308394,0.95342946
+CN(C)C(=N)NC(=N)N,Reproductive system and breast disorders,1.0,0.9199732,0.9385818
+CN(C)C(=N)NC(=N)N,"Respiratory, thoracic and mediastinal disorders",1.0,0.9454947,0.9694668
+CN(C)C(=N)NC(=N)N,Skin and subcutaneous tissue disorders,1.0,0.94518596,0.9760439
+CN(C)C(=N)NC(=N)N,Vascular disorders,1.0,0.9266125,0.959102
+Nc1nc(CC(=O)Nc2ccc(CCNC[C@H](O)c3ccccc3)cc2)cs1,Blood and lymphatic system disorders,1.0,0.029066812,0.026065432
+Nc1nc(CC(=O)Nc2ccc(CCNC[C@H](O)c3ccccc3)cc2)cs1,Cardiac disorders,1.0,0.0278981,0.029623233
+Nc1nc(CC(=O)Nc2ccc(CCNC[C@H](O)c3ccccc3)cc2)cs1,Ear and labyrinth disorders,0.0,0.034944486,0.027375022
+Nc1nc(CC(=O)Nc2ccc(CCNC[C@H](O)c3ccccc3)cc2)cs1,Endocrine disorder,0.0,0.019246334,0.018310977
+Nc1nc(CC(=O)Nc2ccc(CCNC[C@H](O)c3ccccc3)cc2)cs1,Eye disorders,1.0,0.02468421,0.032622337
+Nc1nc(CC(=O)Nc2ccc(CCNC[C@H](O)c3ccccc3)cc2)cs1,Gastrointestinal disorders,1.0,0.028500542,0.025723314
+Nc1nc(CC(=O)Nc2ccc(CCNC[C@H](O)c3ccccc3)cc2)cs1,Hepatobiliary disorders,1.0,0.0370658,0.024543744
+Nc1nc(CC(=O)Nc2ccc(CCNC[C@H](O)c3ccccc3)cc2)cs1,Immune system disorders,1.0,0.026494546,0.031596262
+Nc1nc(CC(=O)Nc2ccc(CCNC[C@H](O)c3ccccc3)cc2)cs1,Infections and infestations,1.0,0.027384674,0.023831207
+Nc1nc(CC(=O)Nc2ccc(CCNC[C@H](O)c3ccccc3)cc2)cs1,Metabolism and nutrition disorders,1.0,0.037355676,0.037785314
+Nc1nc(CC(=O)Nc2ccc(CCNC[C@H](O)c3ccccc3)cc2)cs1,Musculoskeletal and connective tissue disorders,1.0,0.031842165,0.026990646
+Nc1nc(CC(=O)Nc2ccc(CCNC[C@H](O)c3ccccc3)cc2)cs1,Nervous system disorders,1.0,0.026656391,0.026231369
+Nc1nc(CC(=O)Nc2ccc(CCNC[C@H](O)c3ccccc3)cc2)cs1,Psychiatric disorders,1.0,0.024824327,0.020565357
+Nc1nc(CC(=O)Nc2ccc(CCNC[C@H](O)c3ccccc3)cc2)cs1,Renal and urinary disorders,1.0,0.034444507,0.029398909
+Nc1nc(CC(=O)Nc2ccc(CCNC[C@H](O)c3ccccc3)cc2)cs1,Reproductive system and breast disorders,1.0,0.02855876,0.024325527
+Nc1nc(CC(=O)Nc2ccc(CCNC[C@H](O)c3ccccc3)cc2)cs1,"Respiratory, thoracic and mediastinal disorders",1.0,0.029742504,0.037082177
+Nc1nc(CC(=O)Nc2ccc(CCNC[C@H](O)c3ccccc3)cc2)cs1,Skin and subcutaneous tissue disorders,1.0,0.025752285,0.021019928
+Nc1nc(CC(=O)Nc2ccc(CCNC[C@H](O)c3ccccc3)cc2)cs1,Vascular disorders,1.0,0.030046454,0.019419057
+Cn1c(=O)oc2ccc(-c3ccc(C[C@@H](C#N)NC(=O)[C@@H]4CNCCCO4)cc3)cc21,Blood and lymphatic system disorders,0.0,0.051880263,0.047773793
+Cn1c(=O)oc2ccc(-c3ccc(C[C@@H](C#N)NC(=O)[C@@H]4CNCCCO4)cc3)cc21,Cardiac disorders,0.0,0.03144833,0.03395761
+Cn1c(=O)oc2ccc(-c3ccc(C[C@@H](C#N)NC(=O)[C@@H]4CNCCCO4)cc3)cc21,Infections and infestations,0.0,0.04763993,0.042683233
+Cn1c(=O)oc2ccc(-c3ccc(C[C@@H](C#N)NC(=O)[C@@H]4CNCCCO4)cc3)cc21,Metabolism and nutrition disorders,0.0,0.04873657,0.049744274
+Cn1c(=O)oc2ccc(-c3ccc(C[C@@H](C#N)NC(=O)[C@@H]4CNCCCO4)cc3)cc21,Renal and urinary disorders,0.0,0.04480605,0.039129112
+Cn1c(=O)oc2ccc(-c3ccc(C[C@@H](C#N)NC(=O)[C@@H]4CNCCCO4)cc3)cc21,Reproductive system and breast disorders,0.0,0.039436184,0.034390323
+CCC[C@@H]1CC(=O)N([C@@H](CC)C(N)=O)C1,Blood and lymphatic system disorders,1.0,0.41385302,0.41231632
+CCC[C@@H]1CC(=O)N([C@@H](CC)C(N)=O)C1,Cardiac disorders,1.0,0.31086874,0.3215594
+CCC[C@@H]1CC(=O)N([C@@H](CC)C(N)=O)C1,Ear and labyrinth disorders,1.0,0.22866935,0.21402684
+CCC[C@@H]1CC(=O)N([C@@H](CC)C(N)=O)C1,Endocrine disorder,1.0,0.05221965,0.051156204
+CCC[C@@H]1CC(=O)N([C@@H](CC)C(N)=O)C1,Eye disorders,1.0,0.29395336,0.31480184
+CCC[C@@H]1CC(=O)N([C@@H](CC)C(N)=O)C1,Gastrointestinal disorders,1.0,0.507335,0.52348644
+CCC[C@@H]1CC(=O)N([C@@H](CC)C(N)=O)C1,Hepatobiliary disorders,1.0,0.28258324,0.26188123
+CCC[C@@H]1CC(=O)N([C@@H](CC)C(N)=O)C1,Immune system disorders,1.0,0.44958067,0.45465434
+CCC[C@@H]1CC(=O)N([C@@H](CC)C(N)=O)C1,Infections and infestations,1.0,0.30308062,0.29584658
+CCC[C@@H]1CC(=O)N([C@@H](CC)C(N)=O)C1,Metabolism and nutrition disorders,1.0,0.28765553,0.29086936
+CCC[C@@H]1CC(=O)N([C@@H](CC)C(N)=O)C1,Musculoskeletal and connective tissue disorders,1.0,0.3202931,0.31326258
+CCC[C@@H]1CC(=O)N([C@@H](CC)C(N)=O)C1,Nervous system disorders,1.0,0.6537835,0.70392656
+CCC[C@@H]1CC(=O)N([C@@H](CC)C(N)=O)C1,Psychiatric disorders,1.0,0.4314928,0.43167716
+CCC[C@@H]1CC(=O)N([C@@H](CC)C(N)=O)C1,Renal and urinary disorders,1.0,0.47518563,0.4774027
+CCC[C@@H]1CC(=O)N([C@@H](CC)C(N)=O)C1,Reproductive system and breast disorders,1.0,0.22180933,0.21257666
+CCC[C@@H]1CC(=O)N([C@@H](CC)C(N)=O)C1,"Respiratory, thoracic and mediastinal disorders",1.0,0.43575564,0.4464704
+CCC[C@@H]1CC(=O)N([C@@H](CC)C(N)=O)C1,Skin and subcutaneous tissue disorders,1.0,0.6035438,0.6247422
+CCC[C@@H]1CC(=O)N([C@@H](CC)C(N)=O)C1,Vascular disorders,1.0,0.22718519,0.2015303
+Cc1c(-c2ccc(O)cc2)n(Cc2ccc(OCCN3CCCCCC3)cc2)c2ccc(O)cc12,Blood and lymphatic system disorders,1.0,0.022412514,0.02010468
+Cc1c(-c2ccc(O)cc2)n(Cc2ccc(OCCN3CCCCCC3)cc2)c2ccc(O)cc12,Cardiac disorders,1.0,0.044728525,0.04886894
+Cc1c(-c2ccc(O)cc2)n(Cc2ccc(OCCN3CCCCCC3)cc2)c2ccc(O)cc12,Ear and labyrinth disorders,0.0,0.02784934,0.021515623
+Cc1c(-c2ccc(O)cc2)n(Cc2ccc(OCCN3CCCCCC3)cc2)c2ccc(O)cc12,Endocrine disorder,0.0,0.014514714,0.013817731
+Cc1c(-c2ccc(O)cc2)n(Cc2ccc(OCCN3CCCCCC3)cc2)c2ccc(O)cc12,Eye disorders,1.0,0.02935951,0.03915046
+Cc1c(-c2ccc(O)cc2)n(Cc2ccc(OCCN3CCCCCC3)cc2)c2ccc(O)cc12,Gastrointestinal disorders,1.0,0.025078768,0.0225445
+Cc1c(-c2ccc(O)cc2)n(Cc2ccc(OCCN3CCCCCC3)cc2)c2ccc(O)cc12,Hepatobiliary disorders,0.0,0.031832237,0.02082492
+Cc1c(-c2ccc(O)cc2)n(Cc2ccc(OCCN3CCCCCC3)cc2)c2ccc(O)cc12,Immune system disorders,1.0,0.027928958,0.03355652
+Cc1c(-c2ccc(O)cc2)n(Cc2ccc(OCCN3CCCCCC3)cc2)c2ccc(O)cc12,Infections and infestations,1.0,0.02716944,0.024038222
+Cc1c(-c2ccc(O)cc2)n(Cc2ccc(OCCN3CCCCCC3)cc2)c2ccc(O)cc12,Metabolism and nutrition disorders,0.0,0.029990625,0.031224633
+Cc1c(-c2ccc(O)cc2)n(Cc2ccc(OCCN3CCCCCC3)cc2)c2ccc(O)cc12,Musculoskeletal and connective tissue disorders,1.0,0.038274482,0.03324077
+Cc1c(-c2ccc(O)cc2)n(Cc2ccc(OCCN3CCCCCC3)cc2)c2ccc(O)cc12,Nervous system disorders,1.0,0.041095763,0.042462535
+Cc1c(-c2ccc(O)cc2)n(Cc2ccc(OCCN3CCCCCC3)cc2)c2ccc(O)cc12,Psychiatric disorders,1.0,0.03607497,0.03117259
+Cc1c(-c2ccc(O)cc2)n(Cc2ccc(OCCN3CCCCCC3)cc2)c2ccc(O)cc12,Renal and urinary disorders,0.0,0.040235307,0.03525627
+Cc1c(-c2ccc(O)cc2)n(Cc2ccc(OCCN3CCCCCC3)cc2)c2ccc(O)cc12,Reproductive system and breast disorders,1.0,0.033773042,0.029461693
+Cc1c(-c2ccc(O)cc2)n(Cc2ccc(OCCN3CCCCCC3)cc2)c2ccc(O)cc12,"Respiratory, thoracic and mediastinal disorders",1.0,0.039350726,0.04912191
+Cc1c(-c2ccc(O)cc2)n(Cc2ccc(OCCN3CCCCCC3)cc2)c2ccc(O)cc12,Skin and subcutaneous tissue disorders,1.0,0.032182306,0.02730649
+Cc1c(-c2ccc(O)cc2)n(Cc2ccc(OCCN3CCCCCC3)cc2)c2ccc(O)cc12,Vascular disorders,1.0,0.028986245,0.01867616
+O=P1(N(CCCl)CCCl)NCCCO1,Blood and lymphatic system disorders,1.0,0.0146672595,0.0128938705
+O=P1(N(CCCl)CCCl)NCCCO1,Cardiac disorders,1.0,0.02245695,0.024531636
+O=P1(N(CCCl)CCCl)NCCCO1,Ear and labyrinth disorders,1.0,0.016638158,0.012272808
+O=P1(N(CCCl)CCCl)NCCCO1,Endocrine disorder,1.0,0.006089756,0.0057605356
+O=P1(N(CCCl)CCCl)NCCCO1,Eye disorders,1.0,0.013836288,0.019225007
+O=P1(N(CCCl)CCCl)NCCCO1,Gastrointestinal disorders,1.0,0.018430175,0.016538706
+O=P1(N(CCCl)CCCl)NCCCO1,Hepatobiliary disorders,1.0,0.017388394,0.010353856
+O=P1(N(CCCl)CCCl)NCCCO1,Immune system disorders,1.0,0.017318005,0.021039791
+O=P1(N(CCCl)CCCl)NCCCO1,Infections and infestations,1.0,0.013196685,0.011261315
+O=P1(N(CCCl)CCCl)NCCCO1,Metabolism and nutrition disorders,1.0,0.019710537,0.0204397
+O=P1(N(CCCl)CCCl)NCCCO1,Musculoskeletal and connective tissue disorders,1.0,0.021414366,0.017965073
+O=P1(N(CCCl)CCCl)NCCCO1,Nervous system disorders,1.0,0.022713725,0.022759777
+O=P1(N(CCCl)CCCl)NCCCO1,Psychiatric disorders,1.0,0.018422274,0.015186132
+O=P1(N(CCCl)CCCl)NCCCO1,Renal and urinary disorders,1.0,0.020701818,0.017285323
+O=P1(N(CCCl)CCCl)NCCCO1,Reproductive system and breast disorders,1.0,0.02100789,0.017733019
+O=P1(N(CCCl)CCCl)NCCCO1,"Respiratory, thoracic and mediastinal disorders",1.0,0.020954788,0.027053196
+O=P1(N(CCCl)CCCl)NCCCO1,Skin and subcutaneous tissue disorders,1.0,0.015664773,0.012511339
+O=P1(N(CCCl)CCCl)NCCCO1,Vascular disorders,1.0,0.021048507,0.0132747
+CC(=O)c1nn(CC(=O)N2C[C@H](F)C[C@H]2C(=O)Nc2cccc(Br)n2)c2ccc(-c3cnc(C)nc3)cc12,Gastrointestinal disorders,1.0,0.9052023,0.95735276
+CC(=O)c1nn(CC(=O)N2C[C@H](F)C[C@H]2C(=O)Nc2cccc(Br)n2)c2ccc(-c3cnc(C)nc3)cc12,Hepatobiliary disorders,1.0,0.8644552,0.8898058
+CC(=O)c1nn(CC(=O)N2C[C@H](F)C[C@H]2C(=O)Nc2cccc(Br)n2)c2ccc(-c3cnc(C)nc3)cc12,Immune system disorders,1.0,0.80864894,0.8455434
+CC(=O)c1nn(CC(=O)N2C[C@H](F)C[C@H]2C(=O)Nc2cccc(Br)n2)c2ccc(-c3cnc(C)nc3)cc12,Infections and infestations,1.0,0.9053227,0.93117845
+CC(=O)c1nn(CC(=O)N2C[C@H](F)C[C@H]2C(=O)Nc2cccc(Br)n2)c2ccc(-c3cnc(C)nc3)cc12,Metabolism and nutrition disorders,1.0,0.9023295,0.9389897
+CC(=O)c1nn(CC(=O)N2C[C@H](F)C[C@H]2C(=O)Nc2cccc(Br)n2)c2ccc(-c3cnc(C)nc3)cc12,Musculoskeletal and connective tissue disorders,1.0,0.88977486,0.9185095
+CC(=O)c1nn(CC(=O)N2C[C@H](F)C[C@H]2C(=O)Nc2cccc(Br)n2)c2ccc(-c3cnc(C)nc3)cc12,Nervous system disorders,1.0,0.89198905,0.953808
+CC(=O)c1nn(CC(=O)N2C[C@H](F)C[C@H]2C(=O)Nc2cccc(Br)n2)c2ccc(-c3cnc(C)nc3)cc12,Psychiatric disorders,1.0,0.8445856,0.87243205
+CC(=O)c1nn(CC(=O)N2C[C@H](F)C[C@H]2C(=O)Nc2cccc(Br)n2)c2ccc(-c3cnc(C)nc3)cc12,Skin and subcutaneous tissue disorders,1.0,0.9156867,0.9568257
+CC(=O)c1nn(CC(=O)N2C[C@H](F)C[C@H]2C(=O)Nc2cccc(Br)n2)c2ccc(-c3cnc(C)nc3)cc12,Vascular disorders,1.0,0.8492247,0.89396465
+CCN(CC)CCNC(=O)c1c(C)[nH]c(/C=C2\C(=O)Nc3ccc(F)cc32)c1C,Blood and lymphatic system disorders,1.0,0.93699634,0.9520873
+CCN(CC)CCNC(=O)c1c(C)[nH]c(/C=C2\C(=O)Nc3ccc(F)cc32)c1C,Cardiac disorders,1.0,0.91815203,0.9548391
+CCN(CC)CCNC(=O)c1c(C)[nH]c(/C=C2\C(=O)Nc3ccc(F)cc32)c1C,Ear and labyrinth disorders,0.0,0.81534195,0.8238921
+CCN(CC)CCNC(=O)c1c(C)[nH]c(/C=C2\C(=O)Nc3ccc(F)cc32)c1C,Endocrine disorder,1.0,0.71944463,0.73833424
+CCN(CC)CCNC(=O)c1c(C)[nH]c(/C=C2\C(=O)Nc3ccc(F)cc32)c1C,Eye disorders,1.0,0.9099359,0.93914187
+CCN(CC)CCNC(=O)c1c(C)[nH]c(/C=C2\C(=O)Nc3ccc(F)cc32)c1C,Gastrointestinal disorders,1.0,0.9449776,0.98096186
+CCN(CC)CCNC(=O)c1c(C)[nH]c(/C=C2\C(=O)Nc3ccc(F)cc32)c1C,Hepatobiliary disorders,1.0,0.9242036,0.9435721
+CCN(CC)CCNC(=O)c1c(C)[nH]c(/C=C2\C(=O)Nc3ccc(F)cc32)c1C,Immune system disorders,1.0,0.8731507,0.9071176
+CCN(CC)CCNC(=O)c1c(C)[nH]c(/C=C2\C(=O)Nc3ccc(F)cc32)c1C,Infections and infestations,1.0,0.92483693,0.947663
+CCN(CC)CCNC(=O)c1c(C)[nH]c(/C=C2\C(=O)Nc3ccc(F)cc32)c1C,Metabolism and nutrition disorders,1.0,0.9398797,0.96716934
+CCN(CC)CCNC(=O)c1c(C)[nH]c(/C=C2\C(=O)Nc3ccc(F)cc32)c1C,Musculoskeletal and connective tissue disorders,1.0,0.9417543,0.96209383
+CCN(CC)CCNC(=O)c1c(C)[nH]c(/C=C2\C(=O)Nc3ccc(F)cc32)c1C,Nervous system disorders,1.0,0.9275068,0.97523385
+CCN(CC)CCNC(=O)c1c(C)[nH]c(/C=C2\C(=O)Nc3ccc(F)cc32)c1C,Psychiatric disorders,1.0,0.9496626,0.96598715
+CCN(CC)CCNC(=O)c1c(C)[nH]c(/C=C2\C(=O)Nc3ccc(F)cc32)c1C,Renal and urinary disorders,1.0,0.94187945,0.9621823
+CCN(CC)CCNC(=O)c1c(C)[nH]c(/C=C2\C(=O)Nc3ccc(F)cc32)c1C,Reproductive system and breast disorders,1.0,0.8556667,0.8793639
+CCN(CC)CCNC(=O)c1c(C)[nH]c(/C=C2\C(=O)Nc3ccc(F)cc32)c1C,"Respiratory, thoracic and mediastinal disorders",1.0,0.935173,0.96195245
+CCN(CC)CCNC(=O)c1c(C)[nH]c(/C=C2\C(=O)Nc3ccc(F)cc32)c1C,Skin and subcutaneous tissue disorders,1.0,0.93422604,0.96929
+CCN(CC)CCNC(=O)c1c(C)[nH]c(/C=C2\C(=O)Nc3ccc(F)cc32)c1C,Vascular disorders,1.0,0.9218503,0.9558894
+CC(OC(=O)NCC1(CC(=O)O)CCCCC1)OC(=O)C(C)C,Blood and lymphatic system disorders,0.0,0.85043246,0.8722061
+CC(OC(=O)NCC1(CC(=O)O)CCCCC1)OC(=O)C(C)C,Cardiac disorders,1.0,0.7055207,0.7510619
+CC(OC(=O)NCC1(CC(=O)O)CCCCC1)OC(=O)C(C)C,Ear and labyrinth disorders,1.0,0.32388172,0.31351426
+CC(OC(=O)NCC1(CC(=O)O)CCCCC1)OC(=O)C(C)C,Endocrine disorder,0.0,0.04941452,0.049420156
+CC(OC(=O)NCC1(CC(=O)O)CCCCC1)OC(=O)C(C)C,Eye disorders,1.0,0.5574412,0.57698697
+CC(OC(=O)NCC1(CC(=O)O)CCCCC1)OC(=O)C(C)C,Gastrointestinal disorders,1.0,0.9029902,0.95670927
+CC(OC(=O)NCC1(CC(=O)O)CCCCC1)OC(=O)C(C)C,Hepatobiliary disorders,1.0,0.8039308,0.83062565
+CC(OC(=O)NCC1(CC(=O)O)CCCCC1)OC(=O)C(C)C,Immune system disorders,0.0,0.75650805,0.79084504
+CC(OC(=O)NCC1(CC(=O)O)CCCCC1)OC(=O)C(C)C,Infections and infestations,1.0,0.47517657,0.47383794
+CC(OC(=O)NCC1(CC(=O)O)CCCCC1)OC(=O)C(C)C,Metabolism and nutrition disorders,1.0,0.5136169,0.51767176
+CC(OC(=O)NCC1(CC(=O)O)CCCCC1)OC(=O)C(C)C,Musculoskeletal and connective tissue disorders,1.0,0.7061853,0.7330403
+CC(OC(=O)NCC1(CC(=O)O)CCCCC1)OC(=O)C(C)C,Nervous system disorders,1.0,0.8626478,0.93177825
+CC(OC(=O)NCC1(CC(=O)O)CCCCC1)OC(=O)C(C)C,Psychiatric disorders,1.0,0.7865707,0.81454307
+CC(OC(=O)NCC1(CC(=O)O)CCCCC1)OC(=O)C(C)C,Renal and urinary disorders,1.0,0.7967321,0.82955766
+CC(OC(=O)NCC1(CC(=O)O)CCCCC1)OC(=O)C(C)C,Reproductive system and breast disorders,1.0,0.4241564,0.4220107
+CC(OC(=O)NCC1(CC(=O)O)CCCCC1)OC(=O)C(C)C,"Respiratory, thoracic and mediastinal disorders",1.0,0.81134325,0.8511954
+CC(OC(=O)NCC1(CC(=O)O)CCCCC1)OC(=O)C(C)C,Skin and subcutaneous tissue disorders,1.0,0.8772965,0.9267922
+CC(OC(=O)NCC1(CC(=O)O)CCCCC1)OC(=O)C(C)C,Vascular disorders,1.0,0.81905305,0.86777085
+C=C1C[C@@H]2[C@H](CC[C@]3(C)C(=O)CC[C@@H]23)[C@@]2(C)C=CC(=O)C=C12,Blood and lymphatic system disorders,1.0,0.2303154,0.2238145
+C=C1C[C@@H]2[C@H](CC[C@]3(C)C(=O)CC[C@@H]23)[C@@]2(C)C=CC(=O)C=C12,Cardiac disorders,1.0,0.36249542,0.37072134
+C=C1C[C@@H]2[C@H](CC[C@]3(C)C(=O)CC[C@@H]23)[C@@]2(C)C=CC(=O)C=C12,Ear and labyrinth disorders,0.0,0.2392807,0.2242065
+C=C1C[C@@H]2[C@H](CC[C@]3(C)C(=O)CC[C@@H]23)[C@@]2(C)C=CC(=O)C=C12,Endocrine disorder,1.0,0.48162705,0.48114264
+C=C1C[C@@H]2[C@H](CC[C@]3(C)C(=O)CC[C@@H]23)[C@@]2(C)C=CC(=O)C=C12,Eye disorders,1.0,0.5896491,0.60389584
+C=C1C[C@@H]2[C@H](CC[C@]3(C)C(=O)CC[C@@H]23)[C@@]2(C)C=CC(=O)C=C12,Gastrointestinal disorders,1.0,0.60029554,0.63087654
+C=C1C[C@@H]2[C@H](CC[C@]3(C)C(=O)CC[C@@H]23)[C@@]2(C)C=CC(=O)C=C12,Hepatobiliary disorders,1.0,0.3613429,0.34601668
+C=C1C[C@@H]2[C@H](CC[C@]3(C)C(=O)CC[C@@H]23)[C@@]2(C)C=CC(=O)C=C12,Immune system disorders,1.0,0.3358693,0.3456719
+C=C1C[C@@H]2[C@H](CC[C@]3(C)C(=O)CC[C@@H]23)[C@@]2(C)C=CC(=O)C=C12,Infections and infestations,1.0,0.46691334,0.46465424
+C=C1C[C@@H]2[C@H](CC[C@]3(C)C(=O)CC[C@@H]23)[C@@]2(C)C=CC(=O)C=C12,Metabolism and nutrition disorders,1.0,0.46901122,0.47286078
+C=C1C[C@@H]2[C@H](CC[C@]3(C)C(=O)CC[C@@H]23)[C@@]2(C)C=CC(=O)C=C12,Musculoskeletal and connective tissue disorders,1.0,0.38225725,0.3768499
+C=C1C[C@@H]2[C@H](CC[C@]3(C)C(=O)CC[C@@H]23)[C@@]2(C)C=CC(=O)C=C12,Nervous system disorders,1.0,0.61238974,0.6395021
+C=C1C[C@@H]2[C@H](CC[C@]3(C)C(=O)CC[C@@H]23)[C@@]2(C)C=CC(=O)C=C12,Psychiatric disorders,1.0,0.61261004,0.6269208
+C=C1C[C@@H]2[C@H](CC[C@]3(C)C(=O)CC[C@@H]23)[C@@]2(C)C=CC(=O)C=C12,Renal and urinary disorders,1.0,0.30146897,0.29326916
+C=C1C[C@@H]2[C@H](CC[C@]3(C)C(=O)CC[C@@H]23)[C@@]2(C)C=CC(=O)C=C12,Reproductive system and breast disorders,1.0,0.47700095,0.4782765
+C=C1C[C@@H]2[C@H](CC[C@]3(C)C(=O)CC[C@@H]23)[C@@]2(C)C=CC(=O)C=C12,"Respiratory, thoracic and mediastinal disorders",1.0,0.38389817,0.3970329
+C=C1C[C@@H]2[C@H](CC[C@]3(C)C(=O)CC[C@@H]23)[C@@]2(C)C=CC(=O)C=C12,Skin and subcutaneous tissue disorders,1.0,0.5654238,0.5758317
+C=C1C[C@@H]2[C@H](CC[C@]3(C)C(=O)CC[C@@H]23)[C@@]2(C)C=CC(=O)C=C12,Vascular disorders,1.0,0.36977443,0.3524059
+CC(=O)S[C@@H]1CC2=CC(=O)CC[C@]2(C)[C@H]2CC[C@@]3(C)[C@@H](CC[C@@]34CCC(=O)O4)[C@H]12,Blood and lymphatic system disorders,1.0,0.93820065,0.95316184
+CC(=O)S[C@@H]1CC2=CC(=O)CC[C@]2(C)[C@H]2CC[C@@]3(C)[C@@H](CC[C@@]34CCC(=O)O4)[C@H]12,Cardiac disorders,1.0,0.65486795,0.6953869
+CC(=O)S[C@@H]1CC2=CC(=O)CC[C@]2(C)[C@H]2CC[C@@]3(C)[C@@H](CC[C@@]34CCC(=O)O4)[C@H]12,Ear and labyrinth disorders,1.0,0.65088516,0.65667725
+CC(=O)S[C@@H]1CC2=CC(=O)CC[C@]2(C)[C@H]2CC[C@@]3(C)[C@@H](CC[C@@]34CCC(=O)O4)[C@H]12,Endocrine disorder,1.0,0.09806186,0.09987913
+CC(=O)S[C@@H]1CC2=CC(=O)CC[C@]2(C)[C@H]2CC[C@@]3(C)[C@@H](CC[C@@]34CCC(=O)O4)[C@H]12,Eye disorders,1.0,0.3474546,0.3602228
+CC(=O)S[C@@H]1CC2=CC(=O)CC[C@]2(C)[C@H]2CC[C@@]3(C)[C@@H](CC[C@@]34CCC(=O)O4)[C@H]12,Gastrointestinal disorders,1.0,0.92898226,0.97262734
+CC(=O)S[C@@H]1CC2=CC(=O)CC[C@]2(C)[C@H]2CC[C@@]3(C)[C@@H](CC[C@@]34CCC(=O)O4)[C@H]12,Hepatobiliary disorders,1.0,0.9136256,0.9345906
+CC(=O)S[C@@H]1CC2=CC(=O)CC[C@]2(C)[C@H]2CC[C@@]3(C)[C@@H](CC[C@@]34CCC(=O)O4)[C@H]12,Immune system disorders,1.0,0.8747884,0.9088241
+CC(=O)S[C@@H]1CC2=CC(=O)CC[C@]2(C)[C@H]2CC[C@@]3(C)[C@@H](CC[C@@]34CCC(=O)O4)[C@H]12,Infections and infestations,0.0,0.8941433,0.9212325
+CC(=O)S[C@@H]1CC2=CC(=O)CC[C@]2(C)[C@H]2CC[C@@]3(C)[C@@H](CC[C@@]34CCC(=O)O4)[C@H]12,Metabolism and nutrition disorders,1.0,0.87293065,0.9139133
+CC(=O)S[C@@H]1CC2=CC(=O)CC[C@]2(C)[C@H]2CC[C@@]3(C)[C@@H](CC[C@@]34CCC(=O)O4)[C@H]12,Musculoskeletal and connective tissue disorders,1.0,0.87460667,0.9048484
+CC(=O)S[C@@H]1CC2=CC(=O)CC[C@]2(C)[C@H]2CC[C@@]3(C)[C@@H](CC[C@@]34CCC(=O)O4)[C@H]12,Nervous system disorders,1.0,0.8950444,0.95551056
+CC(=O)S[C@@H]1CC2=CC(=O)CC[C@]2(C)[C@H]2CC[C@@]3(C)[C@@H](CC[C@@]34CCC(=O)O4)[C@H]12,Psychiatric disorders,1.0,0.7846884,0.8127025
+CC(=O)S[C@@H]1CC2=CC(=O)CC[C@]2(C)[C@H]2CC[C@@]3(C)[C@@H](CC[C@@]34CCC(=O)O4)[C@H]12,Renal and urinary disorders,1.0,0.90330625,0.9306318
+CC(=O)S[C@@H]1CC2=CC(=O)CC[C@]2(C)[C@H]2CC[C@@]3(C)[C@@H](CC[C@@]34CCC(=O)O4)[C@H]12,Reproductive system and breast disorders,1.0,0.7160861,0.7389025
+CC(=O)S[C@@H]1CC2=CC(=O)CC[C@]2(C)[C@H]2CC[C@@]3(C)[C@@H](CC[C@@]34CCC(=O)O4)[C@H]12,"Respiratory, thoracic and mediastinal disorders",1.0,0.8615677,0.8999688
+CC(=O)S[C@@H]1CC2=CC(=O)CC[C@]2(C)[C@H]2CC[C@@]3(C)[C@@H](CC[C@@]34CCC(=O)O4)[C@H]12,Skin and subcutaneous tissue disorders,1.0,0.9316502,0.9677359
+CC(=O)S[C@@H]1CC2=CC(=O)CC[C@]2(C)[C@H]2CC[C@@]3(C)[C@@H](CC[C@@]34CCC(=O)O4)[C@H]12,Vascular disorders,1.0,0.88042206,0.9236409
+C[C@]12CC[C@@H]3c4ccc(O)cc4CC[C@H]3[C@@H]1CC[C@@H]2O,Blood and lymphatic system disorders,1.0,0.012831411,0.011237968
+C[C@]12CC[C@@H]3c4ccc(O)cc4CC[C@H]3[C@@H]1CC[C@@H]2O,Cardiac disorders,1.0,0.016662741,0.018397987
+C[C@]12CC[C@@H]3c4ccc(O)cc4CC[C@H]3[C@@H]1CC[C@@H]2O,Ear and labyrinth disorders,1.0,0.015579018,0.011456899
+C[C@]12CC[C@@H]3c4ccc(O)cc4CC[C@H]3[C@@H]1CC[C@@H]2O,Endocrine disorder,1.0,0.0072337124,0.006812521
+C[C@]12CC[C@@H]3c4ccc(O)cc4CC[C@H]3[C@@H]1CC[C@@H]2O,Eye disorders,1.0,0.018241413,0.02483079
+C[C@]12CC[C@@H]3c4ccc(O)cc4CC[C@H]3[C@@H]1CC[C@@H]2O,Gastrointestinal disorders,1.0,0.01916701,0.017137012
+C[C@]12CC[C@@H]3c4ccc(O)cc4CC[C@H]3[C@@H]1CC[C@@H]2O,Hepatobiliary disorders,1.0,0.020281306,0.012340103
+C[C@]12CC[C@@H]3c4ccc(O)cc4CC[C@H]3[C@@H]1CC[C@@H]2O,Immune system disorders,1.0,0.01709501,0.021031132
+C[C@]12CC[C@@H]3c4ccc(O)cc4CC[C@H]3[C@@H]1CC[C@@H]2O,Infections and infestations,1.0,0.022467183,0.019611128
+C[C@]12CC[C@@H]3c4ccc(O)cc4CC[C@H]3[C@@H]1CC[C@@H]2O,Metabolism and nutrition disorders,1.0,0.0231842,0.024138639
+C[C@]12CC[C@@H]3c4ccc(O)cc4CC[C@H]3[C@@H]1CC[C@@H]2O,Musculoskeletal and connective tissue disorders,1.0,0.022024872,0.018596781
+C[C@]12CC[C@@H]3c4ccc(O)cc4CC[C@H]3[C@@H]1CC[C@@H]2O,Nervous system disorders,1.0,0.01835551,0.01871946
+C[C@]12CC[C@@H]3c4ccc(O)cc4CC[C@H]3[C@@H]1CC[C@@H]2O,Psychiatric disorders,1.0,0.015345399,0.012575525
+C[C@]12CC[C@@H]3c4ccc(O)cc4CC[C@H]3[C@@H]1CC[C@@H]2O,Renal and urinary disorders,1.0,0.013881014,0.011455868
+C[C@]12CC[C@@H]3c4ccc(O)cc4CC[C@H]3[C@@H]1CC[C@@H]2O,Reproductive system and breast disorders,1.0,0.024649976,0.021037789
+C[C@]12CC[C@@H]3c4ccc(O)cc4CC[C@H]3[C@@H]1CC[C@@H]2O,"Respiratory, thoracic and mediastinal disorders",1.0,0.019704495,0.025835251
+C[C@]12CC[C@@H]3c4ccc(O)cc4CC[C@H]3[C@@H]1CC[C@@H]2O,Skin and subcutaneous tissue disorders,1.0,0.023341503,0.019319696
+C[C@]12CC[C@@H]3c4ccc(O)cc4CC[C@H]3[C@@H]1CC[C@@H]2O,Vascular disorders,1.0,0.019968016,0.0122962855
+CCC(C)CC(C)CCCCCCCCC(=O)NC1CC(O)C(NCCN)NC(=O)C2C(O)CCN2C(=O)C(C(O)CCN)NC(=O)C(C(O)C(O)c2ccc(O)cc2)NC(=O)C2CC(O)CN2C(=O)C(C(C)O)NC1=O,Blood and lymphatic system disorders,1.0,0.9174823,0.9349461
+CCC(C)CC(C)CCCCCCCCC(=O)NC1CC(O)C(NCCN)NC(=O)C2C(O)CCN2C(=O)C(C(O)CCN)NC(=O)C(C(O)C(O)c2ccc(O)cc2)NC(=O)C2CC(O)CN2C(=O)C(C(C)O)NC1=O,Cardiac disorders,1.0,0.93293095,0.96541095
+CCC(C)CC(C)CCCCCCCCC(=O)NC1CC(O)C(NCCN)NC(=O)C2C(O)CCN2C(=O)C(C(O)CCN)NC(=O)C(C(O)C(O)c2ccc(O)cc2)NC(=O)C2CC(O)CN2C(=O)C(C(C)O)NC1=O,Ear and labyrinth disorders,0.0,0.63948,0.64498496
+CCC(C)CC(C)CCCCCCCCC(=O)NC1CC(O)C(NCCN)NC(=O)C2C(O)CCN2C(=O)C(C(O)CCN)NC(=O)C(C(O)C(O)c2ccc(O)cc2)NC(=O)C2CC(O)CN2C(=O)C(C(C)O)NC1=O,Endocrine disorder,0.0,0.0674279,0.07002691
+CCC(C)CC(C)CCCCCCCCC(=O)NC1CC(O)C(NCCN)NC(=O)C2C(O)CCN2C(=O)C(C(O)CCN)NC(=O)C(C(O)C(O)c2ccc(O)cc2)NC(=O)C2CC(O)CN2C(=O)C(C(C)O)NC1=O,Eye disorders,1.0,0.914849,0.94351846
+CCC(C)CC(C)CCCCCCCCC(=O)NC1CC(O)C(NCCN)NC(=O)C2C(O)CCN2C(=O)C(C(O)CCN)NC(=O)C(C(O)C(O)c2ccc(O)cc2)NC(=O)C2CC(O)CN2C(=O)C(C(C)O)NC1=O,Gastrointestinal disorders,1.0,0.95337355,0.98502344
+CCC(C)CC(C)CCCCCCCCC(=O)NC1CC(O)C(NCCN)NC(=O)C2C(O)CCN2C(=O)C(C(O)CCN)NC(=O)C(C(O)C(O)c2ccc(O)cc2)NC(=O)C2CC(O)CN2C(=O)C(C(C)O)NC1=O,Hepatobiliary disorders,1.0,0.8791881,0.9031562
+CCC(C)CC(C)CCCCCCCCC(=O)NC1CC(O)C(NCCN)NC(=O)C2C(O)CCN2C(=O)C(C(O)CCN)NC(=O)C(C(O)C(O)c2ccc(O)cc2)NC(=O)C2CC(O)CN2C(=O)C(C(C)O)NC1=O,Immune system disorders,1.0,0.87736535,0.91069126
+CCC(C)CC(C)CCCCCCCCC(=O)NC1CC(O)C(NCCN)NC(=O)C2C(O)CCN2C(=O)C(C(O)CCN)NC(=O)C(C(O)C(O)c2ccc(O)cc2)NC(=O)C2CC(O)CN2C(=O)C(C(C)O)NC1=O,Infections and infestations,1.0,0.90323544,0.92883444
+CCC(C)CC(C)CCCCCCCCC(=O)NC1CC(O)C(NCCN)NC(=O)C2C(O)CCN2C(=O)C(C(O)CCN)NC(=O)C(C(O)C(O)c2ccc(O)cc2)NC(=O)C2CC(O)CN2C(=O)C(C(C)O)NC1=O,Metabolism and nutrition disorders,1.0,0.89826167,0.93512964
+CCC(C)CC(C)CCCCCCCCC(=O)NC1CC(O)C(NCCN)NC(=O)C2C(O)CCN2C(=O)C(C(O)CCN)NC(=O)C(C(O)C(O)c2ccc(O)cc2)NC(=O)C2CC(O)CN2C(=O)C(C(C)O)NC1=O,Musculoskeletal and connective tissue disorders,1.0,0.9314517,0.9540483
+CCC(C)CC(C)CCCCCCCCC(=O)NC1CC(O)C(NCCN)NC(=O)C2C(O)CCN2C(=O)C(C(O)CCN)NC(=O)C(C(O)C(O)c2ccc(O)cc2)NC(=O)C2CC(O)CN2C(=O)C(C(C)O)NC1=O,Nervous system disorders,1.0,0.943118,0.9831963
+CCC(C)CC(C)CCCCCCCCC(=O)NC1CC(O)C(NCCN)NC(=O)C2C(O)CCN2C(=O)C(C(O)CCN)NC(=O)C(C(O)C(O)c2ccc(O)cc2)NC(=O)C2CC(O)CN2C(=O)C(C(C)O)NC1=O,Psychiatric disorders,1.0,0.94239897,0.96027285
+CCC(C)CC(C)CCCCCCCCC(=O)NC1CC(O)C(NCCN)NC(=O)C2C(O)CCN2C(=O)C(C(O)CCN)NC(=O)C(C(O)C(O)c2ccc(O)cc2)NC(=O)C2CC(O)CN2C(=O)C(C(C)O)NC1=O,Renal and urinary disorders,1.0,0.91762286,0.9427746
+CCC(C)CC(C)CCCCCCCCC(=O)NC1CC(O)C(NCCN)NC(=O)C2C(O)CCN2C(=O)C(C(O)CCN)NC(=O)C(C(O)C(O)c2ccc(O)cc2)NC(=O)C2CC(O)CN2C(=O)C(C(C)O)NC1=O,Reproductive system and breast disorders,0.0,0.8014813,0.8259158
+CCC(C)CC(C)CCCCCCCCC(=O)NC1CC(O)C(NCCN)NC(=O)C2C(O)CCN2C(=O)C(C(O)CCN)NC(=O)C(C(O)C(O)c2ccc(O)cc2)NC(=O)C2CC(O)CN2C(=O)C(C(C)O)NC1=O,"Respiratory, thoracic and mediastinal disorders",1.0,0.9412888,0.9665458
+CCC(C)CC(C)CCCCCCCCC(=O)NC1CC(O)C(NCCN)NC(=O)C2C(O)CCN2C(=O)C(C(O)CCN)NC(=O)C(C(O)C(O)c2ccc(O)cc2)NC(=O)C2CC(O)CN2C(=O)C(C(C)O)NC1=O,Skin and subcutaneous tissue disorders,1.0,0.9451391,0.97613424
+CCC(C)CC(C)CCCCCCCCC(=O)NC1CC(O)C(NCCN)NC(=O)C2C(O)CCN2C(=O)C(C(O)CCN)NC(=O)C(C(O)C(O)c2ccc(O)cc2)NC(=O)C2CC(O)CN2C(=O)C(C(C)O)NC1=O,Vascular disorders,1.0,0.9518143,0.9765924
+C[C@H]1C[C@@H]2[C@H]([C@@H](O)C[C@@]3(C)[C@H]2CC[C@]3(O)C(=O)CO)[C@@]2(C)C=CC(=O)C=C12,Blood and lymphatic system disorders,1.0,0.14378165,0.13708901
+C[C@H]1C[C@@H]2[C@H]([C@@H](O)C[C@@]3(C)[C@H]2CC[C@]3(O)C(=O)CO)[C@@]2(C)C=CC(=O)C=C12,Cardiac disorders,1.0,0.20309636,0.2176089
+C[C@H]1C[C@@H]2[C@H]([C@@H](O)C[C@@]3(C)[C@H]2CC[C@]3(O)C(=O)CO)[C@@]2(C)C=CC(=O)C=C12,Ear and labyrinth disorders,1.0,0.22800176,0.21353927
+C[C@H]1C[C@@H]2[C@H]([C@@H](O)C[C@@]3(C)[C@H]2CC[C@]3(O)C(=O)CO)[C@@]2(C)C=CC(=O)C=C12,Endocrine disorder,1.0,0.7259072,0.73187554
+C[C@H]1C[C@@H]2[C@H]([C@@H](O)C[C@@]3(C)[C@H]2CC[C@]3(O)C(=O)CO)[C@@]2(C)C=CC(=O)C=C12,Eye disorders,1.0,0.74284387,0.7796389
+C[C@H]1C[C@@H]2[C@H]([C@@H](O)C[C@@]3(C)[C@H]2CC[C@]3(O)C(=O)CO)[C@@]2(C)C=CC(=O)C=C12,Gastrointestinal disorders,1.0,0.43476325,0.43475714
+C[C@H]1C[C@@H]2[C@H]([C@@H](O)C[C@@]3(C)[C@H]2CC[C@]3(O)C(=O)CO)[C@@]2(C)C=CC(=O)C=C12,Hepatobiliary disorders,1.0,0.1098916,0.08656663
+C[C@H]1C[C@@H]2[C@H]([C@@H](O)C[C@@]3(C)[C@H]2CC[C@]3(O)C(=O)CO)[C@@]2(C)C=CC(=O)C=C12,Immune system disorders,1.0,0.5447374,0.55855817
+C[C@H]1C[C@@H]2[C@H]([C@@H](O)C[C@@]3(C)[C@H]2CC[C@]3(O)C(=O)CO)[C@@]2(C)C=CC(=O)C=C12,Infections and infestations,1.0,0.8732463,0.9024956
+C[C@H]1C[C@@H]2[C@H]([C@@H](O)C[C@@]3(C)[C@H]2CC[C@]3(O)C(=O)CO)[C@@]2(C)C=CC(=O)C=C12,Metabolism and nutrition disorders,1.0,0.41875568,0.42938122
+C[C@H]1C[C@@H]2[C@H]([C@@H](O)C[C@@]3(C)[C@H]2CC[C@]3(O)C(=O)CO)[C@@]2(C)C=CC(=O)C=C12,Musculoskeletal and connective tissue disorders,1.0,0.318583,0.31412503
+C[C@H]1C[C@@H]2[C@H]([C@@H](O)C[C@@]3(C)[C@H]2CC[C@]3(O)C(=O)CO)[C@@]2(C)C=CC(=O)C=C12,Nervous system disorders,1.0,0.73836344,0.81339395
+C[C@H]1C[C@@H]2[C@H]([C@@H](O)C[C@@]3(C)[C@H]2CC[C@]3(O)C(=O)CO)[C@@]2(C)C=CC(=O)C=C12,Psychiatric disorders,1.0,0.2659456,0.25988847
+C[C@H]1C[C@@H]2[C@H]([C@@H](O)C[C@@]3(C)[C@H]2CC[C@]3(O)C(=O)CO)[C@@]2(C)C=CC(=O)C=C12,Renal and urinary disorders,1.0,0.1649336,0.1558458
+C[C@H]1C[C@@H]2[C@H]([C@@H](O)C[C@@]3(C)[C@H]2CC[C@]3(O)C(=O)CO)[C@@]2(C)C=CC(=O)C=C12,Reproductive system and breast disorders,1.0,0.28515437,0.28161356
+C[C@H]1C[C@@H]2[C@H]([C@@H](O)C[C@@]3(C)[C@H]2CC[C@]3(O)C(=O)CO)[C@@]2(C)C=CC(=O)C=C12,"Respiratory, thoracic and mediastinal disorders",1.0,0.36702573,0.38969895
+C[C@H]1C[C@@H]2[C@H]([C@@H](O)C[C@@]3(C)[C@H]2CC[C@]3(O)C(=O)CO)[C@@]2(C)C=CC(=O)C=C12,Skin and subcutaneous tissue disorders,1.0,0.8741326,0.92463034
+C[C@H]1C[C@@H]2[C@H]([C@@H](O)C[C@@]3(C)[C@H]2CC[C@]3(O)C(=O)CO)[C@@]2(C)C=CC(=O)C=C12,Vascular disorders,1.0,0.3720914,0.35516924
+O=c1[nH]c2ccccc2n1CCCN1CCC(n2c(=O)[nH]c3cc(Cl)ccc32)CC1,Blood and lymphatic system disorders,1.0,0.08455722,0.079975754
+O=c1[nH]c2ccccc2n1CCCN1CCC(n2c(=O)[nH]c3cc(Cl)ccc32)CC1,Cardiac disorders,1.0,0.6121222,0.65861195
+O=c1[nH]c2ccccc2n1CCCN1CCC(n2c(=O)[nH]c3cc(Cl)ccc32)CC1,Ear and labyrinth disorders,0.0,0.078332394,0.06616343
+O=c1[nH]c2ccccc2n1CCCN1CCC(n2c(=O)[nH]c3cc(Cl)ccc32)CC1,Endocrine disorder,1.0,0.030593552,0.029644383
+O=c1[nH]c2ccccc2n1CCCN1CCC(n2c(=O)[nH]c3cc(Cl)ccc32)CC1,Eye disorders,1.0,0.5477947,0.5733774
+O=c1[nH]c2ccccc2n1CCCN1CCC(n2c(=O)[nH]c3cc(Cl)ccc32)CC1,Gastrointestinal disorders,1.0,0.5036874,0.5209703
+O=c1[nH]c2ccccc2n1CCCN1CCC(n2c(=O)[nH]c3cc(Cl)ccc32)CC1,Hepatobiliary disorders,0.0,0.15828124,0.13328712
+O=c1[nH]c2ccccc2n1CCCN1CCC(n2c(=O)[nH]c3cc(Cl)ccc32)CC1,Immune system disorders,0.0,0.13052925,0.14406483
+O=c1[nH]c2ccccc2n1CCCN1CCC(n2c(=O)[nH]c3cc(Cl)ccc32)CC1,Infections and infestations,1.0,0.07525088,0.06994297
+O=c1[nH]c2ccccc2n1CCCN1CCC(n2c(=O)[nH]c3cc(Cl)ccc32)CC1,Metabolism and nutrition disorders,1.0,0.13968146,0.144072
+O=c1[nH]c2ccccc2n1CCCN1CCC(n2c(=O)[nH]c3cc(Cl)ccc32)CC1,Musculoskeletal and connective tissue disorders,1.0,0.19191009,0.18411462
+O=c1[nH]c2ccccc2n1CCCN1CCC(n2c(=O)[nH]c3cc(Cl)ccc32)CC1,Nervous system disorders,1.0,0.7487387,0.8304657
+O=c1[nH]c2ccccc2n1CCCN1CCC(n2c(=O)[nH]c3cc(Cl)ccc32)CC1,Psychiatric disorders,1.0,0.6686475,0.695771
+O=c1[nH]c2ccccc2n1CCCN1CCC(n2c(=O)[nH]c3cc(Cl)ccc32)CC1,Renal and urinary disorders,1.0,0.21327017,0.20570824
+O=c1[nH]c2ccccc2n1CCCN1CCC(n2c(=O)[nH]c3cc(Cl)ccc32)CC1,Reproductive system and breast disorders,1.0,0.12326827,0.11468994
+O=c1[nH]c2ccccc2n1CCCN1CCC(n2c(=O)[nH]c3cc(Cl)ccc32)CC1,"Respiratory, thoracic and mediastinal disorders",0.0,0.27876884,0.30155385
+O=c1[nH]c2ccccc2n1CCCN1CCC(n2c(=O)[nH]c3cc(Cl)ccc32)CC1,Skin and subcutaneous tissue disorders,1.0,0.43295842,0.43395954
+O=c1[nH]c2ccccc2n1CCCN1CCC(n2c(=O)[nH]c3cc(Cl)ccc32)CC1,Vascular disorders,1.0,0.20672652,0.1798411
+CCCSc1nc(N[C@@H]2C[C@H]2c2ccc(F)c(F)c2)c2nnn([C@@H]3C[C@H](OCCO)[C@@H](O)[C@H]3O)c2n1,Blood and lymphatic system disorders,1.0,0.16142322,0.15585446
+CCCSc1nc(N[C@@H]2C[C@H]2c2ccc(F)c(F)c2)c2nnn([C@@H]3C[C@H](OCCO)[C@@H](O)[C@H]3O)c2n1,Cardiac disorders,1.0,0.028752252,0.032327034
+CCCSc1nc(N[C@@H]2C[C@H]2c2ccc(F)c(F)c2)c2nnn([C@@H]3C[C@H](OCCO)[C@@H](O)[C@H]3O)c2n1,Ear and labyrinth disorders,1.0,0.052504636,0.043044567
+CCCSc1nc(N[C@@H]2C[C@H]2c2ccc(F)c(F)c2)c2nnn([C@@H]3C[C@H](OCCO)[C@@H](O)[C@H]3O)c2n1,Endocrine disorder,0.0,0.024697214,0.02389289
+CCCSc1nc(N[C@@H]2C[C@H]2c2ccc(F)c(F)c2)c2nnn([C@@H]3C[C@H](OCCO)[C@@H](O)[C@H]3O)c2n1,Eye disorders,1.0,0.033914097,0.04501943
+CCCSc1nc(N[C@@H]2C[C@H]2c2ccc(F)c(F)c2)c2nnn([C@@H]3C[C@H](OCCO)[C@@H](O)[C@H]3O)c2n1,Gastrointestinal disorders,1.0,0.12384925,0.11827988
+CCCSc1nc(N[C@@H]2C[C@H]2c2ccc(F)c(F)c2)c2nnn([C@@H]3C[C@H](OCCO)[C@@H](O)[C@H]3O)c2n1,Hepatobiliary disorders,1.0,0.10067588,0.07893124
+CCCSc1nc(N[C@@H]2C[C@H]2c2ccc(F)c(F)c2)c2nnn([C@@H]3C[C@H](OCCO)[C@@H](O)[C@H]3O)c2n1,Immune system disorders,1.0,0.13280317,0.14550307
+CCCSc1nc(N[C@@H]2C[C@H]2c2ccc(F)c(F)c2)c2nnn([C@@H]3C[C@H](OCCO)[C@@H](O)[C@H]3O)c2n1,Infections and infestations,1.0,0.07541742,0.06978433
+CCCSc1nc(N[C@@H]2C[C@H]2c2ccc(F)c(F)c2)c2nnn([C@@H]3C[C@H](OCCO)[C@@H](O)[C@H]3O)c2n1,Metabolism and nutrition disorders,1.0,0.1013544,0.10579653
+CCCSc1nc(N[C@@H]2C[C@H]2c2ccc(F)c(F)c2)c2nnn([C@@H]3C[C@H](OCCO)[C@@H](O)[C@H]3O)c2n1,Musculoskeletal and connective tissue disorders,1.0,0.07558709,0.06849973
+CCCSc1nc(N[C@@H]2C[C@H]2c2ccc(F)c(F)c2)c2nnn([C@@H]3C[C@H](OCCO)[C@@H](O)[C@H]3O)c2n1,Nervous system disorders,1.0,0.05853875,0.06191352
+CCCSc1nc(N[C@@H]2C[C@H]2c2ccc(F)c(F)c2)c2nnn([C@@H]3C[C@H](OCCO)[C@@H](O)[C@H]3O)c2n1,Psychiatric disorders,1.0,0.028965741,0.024949754
+CCCSc1nc(N[C@@H]2C[C@H]2c2ccc(F)c(F)c2)c2nnn([C@@H]3C[C@H](OCCO)[C@@H](O)[C@H]3O)c2n1,Renal and urinary disorders,1.0,0.055715833,0.050143056
+CCCSc1nc(N[C@@H]2C[C@H]2c2ccc(F)c(F)c2)c2nnn([C@@H]3C[C@H](OCCO)[C@@H](O)[C@H]3O)c2n1,Reproductive system and breast disorders,1.0,0.038144924,0.03371199
+CCCSc1nc(N[C@@H]2C[C@H]2c2ccc(F)c(F)c2)c2nnn([C@@H]3C[C@H](OCCO)[C@@H](O)[C@H]3O)c2n1,"Respiratory, thoracic and mediastinal disorders",1.0,0.051124267,0.06351724
+CCCSc1nc(N[C@@H]2C[C@H]2c2ccc(F)c(F)c2)c2nnn([C@@H]3C[C@H](OCCO)[C@@H](O)[C@H]3O)c2n1,Skin and subcutaneous tissue disorders,1.0,0.23485391,0.22334595
+CCCSc1nc(N[C@@H]2C[C@H]2c2ccc(F)c(F)c2)c2nnn([C@@H]3C[C@H](OCCO)[C@@H](O)[C@H]3O)c2n1,Vascular disorders,1.0,0.05714615,0.04045444
+Cc1ccc(Cl)c(Nc2ccccc2C(=O)O)c1Cl,Blood and lymphatic system disorders,1.0,0.7893496,0.81135565
+Cc1ccc(Cl)c(Nc2ccccc2C(=O)O)c1Cl,Cardiac disorders,1.0,0.7166799,0.7626779
+Cc1ccc(Cl)c(Nc2ccccc2C(=O)O)c1Cl,Ear and labyrinth disorders,1.0,0.29951042,0.28702042
+Cc1ccc(Cl)c(Nc2ccccc2C(=O)O)c1Cl,Endocrine disorder,0.0,0.17857043,0.1826425
+Cc1ccc(Cl)c(Nc2ccccc2C(=O)O)c1Cl,Eye disorders,1.0,0.728462,0.7640716
+Cc1ccc(Cl)c(Nc2ccccc2C(=O)O)c1Cl,Gastrointestinal disorders,1.0,0.8994229,0.95376956
+Cc1ccc(Cl)c(Nc2ccccc2C(=O)O)c1Cl,Hepatobiliary disorders,1.0,0.7366959,0.7617044
+Cc1ccc(Cl)c(Nc2ccccc2C(=O)O)c1Cl,Immune system disorders,1.0,0.69462895,0.72360474
+Cc1ccc(Cl)c(Nc2ccccc2C(=O)O)c1Cl,Infections and infestations,1.0,0.6118582,0.6267626
+Cc1ccc(Cl)c(Nc2ccccc2C(=O)O)c1Cl,Metabolism and nutrition disorders,1.0,0.66388035,0.6962862
+Cc1ccc(Cl)c(Nc2ccccc2C(=O)O)c1Cl,Musculoskeletal and connective tissue disorders,1.0,0.67543435,0.69961214
+Cc1ccc(Cl)c(Nc2ccccc2C(=O)O)c1Cl,Nervous system disorders,1.0,0.85631627,0.9264241
+Cc1ccc(Cl)c(Nc2ccccc2C(=O)O)c1Cl,Psychiatric disorders,1.0,0.77928823,0.8065036
+Cc1ccc(Cl)c(Nc2ccccc2C(=O)O)c1Cl,Renal and urinary disorders,1.0,0.68838555,0.7138289
+Cc1ccc(Cl)c(Nc2ccccc2C(=O)O)c1Cl,Reproductive system and breast disorders,0.0,0.45834923,0.46175033
+Cc1ccc(Cl)c(Nc2ccccc2C(=O)O)c1Cl,"Respiratory, thoracic and mediastinal disorders",0.0,0.7886267,0.827122
+Cc1ccc(Cl)c(Nc2ccccc2C(=O)O)c1Cl,Skin and subcutaneous tissue disorders,1.0,0.8632285,0.91453224
+Cc1ccc(Cl)c(Nc2ccccc2C(=O)O)c1Cl,Vascular disorders,1.0,0.8267805,0.87341803
+Nc1ccncc1,Blood and lymphatic system disorders,1.0,0.022355044,0.019910704
+Nc1ccncc1,Cardiac disorders,1.0,0.025500696,0.02757247
+Nc1ccncc1,Ear and labyrinth disorders,1.0,0.028777285,0.022242662
+Nc1ccncc1,Endocrine disorder,0.0,0.017267667,0.016495831
+Nc1ccncc1,Eye disorders,1.0,0.023951031,0.032074183
+Nc1ccncc1,Gastrointestinal disorders,1.0,0.029452285,0.026622681
+Nc1ccncc1,Hepatobiliary disorders,1.0,0.030139035,0.019456785
+Nc1ccncc1,Immune system disorders,1.0,0.024450708,0.029314578
+Nc1ccncc1,Infections and infestations,1.0,0.024068775,0.020890508
+Nc1ccncc1,Metabolism and nutrition disorders,1.0,0.031634647,0.03233206
+Nc1ccncc1,Musculoskeletal and connective tissue disorders,1.0,0.029443482,0.024977738
+Nc1ccncc1,Nervous system disorders,1.0,0.026980484,0.027020343
+Nc1ccncc1,Psychiatric disorders,1.0,0.023463575,0.019503493
+Nc1ccncc1,Renal and urinary disorders,1.0,0.030830683,0.026374098
+Nc1ccncc1,Reproductive system and breast disorders,1.0,0.025446039,0.021677542
+Nc1ccncc1,"Respiratory, thoracic and mediastinal disorders",1.0,0.028195577,0.0355478
+Nc1ccncc1,Skin and subcutaneous tissue disorders,1.0,0.026213773,0.021597475
+Nc1ccncc1,Vascular disorders,1.0,0.03179368,0.020766698
+CNC(=O)c1ccc(N2C(=S)N(c3ccc(C#N)c(C(F)(F)F)c3)C(=O)C2(C)C)cc1F,Blood and lymphatic system disorders,1.0,0.8387816,0.86073124
+CNC(=O)c1ccc(N2C(=S)N(c3ccc(C#N)c(C(F)(F)F)c3)C(=O)C2(C)C)cc1F,Cardiac disorders,1.0,0.78139853,0.8317947
+CNC(=O)c1ccc(N2C(=S)N(c3ccc(C#N)c(C(F)(F)F)c3)C(=O)C2(C)C)cc1F,Ear and labyrinth disorders,1.0,0.5457397,0.5468608
+CNC(=O)c1ccc(N2C(=S)N(c3ccc(C#N)c(C(F)(F)F)c3)C(=O)C2(C)C)cc1F,Endocrine disorder,1.0,0.39838564,0.40986553
+CNC(=O)c1ccc(N2C(=S)N(c3ccc(C#N)c(C(F)(F)F)c3)C(=O)C2(C)C)cc1F,Eye disorders,1.0,0.8027657,0.83954483
+CNC(=O)c1ccc(N2C(=S)N(c3ccc(C#N)c(C(F)(F)F)c3)C(=O)C2(C)C)cc1F,Gastrointestinal disorders,1.0,0.8950034,0.95038956
+CNC(=O)c1ccc(N2C(=S)N(c3ccc(C#N)c(C(F)(F)F)c3)C(=O)C2(C)C)cc1F,Hepatobiliary disorders,1.0,0.8384831,0.8646688
+CNC(=O)c1ccc(N2C(=S)N(c3ccc(C#N)c(C(F)(F)F)c3)C(=O)C2(C)C)cc1F,Immune system disorders,1.0,0.67133915,0.69779634
+CNC(=O)c1ccc(N2C(=S)N(c3ccc(C#N)c(C(F)(F)F)c3)C(=O)C2(C)C)cc1F,Infections and infestations,1.0,0.7191816,0.7462872
+CNC(=O)c1ccc(N2C(=S)N(c3ccc(C#N)c(C(F)(F)F)c3)C(=O)C2(C)C)cc1F,Metabolism and nutrition disorders,1.0,0.82019895,0.86424893
+CNC(=O)c1ccc(N2C(=S)N(c3ccc(C#N)c(C(F)(F)F)c3)C(=O)C2(C)C)cc1F,Musculoskeletal and connective tissue disorders,1.0,0.8264014,0.85852116
+CNC(=O)c1ccc(N2C(=S)N(c3ccc(C#N)c(C(F)(F)F)c3)C(=O)C2(C)C)cc1F,Nervous system disorders,1.0,0.83578,0.90878946
+CNC(=O)c1ccc(N2C(=S)N(c3ccc(C#N)c(C(F)(F)F)c3)C(=O)C2(C)C)cc1F,Psychiatric disorders,1.0,0.8765056,0.9026252
+CNC(=O)c1ccc(N2C(=S)N(c3ccc(C#N)c(C(F)(F)F)c3)C(=O)C2(C)C)cc1F,Renal and urinary disorders,1.0,0.80693865,0.83927244
+CNC(=O)c1ccc(N2C(=S)N(c3ccc(C#N)c(C(F)(F)F)c3)C(=O)C2(C)C)cc1F,Reproductive system and breast disorders,1.0,0.67804545,0.6984801
+CNC(=O)c1ccc(N2C(=S)N(c3ccc(C#N)c(C(F)(F)F)c3)C(=O)C2(C)C)cc1F,"Respiratory, thoracic and mediastinal disorders",1.0,0.8314531,0.8709975
+CNC(=O)c1ccc(N2C(=S)N(c3ccc(C#N)c(C(F)(F)F)c3)C(=O)C2(C)C)cc1F,Skin and subcutaneous tissue disorders,1.0,0.8019508,0.8558989
+CNC(=O)c1ccc(N2C(=S)N(c3ccc(C#N)c(C(F)(F)F)c3)C(=O)C2(C)C)cc1F,Vascular disorders,1.0,0.815317,0.8612628
+CN1C(C(=O)Nc2ccccn2)=C(O)c2sc(Cl)cc2S1(=O)=O,Blood and lymphatic system disorders,0.0,0.023813872,0.021262528
+CN1C(C(=O)Nc2ccccn2)=C(O)c2sc(Cl)cc2S1(=O)=O,Ear and labyrinth disorders,0.0,0.031657875,0.024617607
+CN1C(C(=O)Nc2ccccn2)=C(O)c2sc(Cl)cc2S1(=O)=O,Gastrointestinal disorders,1.0,0.0315026,0.028547624
+CN1C(C(=O)Nc2ccccn2)=C(O)c2sc(Cl)cc2S1(=O)=O,Hepatobiliary disorders,0.0,0.0312208,0.020246347
+CN1C(C(=O)Nc2ccccn2)=C(O)c2sc(Cl)cc2S1(=O)=O,Nervous system disorders,1.0,0.02515624,0.025035622
+CN1C(C(=O)Nc2ccccn2)=C(O)c2sc(Cl)cc2S1(=O)=O,Renal and urinary disorders,0.0,0.03285618,0.028115045
+CN1C(C(=O)Nc2ccccn2)=C(O)c2sc(Cl)cc2S1(=O)=O,Skin and subcutaneous tissue disorders,0.0,0.028695147,0.023736758
+CN1C(C(=O)Nc2ccccn2)=C(O)c2sc(Cl)cc2S1(=O)=O,Vascular disorders,1.0,0.032992855,0.021639926
+COC[C@H]1C[C@@H](c2nc(-c3ccc4c(c3)COc3cc5c(ccc6nc([C@@H]7CC[C@H](C)N7C(=O)[C@@H](NC(=O)OC)C(C)C)[nH]c65)cc3-4)c[nH]2)N(C(=O)[C@H](NC(=O)OC)c2ccccc2)C1,Ear and labyrinth disorders,0.0,0.04286176,0.034067437
+COC[C@H]1C[C@@H](c2nc(-c3ccc4c(c3)COc3cc5c(ccc6nc([C@@H]7CC[C@H](C)N7C(=O)[C@@H](NC(=O)OC)C(C)C)[nH]c65)cc3-4)c[nH]2)N(C(=O)[C@H](NC(=O)OC)c2ccccc2)C1,Immune system disorders,0.0,0.035368275,0.04107408
+COC[C@H]1C[C@@H](c2nc(-c3ccc4c(c3)COc3cc5c(ccc6nc([C@@H]7CC[C@H](C)N7C(=O)[C@@H](NC(=O)OC)C(C)C)[nH]c65)cc3-4)c[nH]2)N(C(=O)[C@H](NC(=O)OC)c2ccccc2)C1,Psychiatric disorders,0.0,0.043384645,0.036814246
+COC[C@H]1C[C@@H](c2nc(-c3ccc4c(c3)COc3cc5c(ccc6nc([C@@H]7CC[C@H](C)N7C(=O)[C@@H](NC(=O)OC)C(C)C)[nH]c65)cc3-4)c[nH]2)N(C(=O)[C@H](NC(=O)OC)c2ccccc2)C1,Vascular disorders,0.0,0.046204403,0.03184634
+CN1CCN(C2=Nc3cc(Cl)ccc3Nc3ccccc32)CC1,Blood and lymphatic system disorders,1.0,0.94229823,0.956607
+CN1CCN(C2=Nc3cc(Cl)ccc3Nc3ccccc32)CC1,Cardiac disorders,1.0,0.9349563,0.966704
+CN1CCN(C2=Nc3cc(Cl)ccc3Nc3ccccc32)CC1,Ear and labyrinth disorders,1.0,0.91858035,0.9254732
+CN1CCN(C2=Nc3cc(Cl)ccc3Nc3ccccc32)CC1,Endocrine disorder,1.0,0.83699644,0.84797466
+CN1CCN(C2=Nc3cc(Cl)ccc3Nc3ccccc32)CC1,Eye disorders,1.0,0.94358414,0.9657537
+CN1CCN(C2=Nc3cc(Cl)ccc3Nc3ccccc32)CC1,Gastrointestinal disorders,1.0,0.93726325,0.97693306
+CN1CCN(C2=Nc3cc(Cl)ccc3Nc3ccccc32)CC1,Hepatobiliary disorders,1.0,0.9375831,0.9548427
+CN1CCN(C2=Nc3cc(Cl)ccc3Nc3ccccc32)CC1,Immune system disorders,1.0,0.9095563,0.93897164
+CN1CCN(C2=Nc3cc(Cl)ccc3Nc3ccccc32)CC1,Infections and infestations,1.0,0.9111467,0.93585294
+CN1CCN(C2=Nc3cc(Cl)ccc3Nc3ccccc32)CC1,Metabolism and nutrition disorders,1.0,0.92838347,0.9589935
+CN1CCN(C2=Nc3cc(Cl)ccc3Nc3ccccc32)CC1,Musculoskeletal and connective tissue disorders,1.0,0.92981344,0.95260113
+CN1CCN(C2=Nc3cc(Cl)ccc3Nc3ccccc32)CC1,Nervous system disorders,1.0,0.93733263,0.9802576
+CN1CCN(C2=Nc3cc(Cl)ccc3Nc3ccccc32)CC1,Psychiatric disorders,1.0,0.9557473,0.97070676
+CN1CCN(C2=Nc3cc(Cl)ccc3Nc3ccccc32)CC1,Renal and urinary disorders,1.0,0.9389405,0.9599173
+CN1CCN(C2=Nc3cc(Cl)ccc3Nc3ccccc32)CC1,Reproductive system and breast disorders,1.0,0.9143806,0.93375856
+CN1CCN(C2=Nc3cc(Cl)ccc3Nc3ccccc32)CC1,"Respiratory, thoracic and mediastinal disorders",1.0,0.9332554,0.9605611
+CN1CCN(C2=Nc3cc(Cl)ccc3Nc3ccccc32)CC1,Skin and subcutaneous tissue disorders,1.0,0.93140054,0.9673859
+CN1CCN(C2=Nc3cc(Cl)ccc3Nc3ccccc32)CC1,Vascular disorders,1.0,0.9146197,0.95017123
+COc1cc(/C=C/c2ccc(O)cc2)cc(OC)c1,Hepatobiliary disorders,0.0,0.031175831,0.020172581
+COc1cc(/C=C/c2ccc(O)cc2)cc(OC)c1,Infections and infestations,0.0,0.04546667,0.040761128
+COc1cc(/C=C/c2ccc(O)cc2)cc(OC)c1,Metabolism and nutrition disorders,0.0,0.044759255,0.045509245
+COc1cc(/C=C/c2ccc(O)cc2)cc(OC)c1,Vascular disorders,0.0,0.04524718,0.030847678
+CC1=NN(c2ccc(C)c(C)c2)C(=O)/C1=N\Nc1cccc(-c2cccc(C(=O)O)c2)c1O,Blood and lymphatic system disorders,1.0,0.08238337,0.07757438
+CC1=NN(c2ccc(C)c(C)c2)C(=O)/C1=N\Nc1cccc(-c2cccc(C(=O)O)c2)c1O,Cardiac disorders,1.0,0.11782735,0.12583025
+CC1=NN(c2ccc(C)c(C)c2)C(=O)/C1=N\Nc1cccc(-c2cccc(C(=O)O)c2)c1O,Ear and labyrinth disorders,1.0,0.046490878,0.03742465
+CC1=NN(c2ccc(C)c(C)c2)C(=O)/C1=N\Nc1cccc(-c2cccc(C(=O)O)c2)c1O,Endocrine disorder,1.0,0.03254607,0.031913023
+CC1=NN(c2ccc(C)c(C)c2)C(=O)/C1=N\Nc1cccc(-c2cccc(C(=O)O)c2)c1O,Eye disorders,1.0,0.05648495,0.07030186
+CC1=NN(c2ccc(C)c(C)c2)C(=O)/C1=N\Nc1cccc(-c2cccc(C(=O)O)c2)c1O,Gastrointestinal disorders,1.0,0.38156798,0.38010836
+CC1=NN(c2ccc(C)c(C)c2)C(=O)/C1=N\Nc1cccc(-c2cccc(C(=O)O)c2)c1O,Hepatobiliary disorders,1.0,0.078545,0.059140645
+CC1=NN(c2ccc(C)c(C)c2)C(=O)/C1=N\Nc1cccc(-c2cccc(C(=O)O)c2)c1O,Immune system disorders,1.0,0.089573815,0.10026518
+CC1=NN(c2ccc(C)c(C)c2)C(=O)/C1=N\Nc1cccc(-c2cccc(C(=O)O)c2)c1O,Infections and infestations,1.0,0.04843064,0.04370246
+CC1=NN(c2ccc(C)c(C)c2)C(=O)/C1=N\Nc1cccc(-c2cccc(C(=O)O)c2)c1O,Metabolism and nutrition disorders,1.0,0.07411042,0.07681559
+CC1=NN(c2ccc(C)c(C)c2)C(=O)/C1=N\Nc1cccc(-c2cccc(C(=O)O)c2)c1O,Musculoskeletal and connective tissue disorders,1.0,0.10459335,0.09641536
+CC1=NN(c2ccc(C)c(C)c2)C(=O)/C1=N\Nc1cccc(-c2cccc(C(=O)O)c2)c1O,Nervous system disorders,1.0,0.16782445,0.17458476
+CC1=NN(c2ccc(C)c(C)c2)C(=O)/C1=N\Nc1cccc(-c2cccc(C(=O)O)c2)c1O,Psychiatric disorders,1.0,0.09969776,0.09163466
+CC1=NN(c2ccc(C)c(C)c2)C(=O)/C1=N\Nc1cccc(-c2cccc(C(=O)O)c2)c1O,Renal and urinary disorders,1.0,0.092925645,0.0854652
+CC1=NN(c2ccc(C)c(C)c2)C(=O)/C1=N\Nc1cccc(-c2cccc(C(=O)O)c2)c1O,Reproductive system and breast disorders,1.0,0.053176057,0.0473728
+CC1=NN(c2ccc(C)c(C)c2)C(=O)/C1=N\Nc1cccc(-c2cccc(C(=O)O)c2)c1O,"Respiratory, thoracic and mediastinal disorders",1.0,0.14838073,0.16782881
+CC1=NN(c2ccc(C)c(C)c2)C(=O)/C1=N\Nc1cccc(-c2cccc(C(=O)O)c2)c1O,Skin and subcutaneous tissue disorders,1.0,0.17098054,0.15947871
+CC1=NN(c2ccc(C)c(C)c2)C(=O)/C1=N\Nc1cccc(-c2cccc(C(=O)O)c2)c1O,Vascular disorders,1.0,0.16814102,0.14196777
+O=C(CCCCCCNC(=O)c1cnc(N(c2ccccc2)c2ccccc2)nc1)NO,Blood and lymphatic system disorders,0.0,0.039418977,0.03578931
+O=C(CCCCCCNC(=O)c1cnc(N(c2ccccc2)c2ccccc2)nc1)NO,Infections and infestations,0.0,0.039890487,0.03527105
+O=C(CCCCCCNC(=O)c1cnc(N(c2ccccc2)c2ccccc2)nc1)NO,Musculoskeletal and connective tissue disorders,0.0,0.04200833,0.036123667
+O=C(CCCCCCNC(=O)c1cnc(N(c2ccccc2)c2ccccc2)nc1)NO,Nervous system disorders,0.0,0.039128125,0.038481433
+O=C(CCCCCCNC(=O)c1cnc(N(c2ccccc2)c2ccccc2)nc1)NO,Reproductive system and breast disorders,0.0,0.037158284,0.032147728
+O=C(CCCCCCNC(=O)c1cnc(N(c2ccccc2)c2ccccc2)nc1)NO,Skin and subcutaneous tissue disorders,0.0,0.05999573,0.051024105
+OCCN(CCO)c1nc(N2CCCCC2)c2nc(N(CCO)CCO)nc(N3CCCCC3)c2n1,Blood and lymphatic system disorders,1.0,0.8465853,0.86849314
+OCCN(CCO)c1nc(N2CCCCC2)c2nc(N(CCO)CCO)nc(N3CCCCC3)c2n1,Cardiac disorders,1.0,0.73914796,0.78711337
+OCCN(CCO)c1nc(N2CCCCC2)c2nc(N(CCO)CCO)nc(N3CCCCC3)c2n1,Ear and labyrinth disorders,1.0,0.42605063,0.4219321
+OCCN(CCO)c1nc(N2CCCCC2)c2nc(N(CCO)CCO)nc(N3CCCCC3)c2n1,Endocrine disorder,0.0,0.26305535,0.2694474
+OCCN(CCO)c1nc(N2CCCCC2)c2nc(N(CCO)CCO)nc(N3CCCCC3)c2n1,Eye disorders,1.0,0.57985795,0.59413886
+OCCN(CCO)c1nc(N2CCCCC2)c2nc(N(CCO)CCO)nc(N3CCCCC3)c2n1,Gastrointestinal disorders,1.0,0.8735176,0.9344886
+OCCN(CCO)c1nc(N2CCCCC2)c2nc(N(CCO)CCO)nc(N3CCCCC3)c2n1,Hepatobiliary disorders,1.0,0.8032632,0.82997334
+OCCN(CCO)c1nc(N2CCCCC2)c2nc(N(CCO)CCO)nc(N3CCCCC3)c2n1,Immune system disorders,1.0,0.67336076,0.69982445
+OCCN(CCO)c1nc(N2CCCCC2)c2nc(N(CCO)CCO)nc(N3CCCCC3)c2n1,Infections and infestations,1.0,0.79343307,0.82391447
+OCCN(CCO)c1nc(N2CCCCC2)c2nc(N(CCO)CCO)nc(N3CCCCC3)c2n1,Metabolism and nutrition disorders,1.0,0.8095018,0.85431594
+OCCN(CCO)c1nc(N2CCCCC2)c2nc(N(CCO)CCO)nc(N3CCCCC3)c2n1,Musculoskeletal and connective tissue disorders,1.0,0.8172529,0.84969133
+OCCN(CCO)c1nc(N2CCCCC2)c2nc(N(CCO)CCO)nc(N3CCCCC3)c2n1,Nervous system disorders,1.0,0.8294542,0.90365446
+OCCN(CCO)c1nc(N2CCCCC2)c2nc(N(CCO)CCO)nc(N3CCCCC3)c2n1,Psychiatric disorders,1.0,0.8290265,0.85713285
+OCCN(CCO)c1nc(N2CCCCC2)c2nc(N(CCO)CCO)nc(N3CCCCC3)c2n1,Renal and urinary disorders,1.0,0.7927172,0.82498646
+OCCN(CCO)c1nc(N2CCCCC2)c2nc(N(CCO)CCO)nc(N3CCCCC3)c2n1,Reproductive system and breast disorders,1.0,0.6108108,0.62576586
+OCCN(CCO)c1nc(N2CCCCC2)c2nc(N(CCO)CCO)nc(N3CCCCC3)c2n1,"Respiratory, thoracic and mediastinal disorders",1.0,0.8312076,0.8708602
+OCCN(CCO)c1nc(N2CCCCC2)c2nc(N(CCO)CCO)nc(N3CCCCC3)c2n1,Skin and subcutaneous tissue disorders,1.0,0.8223605,0.876873
+OCCN(CCO)c1nc(N2CCCCC2)c2nc(N(CCO)CCO)nc(N3CCCCC3)c2n1,Vascular disorders,1.0,0.7821611,0.8278471
+CC[C@H]1[C@@H](O)[C@@H]2[C@H](CC[C@]3(C)[C@@H]([C@H](C)CCC(=O)O)CC[C@@H]23)[C@@]2(C)CC[C@@H](O)C[C@@H]12,Blood and lymphatic system disorders,1.0,0.12275402,0.11721548
+CC[C@H]1[C@@H](O)[C@@H]2[C@H](CC[C@]3(C)[C@@H]([C@H](C)CCC(=O)O)CC[C@@H]23)[C@@]2(C)CC[C@@H](O)C[C@@H]12,Cardiac disorders,1.0,0.15485127,0.16427496
+CC[C@H]1[C@@H](O)[C@@H]2[C@H](CC[C@]3(C)[C@@H]([C@H](C)CCC(=O)O)CC[C@@H]23)[C@@]2(C)CC[C@@H](O)C[C@@H]12,Ear and labyrinth disorders,1.0,0.0926553,0.07930691
+CC[C@H]1[C@@H](O)[C@@H]2[C@H](CC[C@]3(C)[C@@H]([C@H](C)CCC(=O)O)CC[C@@H]23)[C@@]2(C)CC[C@@H](O)C[C@@H]12,Endocrine disorder,1.0,0.05551869,0.054750364
+CC[C@H]1[C@@H](O)[C@@H]2[C@H](CC[C@]3(C)[C@@H]([C@H](C)CCC(=O)O)CC[C@@H]23)[C@@]2(C)CC[C@@H](O)C[C@@H]12,Eye disorders,1.0,0.15882899,0.17907552
+CC[C@H]1[C@@H](O)[C@@H]2[C@H](CC[C@]3(C)[C@@H]([C@H](C)CCC(=O)O)CC[C@@H]23)[C@@]2(C)CC[C@@H](O)C[C@@H]12,Gastrointestinal disorders,1.0,0.45192227,0.45526874
+CC[C@H]1[C@@H](O)[C@@H]2[C@H](CC[C@]3(C)[C@@H]([C@H](C)CCC(=O)O)CC[C@@H]23)[C@@]2(C)CC[C@@H](O)C[C@@H]12,Hepatobiliary disorders,1.0,0.16234128,0.13699602
+CC[C@H]1[C@@H](O)[C@@H]2[C@H](CC[C@]3(C)[C@@H]([C@H](C)CCC(=O)O)CC[C@@H]23)[C@@]2(C)CC[C@@H](O)C[C@@H]12,Immune system disorders,1.0,0.16539742,0.17708293
+CC[C@H]1[C@@H](O)[C@@H]2[C@H](CC[C@]3(C)[C@@H]([C@H](C)CCC(=O)O)CC[C@@H]23)[C@@]2(C)CC[C@@H](O)C[C@@H]12,Infections and infestations,1.0,0.12151485,0.11340365
+CC[C@H]1[C@@H](O)[C@@H]2[C@H](CC[C@]3(C)[C@@H]([C@H](C)CCC(=O)O)CC[C@@H]23)[C@@]2(C)CC[C@@H](O)C[C@@H]12,Metabolism and nutrition disorders,1.0,0.16641968,0.1692379
+CC[C@H]1[C@@H](O)[C@@H]2[C@H](CC[C@]3(C)[C@@H]([C@H](C)CCC(=O)O)CC[C@@H]23)[C@@]2(C)CC[C@@H](O)C[C@@H]12,Musculoskeletal and connective tissue disorders,1.0,0.1636387,0.1541339
+CC[C@H]1[C@@H](O)[C@@H]2[C@H](CC[C@]3(C)[C@@H]([C@H](C)CCC(=O)O)CC[C@@H]23)[C@@]2(C)CC[C@@H](O)C[C@@H]12,Nervous system disorders,1.0,0.27176812,0.2773633
+CC[C@H]1[C@@H](O)[C@@H]2[C@H](CC[C@]3(C)[C@@H]([C@H](C)CCC(=O)O)CC[C@@H]23)[C@@]2(C)CC[C@@H](O)C[C@@H]12,Psychiatric disorders,1.0,0.20341301,0.1940913
+CC[C@H]1[C@@H](O)[C@@H]2[C@H](CC[C@]3(C)[C@@H]([C@H](C)CCC(=O)O)CC[C@@H]23)[C@@]2(C)CC[C@@H](O)C[C@@H]12,Renal and urinary disorders,1.0,0.15075544,0.14191914
+CC[C@H]1[C@@H](O)[C@@H]2[C@H](CC[C@]3(C)[C@@H]([C@H](C)CCC(=O)O)CC[C@@H]23)[C@@]2(C)CC[C@@H](O)C[C@@H]12,Reproductive system and breast disorders,1.0,0.09731936,0.08939621
+CC[C@H]1[C@@H](O)[C@@H]2[C@H](CC[C@]3(C)[C@@H]([C@H](C)CCC(=O)O)CC[C@@H]23)[C@@]2(C)CC[C@@H](O)C[C@@H]12,"Respiratory, thoracic and mediastinal disorders",1.0,0.19936912,0.2191425
+CC[C@H]1[C@@H](O)[C@@H]2[C@H](CC[C@]3(C)[C@@H]([C@H](C)CCC(=O)O)CC[C@@H]23)[C@@]2(C)CC[C@@H](O)C[C@@H]12,Skin and subcutaneous tissue disorders,1.0,0.30495995,0.2931893
+CC[C@H]1[C@@H](O)[C@@H]2[C@H](CC[C@]3(C)[C@@H]([C@H](C)CCC(=O)O)CC[C@@H]23)[C@@]2(C)CC[C@@H](O)C[C@@H]12,Vascular disorders,1.0,0.1923479,0.16573602
+Cc1ccc(-c2ncccn2)c(C(=O)N2C[C@H](COc3ccc(F)cn3)CC[C@H]2C)c1,Hepatobiliary disorders,0.0,0.03978126,0.026531616
+Cc1ccc(-c2ncccn2)c(C(=O)N2C[C@H](COc3ccc(F)cn3)CC[C@H]2C)c1,Immune system disorders,0.0,0.029979259,0.0353769
+Cc1ccc(-c2ncccn2)c(C(=O)N2C[C@H](COc3ccc(F)cn3)CC[C@H]2C)c1,Musculoskeletal and connective tissue disorders,0.0,0.035221845,0.029888824
+Cc1ccc(-c2ncccn2)c(C(=O)N2C[C@H](COc3ccc(F)cn3)CC[C@H]2C)c1,Nervous system disorders,0.0,0.036638465,0.03617755
+Cc1ccc(-c2ncccn2)c(C(=O)N2C[C@H](COc3ccc(F)cn3)CC[C@H]2C)c1,Skin and subcutaneous tissue disorders,0.0,0.050524592,0.04246368
+Cc1ccc(-c2ncccn2)c(C(=O)N2C[C@H](COc3ccc(F)cn3)CC[C@H]2C)c1,Vascular disorders,0.0,0.030342048,0.019528052
+N#C[C@@H]1CCCN1C(=O)CNC12CC3CC(CC(O)(C3)C1)C2,Blood and lymphatic system disorders,0.0,0.9034143,0.922323
+N#C[C@@H]1CCCN1C(=O)CNC12CC3CC(CC(O)(C3)C1)C2,Cardiac disorders,0.0,0.7493225,0.7981959
+N#C[C@@H]1CCCN1C(=O)CNC12CC3CC(CC(O)(C3)C1)C2,Ear and labyrinth disorders,0.0,0.4787973,0.4777514
+N#C[C@@H]1CCCN1C(=O)CNC12CC3CC(CC(O)(C3)C1)C2,Endocrine disorder,0.0,0.076231174,0.07758733
+N#C[C@@H]1CCCN1C(=O)CNC12CC3CC(CC(O)(C3)C1)C2,Eye disorders,0.0,0.24282227,0.26125348
+N#C[C@@H]1CCCN1C(=O)CNC12CC3CC(CC(O)(C3)C1)C2,Gastrointestinal disorders,1.0,0.9245992,0.9701121
+N#C[C@@H]1CCCN1C(=O)CNC12CC3CC(CC(O)(C3)C1)C2,Hepatobiliary disorders,0.0,0.838727,0.86519885
+N#C[C@@H]1CCCN1C(=O)CNC12CC3CC(CC(O)(C3)C1)C2,Immune system disorders,0.0,0.8531294,0.8886927
+N#C[C@@H]1CCCN1C(=O)CNC12CC3CC(CC(O)(C3)C1)C2,Infections and infestations,0.0,0.8964979,0.92346144
+N#C[C@@H]1CCCN1C(=O)CNC12CC3CC(CC(O)(C3)C1)C2,Metabolism and nutrition disorders,0.0,0.86081314,0.90305495
+N#C[C@@H]1CCCN1C(=O)CNC12CC3CC(CC(O)(C3)C1)C2,Musculoskeletal and connective tissue disorders,0.0,0.8802619,0.9100934
+N#C[C@@H]1CCCN1C(=O)CNC12CC3CC(CC(O)(C3)C1)C2,Nervous system disorders,0.0,0.90952766,0.964982
+N#C[C@@H]1CCCN1C(=O)CNC12CC3CC(CC(O)(C3)C1)C2,Psychiatric disorders,0.0,0.7786961,0.8067781
+N#C[C@@H]1CCCN1C(=O)CNC12CC3CC(CC(O)(C3)C1)C2,Renal and urinary disorders,0.0,0.8688428,0.8997699
+N#C[C@@H]1CCCN1C(=O)CNC12CC3CC(CC(O)(C3)C1)C2,Reproductive system and breast disorders,0.0,0.6058929,0.6203731
+N#C[C@@H]1CCCN1C(=O)CNC12CC3CC(CC(O)(C3)C1)C2,"Respiratory, thoracic and mediastinal disorders",0.0,0.8780168,0.915061
+N#C[C@@H]1CCCN1C(=O)CNC12CC3CC(CC(O)(C3)C1)C2,Skin and subcutaneous tissue disorders,1.0,0.9357526,0.97042054
+N#C[C@@H]1CCCN1C(=O)CNC12CC3CC(CC(O)(C3)C1)C2,Vascular disorders,0.0,0.8763251,0.9199544
+NCCS,Blood and lymphatic system disorders,1.0,0.69131917,0.71006453
+NCCS,Cardiac disorders,1.0,0.49850756,0.5285678
+NCCS,Ear and labyrinth disorders,0.0,0.1821281,0.16652365
+NCCS,Endocrine disorder,0.0,0.095752776,0.097173594
+NCCS,Eye disorders,1.0,0.58186406,0.6061326
+NCCS,Gastrointestinal disorders,1.0,0.85984254,0.92490834
+NCCS,Hepatobiliary disorders,1.0,0.16936177,0.14482105
+NCCS,Immune system disorders,1.0,0.7992352,0.83633924
+NCCS,Infections and infestations,1.0,0.91361797,0.9385865
+NCCS,Metabolism and nutrition disorders,1.0,0.764956,0.8091766
+NCCS,Musculoskeletal and connective tissue disorders,1.0,0.75236297,0.78347945
+NCCS,Nervous system disorders,1.0,0.86677194,0.93585414
+NCCS,Psychiatric disorders,1.0,0.30692428,0.3026552
+NCCS,Renal and urinary disorders,1.0,0.38098526,0.376501
+NCCS,Reproductive system and breast disorders,0.0,0.1674446,0.16077454
+NCCS,"Respiratory, thoracic and mediastinal disorders",1.0,0.8220247,0.86175084
+NCCS,Skin and subcutaneous tissue disorders,1.0,0.93131626,0.96762943
+NCCS,Vascular disorders,1.0,0.79732186,0.84488744
+CCN(CC)CCNC(=O)c1c(C)[nH]c(/C=C2\C(=O)Nc3ccc(-c4csc(-c5ccccc5)n4)cc32)c1C,Hepatobiliary disorders,0.0,0.060835,0.043620758
+CCN(CC)CCNC(=O)c1c(C)[nH]c(/C=C2\C(=O)Nc3ccc(-c4csc(-c5ccccc5)n4)cc32)c1C,Infections and infestations,0.0,0.0658185,0.059284974
+CCN(CC)CCNC(=O)c1c(C)[nH]c(/C=C2\C(=O)Nc3ccc(-c4csc(-c5ccccc5)n4)cc32)c1C,Musculoskeletal and connective tissue disorders,0.0,0.08698458,0.07806892
+CCN(CC)CCNC(=O)c1c(C)[nH]c(/C=C2\C(=O)Nc3ccc(-c4csc(-c5ccccc5)n4)cc32)c1C,Renal and urinary disorders,0.0,0.09090783,0.08246054
+CCN(CC)CCNC(=O)c1c(C)[nH]c(/C=C2\C(=O)Nc3ccc(-c4csc(-c5ccccc5)n4)cc32)c1C,Reproductive system and breast disorders,0.0,0.04418689,0.038611986
+CCN(CC)CCNC(=O)c1c(C)[nH]c(/C=C2\C(=O)Nc3ccc(-c4csc(-c5ccccc5)n4)cc32)c1C,Vascular disorders,0.0,0.09215975,0.07030955
+C[C@]12C=CC(=O)N[C@@H]1CC[C@@H]1[C@@H]2CC[C@]2(C)[C@@H](C(=O)Nc3cc(C(F)(F)F)ccc3C(F)(F)F)CC[C@@H]12,Blood and lymphatic system disorders,0.0,0.03351599,0.030644873
+C[C@]12C=CC(=O)N[C@@H]1CC[C@@H]1[C@@H]2CC[C@]2(C)[C@@H](C(=O)Nc3cc(C(F)(F)F)ccc3C(F)(F)F)CC[C@@H]12,Cardiac disorders,1.0,0.25051743,0.27758944
+C[C@]12C=CC(=O)N[C@@H]1CC[C@@H]1[C@@H]2CC[C@]2(C)[C@@H](C(=O)Nc3cc(C(F)(F)F)ccc3C(F)(F)F)CC[C@@H]12,Ear and labyrinth disorders,0.0,0.16060089,0.1475807
+C[C@]12C=CC(=O)N[C@@H]1CC[C@@H]1[C@@H]2CC[C@]2(C)[C@@H](C(=O)Nc3cc(C(F)(F)F)ccc3C(F)(F)F)CC[C@@H]12,Endocrine disorder,0.0,0.028933467,0.029130144
+C[C@]12C=CC(=O)N[C@@H]1CC[C@@H]1[C@@H]2CC[C@]2(C)[C@@H](C(=O)Nc3cc(C(F)(F)F)ccc3C(F)(F)F)CC[C@@H]12,Eye disorders,1.0,0.16301325,0.19586618
+C[C@]12C=CC(=O)N[C@@H]1CC[C@@H]1[C@@H]2CC[C@]2(C)[C@@H](C(=O)Nc3cc(C(F)(F)F)ccc3C(F)(F)F)CC[C@@H]12,Gastrointestinal disorders,1.0,0.093970865,0.089784704
+C[C@]12C=CC(=O)N[C@@H]1CC[C@@H]1[C@@H]2CC[C@]2(C)[C@@H](C(=O)Nc3cc(C(F)(F)F)ccc3C(F)(F)F)CC[C@@H]12,Hepatobiliary disorders,1.0,0.050116595,0.03569941
+C[C@]12C=CC(=O)N[C@@H]1CC[C@@H]1[C@@H]2CC[C@]2(C)[C@@H](C(=O)Nc3cc(C(F)(F)F)ccc3C(F)(F)F)CC[C@@H]12,Immune system disorders,1.0,0.2392107,0.25811234
+C[C@]12C=CC(=O)N[C@@H]1CC[C@@H]1[C@@H]2CC[C@]2(C)[C@@H](C(=O)Nc3cc(C(F)(F)F)ccc3C(F)(F)F)CC[C@@H]12,Infections and infestations,1.0,0.10061183,0.097504616
+C[C@]12C=CC(=O)N[C@@H]1CC[C@@H]1[C@@H]2CC[C@]2(C)[C@@H](C(=O)Nc3cc(C(F)(F)F)ccc3C(F)(F)F)CC[C@@H]12,Metabolism and nutrition disorders,1.0,0.1099106,0.11739337
+C[C@]12C=CC(=O)N[C@@H]1CC[C@@H]1[C@@H]2CC[C@]2(C)[C@@H](C(=O)Nc3cc(C(F)(F)F)ccc3C(F)(F)F)CC[C@@H]12,Musculoskeletal and connective tissue disorders,1.0,0.13443008,0.1279363
+C[C@]12C=CC(=O)N[C@@H]1CC[C@@H]1[C@@H]2CC[C@]2(C)[C@@H](C(=O)Nc3cc(C(F)(F)F)ccc3C(F)(F)F)CC[C@@H]12,Nervous system disorders,1.0,0.4889575,0.54797447
+C[C@]12C=CC(=O)N[C@@H]1CC[C@@H]1[C@@H]2CC[C@]2(C)[C@@H](C(=O)Nc3cc(C(F)(F)F)ccc3C(F)(F)F)CC[C@@H]12,Psychiatric disorders,1.0,0.18955146,0.18705659
+C[C@]12C=CC(=O)N[C@@H]1CC[C@@H]1[C@@H]2CC[C@]2(C)[C@@H](C(=O)Nc3cc(C(F)(F)F)ccc3C(F)(F)F)CC[C@@H]12,Renal and urinary disorders,1.0,0.09838843,0.092339255
+C[C@]12C=CC(=O)N[C@@H]1CC[C@@H]1[C@@H]2CC[C@]2(C)[C@@H](C(=O)Nc3cc(C(F)(F)F)ccc3C(F)(F)F)CC[C@@H]12,Reproductive system and breast disorders,1.0,0.15115988,0.14576061
+C[C@]12C=CC(=O)N[C@@H]1CC[C@@H]1[C@@H]2CC[C@]2(C)[C@@H](C(=O)Nc3cc(C(F)(F)F)ccc3C(F)(F)F)CC[C@@H]12,"Respiratory, thoracic and mediastinal disorders",1.0,0.2171622,0.24740505
+C[C@]12C=CC(=O)N[C@@H]1CC[C@@H]1[C@@H]2CC[C@]2(C)[C@@H](C(=O)Nc3cc(C(F)(F)F)ccc3C(F)(F)F)CC[C@@H]12,Skin and subcutaneous tissue disorders,1.0,0.44231993,0.45947933
+C[C@]12C=CC(=O)N[C@@H]1CC[C@@H]1[C@@H]2CC[C@]2(C)[C@@H](C(=O)Nc3cc(C(F)(F)F)ccc3C(F)(F)F)CC[C@@H]12,Vascular disorders,1.0,0.078005694,0.05859018
+O=C1CC2(CCCC2)CC(=O)N1CCCCN1CCN(c2ncccn2)CC1,Blood and lymphatic system disorders,1.0,0.02394125,0.021434221
+O=C1CC2(CCCC2)CC(=O)N1CCCCN1CCN(c2ncccn2)CC1,Cardiac disorders,1.0,0.022489412,0.024419563
+O=C1CC2(CCCC2)CC(=O)N1CCCCN1CCN(c2ncccn2)CC1,Ear and labyrinth disorders,1.0,0.0318932,0.024861438
+O=C1CC2(CCCC2)CC(=O)N1CCCCN1CCN(c2ncccn2)CC1,Endocrine disorder,1.0,0.01477343,0.014050469
+O=C1CC2(CCCC2)CC(=O)N1CCCCN1CCN(c2ncccn2)CC1,Eye disorders,1.0,0.021421546,0.02900891
+O=C1CC2(CCCC2)CC(=O)N1CCCCN1CCN(c2ncccn2)CC1,Gastrointestinal disorders,1.0,0.024378,0.02187858
+O=C1CC2(CCCC2)CC(=O)N1CCCCN1CCN(c2ncccn2)CC1,Hepatobiliary disorders,0.0,0.031373363,0.020326171
+O=C1CC2(CCCC2)CC(=O)N1CCCCN1CCN(c2ncccn2)CC1,Immune system disorders,1.0,0.02606419,0.031436484
+O=C1CC2(CCCC2)CC(=O)N1CCCCN1CCN(c2ncccn2)CC1,Infections and infestations,1.0,0.028103426,0.024783237
+O=C1CC2(CCCC2)CC(=O)N1CCCCN1CCN(c2ncccn2)CC1,Metabolism and nutrition disorders,1.0,0.03815749,0.03933189
+O=C1CC2(CCCC2)CC(=O)N1CCCCN1CCN(c2ncccn2)CC1,Musculoskeletal and connective tissue disorders,1.0,0.030343242,0.025977658
+O=C1CC2(CCCC2)CC(=O)N1CCCCN1CCN(c2ncccn2)CC1,Nervous system disorders,1.0,0.023991775,0.024309149
+O=C1CC2(CCCC2)CC(=O)N1CCCCN1CCN(c2ncccn2)CC1,Psychiatric disorders,1.0,0.020738505,0.017174214
+O=C1CC2(CCCC2)CC(=O)N1CCCCN1CCN(c2ncccn2)CC1,Renal and urinary disorders,1.0,0.030038262,0.02558969
+O=C1CC2(CCCC2)CC(=O)N1CCCCN1CCN(c2ncccn2)CC1,Reproductive system and breast disorders,1.0,0.025439393,0.021675453
+O=C1CC2(CCCC2)CC(=O)N1CCCCN1CCN(c2ncccn2)CC1,"Respiratory, thoracic and mediastinal disorders",1.0,0.026964564,0.034259357
+O=C1CC2(CCCC2)CC(=O)N1CCCCN1CCN(c2ncccn2)CC1,Skin and subcutaneous tissue disorders,1.0,0.027459005,0.022748629
+O=C1CC2(CCCC2)CC(=O)N1CCCCN1CCN(c2ncccn2)CC1,Vascular disorders,1.0,0.024938578,0.015678713
+CCOc1nc2cccc(C(=O)OC(C)OC(=O)OC3CCCCC3)c2n1Cc1ccc(-c2ccccc2-c2nn[nH]n2)cc1,Blood and lymphatic system disorders,1.0,0.9336719,0.94922334
+CCOc1nc2cccc(C(=O)OC(C)OC(=O)OC3CCCCC3)c2n1Cc1ccc(-c2ccccc2-c2nn[nH]n2)cc1,Cardiac disorders,1.0,0.9085755,0.94799334
+CCOc1nc2cccc(C(=O)OC(C)OC(=O)OC3CCCCC3)c2n1Cc1ccc(-c2ccccc2-c2nn[nH]n2)cc1,Ear and labyrinth disorders,1.0,0.8285864,0.8372497
+CCOc1nc2cccc(C(=O)OC(C)OC(=O)OC3CCCCC3)c2n1Cc1ccc(-c2ccccc2-c2nn[nH]n2)cc1,Endocrine disorder,1.0,0.71865106,0.7350443
+CCOc1nc2cccc(C(=O)OC(C)OC(=O)OC3CCCCC3)c2n1Cc1ccc(-c2ccccc2-c2nn[nH]n2)cc1,Eye disorders,1.0,0.90517175,0.93525445
+CCOc1nc2cccc(C(=O)OC(C)OC(=O)OC3CCCCC3)c2n1Cc1ccc(-c2ccccc2-c2nn[nH]n2)cc1,Gastrointestinal disorders,1.0,0.9393818,0.9781531
+CCOc1nc2cccc(C(=O)OC(C)OC(=O)OC3CCCCC3)c2n1Cc1ccc(-c2ccccc2-c2nn[nH]n2)cc1,Hepatobiliary disorders,1.0,0.9177149,0.9380344
+CCOc1nc2cccc(C(=O)OC(C)OC(=O)OC3CCCCC3)c2n1Cc1ccc(-c2ccccc2-c2nn[nH]n2)cc1,Immune system disorders,1.0,0.8903255,0.9225185
+CCOc1nc2cccc(C(=O)OC(C)OC(=O)OC3CCCCC3)c2n1Cc1ccc(-c2ccccc2-c2nn[nH]n2)cc1,Infections and infestations,1.0,0.9338998,0.9551447
+CCOc1nc2cccc(C(=O)OC(C)OC(=O)OC3CCCCC3)c2n1Cc1ccc(-c2ccccc2-c2nn[nH]n2)cc1,Metabolism and nutrition disorders,1.0,0.9380285,0.9659817
+CCOc1nc2cccc(C(=O)OC(C)OC(=O)OC3CCCCC3)c2n1Cc1ccc(-c2ccccc2-c2nn[nH]n2)cc1,Musculoskeletal and connective tissue disorders,1.0,0.93621206,0.95781606
+CCOc1nc2cccc(C(=O)OC(C)OC(=O)OC3CCCCC3)c2n1Cc1ccc(-c2ccccc2-c2nn[nH]n2)cc1,Nervous system disorders,1.0,0.927155,0.97519827
+CCOc1nc2cccc(C(=O)OC(C)OC(=O)OC3CCCCC3)c2n1Cc1ccc(-c2ccccc2-c2nn[nH]n2)cc1,Psychiatric disorders,1.0,0.9294697,0.9496864
+CCOc1nc2cccc(C(=O)OC(C)OC(=O)OC3CCCCC3)c2n1Cc1ccc(-c2ccccc2-c2nn[nH]n2)cc1,Renal and urinary disorders,1.0,0.93144745,0.9540643
+CCOc1nc2cccc(C(=O)OC(C)OC(=O)OC3CCCCC3)c2n1Cc1ccc(-c2ccccc2-c2nn[nH]n2)cc1,Reproductive system and breast disorders,1.0,0.85649323,0.8802362
+CCOc1nc2cccc(C(=O)OC(C)OC(=O)OC3CCCCC3)c2n1Cc1ccc(-c2ccccc2-c2nn[nH]n2)cc1,"Respiratory, thoracic and mediastinal disorders",1.0,0.93122077,0.95911014
+CCOc1nc2cccc(C(=O)OC(C)OC(=O)OC3CCCCC3)c2n1Cc1ccc(-c2ccccc2-c2nn[nH]n2)cc1,Skin and subcutaneous tissue disorders,1.0,0.9413445,0.97389394
+CCOc1nc2cccc(C(=O)OC(C)OC(=O)OC3CCCCC3)c2n1Cc1ccc(-c2ccccc2-c2nn[nH]n2)cc1,Vascular disorders,1.0,0.9136464,0.9501259
+CC(=O)NC[C@H]1CN(c2ccc(N3CCOCC3)c(F)c2)C(=O)O1,Blood and lymphatic system disorders,1.0,0.9519566,0.96469235
+CC(=O)NC[C@H]1CN(c2ccc(N3CCOCC3)c(F)c2)C(=O)O1,Cardiac disorders,1.0,0.96411735,0.9846079
+CC(=O)NC[C@H]1CN(c2ccc(N3CCOCC3)c(F)c2)C(=O)O1,Ear and labyrinth disorders,1.0,0.96457213,0.968796
+CC(=O)NC[C@H]1CN(c2ccc(N3CCOCC3)c(F)c2)C(=O)O1,Endocrine disorder,1.0,0.96566975,0.9700124
+CC(=O)NC[C@H]1CN(c2ccc(N3CCOCC3)c(F)c2)C(=O)O1,Eye disorders,1.0,0.969092,0.98351175
+CC(=O)NC[C@H]1CN(c2ccc(N3CCOCC3)c(F)c2)C(=O)O1,Gastrointestinal disorders,1.0,0.9507601,0.9835074
+CC(=O)NC[C@H]1CN(c2ccc(N3CCOCC3)c(F)c2)C(=O)O1,Hepatobiliary disorders,1.0,0.9542124,0.96828955
+CC(=O)NC[C@H]1CN(c2ccc(N3CCOCC3)c(F)c2)C(=O)O1,Immune system disorders,1.0,0.9408358,0.96381783
+CC(=O)NC[C@H]1CN(c2ccc(N3CCOCC3)c(F)c2)C(=O)O1,Infections and infestations,1.0,0.96018445,0.9754118
+CC(=O)NC[C@H]1CN(c2ccc(N3CCOCC3)c(F)c2)C(=O)O1,Metabolism and nutrition disorders,1.0,0.9672511,0.9848232
+CC(=O)NC[C@H]1CN(c2ccc(N3CCOCC3)c(F)c2)C(=O)O1,Musculoskeletal and connective tissue disorders,1.0,0.9642623,0.97881377
+CC(=O)NC[C@H]1CN(c2ccc(N3CCOCC3)c(F)c2)C(=O)O1,Nervous system disorders,1.0,0.95580935,0.9883295
+CC(=O)NC[C@H]1CN(c2ccc(N3CCOCC3)c(F)c2)C(=O)O1,Psychiatric disorders,1.0,0.9781991,0.9870545
+CC(=O)NC[C@H]1CN(c2ccc(N3CCOCC3)c(F)c2)C(=O)O1,Renal and urinary disorders,1.0,0.95644414,0.9731749
+CC(=O)NC[C@H]1CN(c2ccc(N3CCOCC3)c(F)c2)C(=O)O1,Reproductive system and breast disorders,1.0,0.96406156,0.9751526
+CC(=O)NC[C@H]1CN(c2ccc(N3CCOCC3)c(F)c2)C(=O)O1,"Respiratory, thoracic and mediastinal disorders",1.0,0.9589487,0.97860134
+CC(=O)NC[C@H]1CN(c2ccc(N3CCOCC3)c(F)c2)C(=O)O1,Skin and subcutaneous tissue disorders,1.0,0.9573843,0.9829834
+CC(=O)NC[C@H]1CN(c2ccc(N3CCOCC3)c(F)c2)C(=O)O1,Vascular disorders,1.0,0.93926936,0.9666627
+CCC(=O)C(CC(C)N(C)C)(c1ccccc1)c1ccccc1,Blood and lymphatic system disorders,1.0,0.020966504,0.018549012
+CCC(=O)C(CC(C)N(C)C)(c1ccccc1)c1ccccc1,Cardiac disorders,1.0,0.039232325,0.041785058
+CCC(=O)C(CC(C)N(C)C)(c1ccccc1)c1ccccc1,Ear and labyrinth disorders,1.0,0.031181578,0.024191627
+CCC(=O)C(CC(C)N(C)C)(c1ccccc1)c1ccccc1,Endocrine disorder,1.0,0.027265359,0.026174933
+CCC(=O)C(CC(C)N(C)C)(c1ccccc1)c1ccccc1,Eye disorders,1.0,0.028248802,0.036842357
+CCC(=O)C(CC(C)N(C)C)(c1ccccc1)c1ccccc1,Gastrointestinal disorders,1.0,0.039299194,0.03588722
+CCC(=O)C(CC(C)N(C)C)(c1ccccc1)c1ccccc1,Hepatobiliary disorders,1.0,0.03346568,0.021830503
+CCC(=O)C(CC(C)N(C)C)(c1ccccc1)c1ccccc1,Immune system disorders,1.0,0.024782486,0.029369362
+CCC(=O)C(CC(C)N(C)C)(c1ccccc1)c1ccccc1,Infections and infestations,1.0,0.024343714,0.020909842
+CCC(=O)C(CC(C)N(C)C)(c1ccccc1)c1ccccc1,Metabolism and nutrition disorders,1.0,0.027799442,0.028006326
+CCC(=O)C(CC(C)N(C)C)(c1ccccc1)c1ccccc1,Musculoskeletal and connective tissue disorders,1.0,0.03259153,0.027514393
+CCC(=O)C(CC(C)N(C)C)(c1ccccc1)c1ccccc1,Nervous system disorders,1.0,0.03625746,0.035693247
+CCC(=O)C(CC(C)N(C)C)(c1ccccc1)c1ccccc1,Psychiatric disorders,1.0,0.03221693,0.027128857
+CCC(=O)C(CC(C)N(C)C)(c1ccccc1)c1ccccc1,Renal and urinary disorders,1.0,0.035178058,0.030140854
+CCC(=O)C(CC(C)N(C)C)(c1ccccc1)c1ccccc1,Reproductive system and breast disorders,1.0,0.03234878,0.027750798
+CCC(=O)C(CC(C)N(C)C)(c1ccccc1)c1ccccc1,"Respiratory, thoracic and mediastinal disorders",1.0,0.033126764,0.04096652
+CCC(=O)C(CC(C)N(C)C)(c1ccccc1)c1ccccc1,Skin and subcutaneous tissue disorders,1.0,0.026077593,0.021222204
+CCC(=O)C(CC(C)N(C)C)(c1ccccc1)c1ccccc1,Vascular disorders,1.0,0.043734387,0.029961107
+CN1CCN(CCCN2c3ccccc3Sc3ccc(C(F)(F)F)cc32)CC1,Blood and lymphatic system disorders,1.0,0.03807498,0.03505415
+CN1CCN(CCCN2c3ccccc3Sc3ccc(C(F)(F)F)cc32)CC1,Cardiac disorders,1.0,0.08239103,0.09068103
+CN1CCN(CCCN2c3ccccc3Sc3ccc(C(F)(F)F)cc32)CC1,Ear and labyrinth disorders,0.0,0.021679623,0.01647407
+CN1CCN(CCCN2c3ccccc3Sc3ccc(C(F)(F)F)cc32)CC1,Endocrine disorder,1.0,0.008240212,0.007817265
+CN1CCN(CCCN2c3ccccc3Sc3ccc(C(F)(F)F)cc32)CC1,Eye disorders,1.0,0.066872,0.08351987
+CN1CCN(CCCN2c3ccccc3Sc3ccc(C(F)(F)F)cc32)CC1,Gastrointestinal disorders,1.0,0.061271317,0.05720124
+CN1CCN(CCCN2c3ccccc3Sc3ccc(C(F)(F)F)cc32)CC1,Hepatobiliary disorders,1.0,0.08021914,0.061800618
+CN1CCN(CCCN2c3ccccc3Sc3ccc(C(F)(F)F)cc32)CC1,Immune system disorders,1.0,0.023303313,0.028520718
+CN1CCN(CCCN2c3ccccc3Sc3ccc(C(F)(F)F)cc32)CC1,Infections and infestations,0.0,0.018386701,0.016280668
+CN1CCN(CCCN2c3ccccc3Sc3ccc(C(F)(F)F)cc32)CC1,Metabolism and nutrition disorders,1.0,0.0484875,0.051284134
+CN1CCN(CCCN2c3ccccc3Sc3ccc(C(F)(F)F)cc32)CC1,Musculoskeletal and connective tissue disorders,1.0,0.056056947,0.050322715
+CN1CCN(CCCN2c3ccccc3Sc3ccc(C(F)(F)F)cc32)CC1,Nervous system disorders,1.0,0.0675953,0.071662605
+CN1CCN(CCCN2c3ccccc3Sc3ccc(C(F)(F)F)cc32)CC1,Psychiatric disorders,1.0,0.08073462,0.07394924
+CN1CCN(CCCN2c3ccccc3Sc3ccc(C(F)(F)F)cc32)CC1,Renal and urinary disorders,1.0,0.05442123,0.048923045
+CN1CCN(CCCN2c3ccccc3Sc3ccc(C(F)(F)F)cc32)CC1,Reproductive system and breast disorders,1.0,0.03058142,0.026716406
+CN1CCN(CCCN2c3ccccc3Sc3ccc(C(F)(F)F)cc32)CC1,"Respiratory, thoracic and mediastinal disorders",1.0,0.058853287,0.07266906
+CN1CCN(CCCN2c3ccccc3Sc3ccc(C(F)(F)F)cc32)CC1,Skin and subcutaneous tissue disorders,1.0,0.04920054,0.04198205
+CN1CCN(CCCN2c3ccccc3Sc3ccc(C(F)(F)F)cc32)CC1,Vascular disorders,1.0,0.032939497,0.021731677
+O=C1[C@@H]2[C@H]3CC[C@H](C3)[C@@H]2C(=O)N1C[C@@H]1CCCC[C@H]1CN1CCN(c2nsc3ccccc23)CC1,Blood and lymphatic system disorders,1.0,0.02711212,0.024306318
+O=C1[C@@H]2[C@H]3CC[C@H](C3)[C@@H]2C(=O)N1C[C@@H]1CCCC[C@H]1CN1CCN(c2nsc3ccccc23)CC1,Cardiac disorders,1.0,0.032026358,0.0338113
+O=C1[C@@H]2[C@H]3CC[C@H](C3)[C@@H]2C(=O)N1C[C@@H]1CCCC[C@H]1CN1CCN(c2nsc3ccccc23)CC1,Ear and labyrinth disorders,1.0,0.04072123,0.03232114
+O=C1[C@@H]2[C@H]3CC[C@H](C3)[C@@H]2C(=O)N1C[C@@H]1CCCC[C@H]1CN1CCN(c2nsc3ccccc23)CC1,Endocrine disorder,1.0,0.020490756,0.019385345
+O=C1[C@@H]2[C@H]3CC[C@H](C3)[C@@H]2C(=O)N1C[C@@H]1CCCC[C@H]1CN1CCN(c2nsc3ccccc23)CC1,Eye disorders,1.0,0.03124898,0.04051289
+O=C1[C@@H]2[C@H]3CC[C@H](C3)[C@@H]2C(=O)N1C[C@@H]1CCCC[C@H]1CN1CCN(c2nsc3ccccc23)CC1,Gastrointestinal disorders,1.0,0.027896365,0.025146678
+O=C1[C@@H]2[C@H]3CC[C@H](C3)[C@@H]2C(=O)N1C[C@@H]1CCCC[C@H]1CN1CCN(c2nsc3ccccc23)CC1,Hepatobiliary disorders,1.0,0.038798034,0.02587269
+O=C1[C@@H]2[C@H]3CC[C@H](C3)[C@@H]2C(=O)N1C[C@@H]1CCCC[C@H]1CN1CCN(c2nsc3ccccc23)CC1,Immune system disorders,1.0,0.0300886,0.035533722
+O=C1[C@@H]2[C@H]3CC[C@H](C3)[C@@H]2C(=O)N1C[C@@H]1CCCC[C@H]1CN1CCN(c2nsc3ccccc23)CC1,Infections and infestations,1.0,0.032061048,0.028148847
+O=C1[C@@H]2[C@H]3CC[C@H](C3)[C@@H]2C(=O)N1C[C@@H]1CCCC[C@H]1CN1CCN(c2nsc3ccccc23)CC1,Metabolism and nutrition disorders,1.0,0.040984713,0.041474763
+O=C1[C@@H]2[C@H]3CC[C@H](C3)[C@@H]2C(=O)N1C[C@@H]1CCCC[C@H]1CN1CCN(c2nsc3ccccc23)CC1,Musculoskeletal and connective tissue disorders,1.0,0.03755499,0.032143403
+O=C1[C@@H]2[C@H]3CC[C@H](C3)[C@@H]2C(=O)N1C[C@@H]1CCCC[C@H]1CN1CCN(c2nsc3ccccc23)CC1,Nervous system disorders,1.0,0.031931363,0.031396914
+O=C1[C@@H]2[C@H]3CC[C@H](C3)[C@@H]2C(=O)N1C[C@@H]1CCCC[C@H]1CN1CCN(c2nsc3ccccc23)CC1,Psychiatric disorders,1.0,0.029295534,0.024452295
+O=C1[C@@H]2[C@H]3CC[C@H](C3)[C@@H]2C(=O)N1C[C@@H]1CCCC[C@H]1CN1CCN(c2nsc3ccccc23)CC1,Renal and urinary disorders,1.0,0.03785797,0.032437015
+O=C1[C@@H]2[C@H]3CC[C@H](C3)[C@@H]2C(=O)N1C[C@@H]1CCCC[C@H]1CN1CCN(c2nsc3ccccc23)CC1,Reproductive system and breast disorders,1.0,0.035724293,0.030735953
+O=C1[C@@H]2[C@H]3CC[C@H](C3)[C@@H]2C(=O)N1C[C@@H]1CCCC[C@H]1CN1CCN(c2nsc3ccccc23)CC1,"Respiratory, thoracic and mediastinal disorders",1.0,0.035476066,0.043553974
+O=C1[C@@H]2[C@H]3CC[C@H](C3)[C@@H]2C(=O)N1C[C@@H]1CCCC[C@H]1CN1CCN(c2nsc3ccccc23)CC1,Skin and subcutaneous tissue disorders,1.0,0.032151908,0.026440138
+O=C1[C@@H]2[C@H]3CC[C@H](C3)[C@@H]2C(=O)N1C[C@@H]1CCCC[C@H]1CN1CCN(c2nsc3ccccc23)CC1,Vascular disorders,1.0,0.028296638,0.018039905
+CCCCCCCCc1ccc(CCC(N)(CO)CO)cc1,Blood and lymphatic system disorders,1.0,0.011787775,0.010522794
+CCCCCCCCc1ccc(CCC(N)(CO)CO)cc1,Cardiac disorders,1.0,0.013186045,0.01569416
+CCCCCCCCc1ccc(CCC(N)(CO)CO)cc1,Ear and labyrinth disorders,1.0,0.015205035,0.011350542
+CCCCCCCCc1ccc(CCC(N)(CO)CO)cc1,Endocrine disorder,1.0,0.0040188082,0.0038491916
+CCCCCCCCc1ccc(CCC(N)(CO)CO)cc1,Eye disorders,1.0,0.01170043,0.017692424
+CCCCCCCCc1ccc(CCC(N)(CO)CO)cc1,Gastrointestinal disorders,1.0,0.017938156,0.01616921
+CCCCCCCCc1ccc(CCC(N)(CO)CO)cc1,Hepatobiliary disorders,1.0,0.013890004,0.008297075
+CCCCCCCCc1ccc(CCC(N)(CO)CO)cc1,Immune system disorders,1.0,0.018712748,0.024194594
+CCCCCCCCc1ccc(CCC(N)(CO)CO)cc1,Infections and infestations,1.0,0.014189331,0.012941294
+CCCCCCCCc1ccc(CCC(N)(CO)CO)cc1,Metabolism and nutrition disorders,1.0,0.017544735,0.01955652
+CCCCCCCCc1ccc(CCC(N)(CO)CO)cc1,Musculoskeletal and connective tissue disorders,1.0,0.018822296,0.016373485
+CCCCCCCCc1ccc(CCC(N)(CO)CO)cc1,Nervous system disorders,1.0,0.015794476,0.01800522
+CCCCCCCCc1ccc(CCC(N)(CO)CO)cc1,Psychiatric disorders,1.0,0.0114158355,0.009595842
+CCCCCCCCc1ccc(CCC(N)(CO)CO)cc1,Renal and urinary disorders,1.0,0.01705614,0.014754045
+CCCCCCCCc1ccc(CCC(N)(CO)CO)cc1,Reproductive system and breast disorders,1.0,0.014196871,0.012211647
+CCCCCCCCc1ccc(CCC(N)(CO)CO)cc1,"Respiratory, thoracic and mediastinal disorders",1.0,0.01762937,0.02456389
+CCCCCCCCc1ccc(CCC(N)(CO)CO)cc1,Skin and subcutaneous tissue disorders,1.0,0.01989594,0.017734654
+CCCCCCCCc1ccc(CCC(N)(CO)CO)cc1,Vascular disorders,1.0,0.019642286,0.012156214
+COc1cc2nc(N(C)CCCNC(=O)C3CCCO3)nc(N)c2cc1OC,Blood and lymphatic system disorders,1.0,0.009700283,0.008284171
+COc1cc2nc(N(C)CCCNC(=O)C3CCCO3)nc(N)c2cc1OC,Cardiac disorders,1.0,0.0117869545,0.012663692
+COc1cc2nc(N(C)CCCNC(=O)C3CCCO3)nc(N)c2cc1OC,Ear and labyrinth disorders,1.0,0.010958368,0.0077592223
+COc1cc2nc(N(C)CCCNC(=O)C3CCCO3)nc(N)c2cc1OC,Endocrine disorder,0.0,0.0077210544,0.0073874765
+COc1cc2nc(N(C)CCCNC(=O)C3CCCO3)nc(N)c2cc1OC,Eye disorders,1.0,0.0068569616,0.009826408
+COc1cc2nc(N(C)CCCNC(=O)C3CCCO3)nc(N)c2cc1OC,Gastrointestinal disorders,1.0,0.016060157,0.014453796
+COc1cc2nc(N(C)CCCNC(=O)C3CCCO3)nc(N)c2cc1OC,Hepatobiliary disorders,1.0,0.010518843,0.005739826
+COc1cc2nc(N(C)CCCNC(=O)C3CCCO3)nc(N)c2cc1OC,Immune system disorders,0.0,0.0116825495,0.0143649895
+COc1cc2nc(N(C)CCCNC(=O)C3CCCO3)nc(N)c2cc1OC,Infections and infestations,1.0,0.008300805,0.0068266406
+COc1cc2nc(N(C)CCCNC(=O)C3CCCO3)nc(N)c2cc1OC,Metabolism and nutrition disorders,1.0,0.014222486,0.014358967
+COc1cc2nc(N(C)CCCNC(=O)C3CCCO3)nc(N)c2cc1OC,Musculoskeletal and connective tissue disorders,1.0,0.014045127,0.011353459
+COc1cc2nc(N(C)CCCNC(=O)C3CCCO3)nc(N)c2cc1OC,Nervous system disorders,1.0,0.012992713,0.012834075
+COc1cc2nc(N(C)CCCNC(=O)C3CCCO3)nc(N)c2cc1OC,Psychiatric disorders,1.0,0.009815813,0.0077044317
+COc1cc2nc(N(C)CCCNC(=O)C3CCCO3)nc(N)c2cc1OC,Renal and urinary disorders,1.0,0.012543083,0.009973169
+COc1cc2nc(N(C)CCCNC(=O)C3CCCO3)nc(N)c2cc1OC,Reproductive system and breast disorders,1.0,0.012167713,0.00986406
+COc1cc2nc(N(C)CCCNC(=O)C3CCCO3)nc(N)c2cc1OC,"Respiratory, thoracic and mediastinal disorders",1.0,0.013561869,0.017835477
+COc1cc2nc(N(C)CCCNC(=O)C3CCCO3)nc(N)c2cc1OC,Skin and subcutaneous tissue disorders,1.0,0.011671313,0.009082848
+COc1cc2nc(N(C)CCCNC(=O)C3CCCO3)nc(N)c2cc1OC,Vascular disorders,1.0,0.019345308,0.012157531
+CN(C)C(=O)Oc1ccc[n+](C)c1,Blood and lymphatic system disorders,0.0,0.018707726,0.016599646
+CN(C)C(=O)Oc1ccc[n+](C)c1,Cardiac disorders,1.0,0.030957405,0.03347034
+CN(C)C(=O)Oc1ccc[n+](C)c1,Ear and labyrinth disorders,1.0,0.021921953,0.016565429
+CN(C)C(=O)Oc1ccc[n+](C)c1,Endocrine disorder,0.0,0.019166032,0.018354613
+CN(C)C(=O)Oc1ccc[n+](C)c1,Eye disorders,1.0,0.024639271,0.032748014
+CN(C)C(=O)Oc1ccc[n+](C)c1,Gastrointestinal disorders,1.0,0.05778156,0.05342904
+CN(C)C(=O)Oc1ccc[n+](C)c1,Hepatobiliary disorders,0.0,0.024864146,0.015623161
+CN(C)C(=O)Oc1ccc[n+](C)c1,Immune system disorders,1.0,0.024810968,0.030033749
+CN(C)C(=O)Oc1ccc[n+](C)c1,Infections and infestations,1.0,0.02123389,0.018406963
+CN(C)C(=O)Oc1ccc[n+](C)c1,Metabolism and nutrition disorders,0.0,0.025927054,0.026363442
+CN(C)C(=O)Oc1ccc[n+](C)c1,Musculoskeletal and connective tissue disorders,1.0,0.027454926,0.023041124
+CN(C)C(=O)Oc1ccc[n+](C)c1,Nervous system disorders,1.0,0.037936173,0.038973875
+CN(C)C(=O)Oc1ccc[n+](C)c1,Psychiatric disorders,1.0,0.02287224,0.018981269
+CN(C)C(=O)Oc1ccc[n+](C)c1,Renal and urinary disorders,1.0,0.026616473,0.02261942
+CN(C)C(=O)Oc1ccc[n+](C)c1,Reproductive system and breast disorders,1.0,0.018787459,0.015767215
+CN(C)C(=O)Oc1ccc[n+](C)c1,"Respiratory, thoracic and mediastinal disorders",1.0,0.035245065,0.04374719
+CN(C)C(=O)Oc1ccc[n+](C)c1,Skin and subcutaneous tissue disorders,1.0,0.04971613,0.0425065
+CN(C)C(=O)Oc1ccc[n+](C)c1,Vascular disorders,1.0,0.04433573,0.030208474
+NC(=O)C(c1ccccc1)(c1ccccc1)[C@@H]1CCN(CCc2ccc3c(c2)CCO3)C1,Blood and lymphatic system disorders,0.0,0.03167663,0.02895938
+NC(=O)C(c1ccccc1)(c1ccccc1)[C@@H]1CCN(CCc2ccc3c(c2)CCO3)C1,Cardiac disorders,1.0,0.24725336,0.26913851
+NC(=O)C(c1ccccc1)(c1ccccc1)[C@@H]1CCN(CCc2ccc3c(c2)CCO3)C1,Ear and labyrinth disorders,0.0,0.025973924,0.020035118
+NC(=O)C(c1ccccc1)(c1ccccc1)[C@@H]1CCN(CCc2ccc3c(c2)CCO3)C1,Endocrine disorder,0.0,0.012804688,0.0122939525
+NC(=O)C(c1ccccc1)(c1ccccc1)[C@@H]1CCN(CCc2ccc3c(c2)CCO3)C1,Eye disorders,1.0,0.053181663,0.06749382
+NC(=O)C(c1ccccc1)(c1ccccc1)[C@@H]1CCN(CCc2ccc3c(c2)CCO3)C1,Gastrointestinal disorders,1.0,0.2242801,0.22056843
+NC(=O)C(c1ccccc1)(c1ccccc1)[C@@H]1CCN(CCc2ccc3c(c2)CCO3)C1,Hepatobiliary disorders,1.0,0.045795567,0.03191056
+NC(=O)C(c1ccccc1)(c1ccccc1)[C@@H]1CCN(CCc2ccc3c(c2)CCO3)C1,Immune system disorders,1.0,0.056777284,0.06651528
+NC(=O)C(c1ccccc1)(c1ccccc1)[C@@H]1CCN(CCc2ccc3c(c2)CCO3)C1,Infections and infestations,1.0,0.06336797,0.059514064
+NC(=O)C(c1ccccc1)(c1ccccc1)[C@@H]1CCN(CCc2ccc3c(c2)CCO3)C1,Metabolism and nutrition disorders,0.0,0.06529617,0.06938375
+NC(=O)C(c1ccccc1)(c1ccccc1)[C@@H]1CCN(CCc2ccc3c(c2)CCO3)C1,Musculoskeletal and connective tissue disorders,1.0,0.10616585,0.09938115
+NC(=O)C(c1ccccc1)(c1ccccc1)[C@@H]1CCN(CCc2ccc3c(c2)CCO3)C1,Nervous system disorders,1.0,0.5193837,0.59136164
+NC(=O)C(c1ccccc1)(c1ccccc1)[C@@H]1CCN(CCc2ccc3c(c2)CCO3)C1,Psychiatric disorders,1.0,0.10323495,0.09614016
+NC(=O)C(c1ccccc1)(c1ccccc1)[C@@H]1CCN(CCc2ccc3c(c2)CCO3)C1,Renal and urinary disorders,1.0,0.067661874,0.061940823
+NC(=O)C(c1ccccc1)(c1ccccc1)[C@@H]1CCN(CCc2ccc3c(c2)CCO3)C1,Reproductive system and breast disorders,1.0,0.0422254,0.03754865
+NC(=O)C(c1ccccc1)(c1ccccc1)[C@@H]1CCN(CCc2ccc3c(c2)CCO3)C1,"Respiratory, thoracic and mediastinal disorders",1.0,0.1458516,0.16795553
+NC(=O)C(c1ccccc1)(c1ccccc1)[C@@H]1CCN(CCc2ccc3c(c2)CCO3)C1,Skin and subcutaneous tissue disorders,1.0,0.5656928,0.60281044
+NC(=O)C(c1ccccc1)(c1ccccc1)[C@@H]1CCN(CCc2ccc3c(c2)CCO3)C1,Vascular disorders,1.0,0.10346494,0.080989085
+O=C(NC[C@H]1CN(c2ccc(N3CCOCC3=O)cc2)C(=O)O1)c1ccc(Cl)s1,Blood and lymphatic system disorders,1.0,0.18101336,0.17517188
+O=C(NC[C@H]1CN(c2ccc(N3CCOCC3=O)cc2)C(=O)O1)c1ccc(Cl)s1,Cardiac disorders,1.0,0.09130038,0.09593198
+O=C(NC[C@H]1CN(c2ccc(N3CCOCC3=O)cc2)C(=O)O1)c1ccc(Cl)s1,Ear and labyrinth disorders,1.0,0.078854695,0.06641713
+O=C(NC[C@H]1CN(c2ccc(N3CCOCC3=O)cc2)C(=O)O1)c1ccc(Cl)s1,Endocrine disorder,1.0,0.046070635,0.044623867
+O=C(NC[C@H]1CN(c2ccc(N3CCOCC3=O)cc2)C(=O)O1)c1ccc(Cl)s1,Eye disorders,1.0,0.04544301,0.056651063
+O=C(NC[C@H]1CN(c2ccc(N3CCOCC3=O)cc2)C(=O)O1)c1ccc(Cl)s1,Gastrointestinal disorders,1.0,0.22215772,0.21675651
+O=C(NC[C@H]1CN(c2ccc(N3CCOCC3=O)cc2)C(=O)O1)c1ccc(Cl)s1,Hepatobiliary disorders,1.0,0.1195103,0.09595171
+O=C(NC[C@H]1CN(c2ccc(N3CCOCC3=O)cc2)C(=O)O1)c1ccc(Cl)s1,Immune system disorders,1.0,0.1268865,0.13787754
+O=C(NC[C@H]1CN(c2ccc(N3CCOCC3=O)cc2)C(=O)O1)c1ccc(Cl)s1,Infections and infestations,1.0,0.08138788,0.07389355
+O=C(NC[C@H]1CN(c2ccc(N3CCOCC3=O)cc2)C(=O)O1)c1ccc(Cl)s1,Metabolism and nutrition disorders,1.0,0.113371484,0.114387505
+O=C(NC[C@H]1CN(c2ccc(N3CCOCC3=O)cc2)C(=O)O1)c1ccc(Cl)s1,Musculoskeletal and connective tissue disorders,1.0,0.11760843,0.1070309
+O=C(NC[C@H]1CN(c2ccc(N3CCOCC3=O)cc2)C(=O)O1)c1ccc(Cl)s1,Nervous system disorders,1.0,0.12922333,0.12950386
+O=C(NC[C@H]1CN(c2ccc(N3CCOCC3=O)cc2)C(=O)O1)c1ccc(Cl)s1,Psychiatric disorders,1.0,0.089202195,0.08020164
+O=C(NC[C@H]1CN(c2ccc(N3CCOCC3=O)cc2)C(=O)O1)c1ccc(Cl)s1,Renal and urinary disorders,1.0,0.14584053,0.13667642
+O=C(NC[C@H]1CN(c2ccc(N3CCOCC3=O)cc2)C(=O)O1)c1ccc(Cl)s1,Reproductive system and breast disorders,1.0,0.060723834,0.054056525
+O=C(NC[C@H]1CN(c2ccc(N3CCOCC3=O)cc2)C(=O)O1)c1ccc(Cl)s1,"Respiratory, thoracic and mediastinal disorders",1.0,0.12297054,0.13790812
+O=C(NC[C@H]1CN(c2ccc(N3CCOCC3=O)cc2)C(=O)O1)c1ccc(Cl)s1,Skin and subcutaneous tissue disorders,1.0,0.18502064,0.17172568
+O=C(NC[C@H]1CN(c2ccc(N3CCOCC3=O)cc2)C(=O)O1)c1ccc(Cl)s1,Vascular disorders,1.0,0.11961205,0.09503913

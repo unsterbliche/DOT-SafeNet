@@ -1,0 +1,125 @@
+# Reproduction validation
+
+Status: **FAIL**
+
+- [PASS] Figure 2a target total — sum=194
+- [PASS] Figure 2c finite values — rows=27739
+- [PASS] Supplementary Figure 2a proteins — rows=7258
+- [PASS] Supplementary Figure 2c pair total — positive+negative=2102767
+- [PASS] Supplementary Figure 3a epochs — rows=100, last_epoch=100
+- [PASS] output figure_2\outputs\panels\figure_2a.svg — 7005 bytes
+- [PASS] output figure_2\outputs\panels\figure_2a.pdf — 21915 bytes
+- [PASS] output figure_2\outputs\panels\figure_2a.png — 66198 bytes
+- [PASS] PNG content figure_2\outputs\panels\figure_2a.png — 1044x806, density=0.3420
+- [PASS] editable SVG figure_2\outputs\panels\figure_2a.svg — contains SVG text nodes=True
+- [FAIL] output figure_2\outputs\panels\figure_2b.svg — 0 bytes
+- [FAIL] output figure_2\outputs\panels\figure_2b.pdf — 0 bytes
+- [FAIL] output figure_2\outputs\panels\figure_2b.png — 0 bytes
+- [PASS] output figure_2\outputs\panels\figure_2c.svg — 303284 bytes
+- [PASS] output figure_2\outputs\panels\figure_2c.pdf — 152703 bytes
+- [PASS] output figure_2\outputs\panels\figure_2c.png — 373496 bytes
+- [PASS] PNG content figure_2\outputs\panels\figure_2c.png — 1074x1567, density=0.1614
+- [PASS] editable SVG figure_2\outputs\panels\figure_2c.svg — contains SVG text nodes=True
+- [PASS] output figure_2\outputs\panels\figure_2d.svg — 31214 bytes
+- [PASS] output figure_2\outputs\panels\figure_2d.pdf — 28413 bytes
+- [PASS] output figure_2\outputs\panels\figure_2d.png — 63874 bytes
+- [PASS] PNG content figure_2\outputs\panels\figure_2d.png — 815x1286, density=0.2667
+- [PASS] editable SVG figure_2\outputs\panels\figure_2d.svg — contains SVG text nodes=True
+- [PASS] output figure_2\outputs\panels\figure_2e.svg — 12903 bytes
+- [PASS] output figure_2\outputs\panels\figure_2e.pdf — 39867 bytes
+- [PASS] output figure_2\outputs\panels\figure_2e.png — 65992 bytes
+- [PASS] PNG content figure_2\outputs\panels\figure_2e.png — 784x777, density=0.0575
+- [PASS] editable SVG figure_2\outputs\panels\figure_2e.svg — contains SVG text nodes=True
+- [PASS] output figure_2\outputs\panels\figure_2f.svg — 11741 bytes
+- [PASS] output figure_2\outputs\panels\figure_2f.pdf — 45329 bytes
+- [PASS] output figure_2\outputs\panels\figure_2f.png — 54857 bytes
+- [PASS] PNG content figure_2\outputs\panels\figure_2f.png — 1048x816, density=0.1277
+- [PASS] editable SVG figure_2\outputs\panels\figure_2f.svg — contains SVG text nodes=True
+- [FAIL] output figure_2\outputs\figure_2.svg — 0 bytes
+- [FAIL] output figure_2\outputs\figure_2.pdf — 0 bytes
+- [FAIL] output figure_2\outputs\figure_2.png — 0 bytes
+- [PASS] output supplementary_figure_2\outputs\panels\supplementary_figure_2a.svg — 25739 bytes
+- [PASS] output supplementary_figure_2\outputs\panels\supplementary_figure_2a.pdf — 25929 bytes
+- [PASS] output supplementary_figure_2\outputs\panels\supplementary_figure_2a.png — 47903 bytes
+- [PASS] PNG content supplementary_figure_2\outputs\panels\supplementary_figure_2a.png — 975x722, density=0.1395
+- [PASS] editable SVG supplementary_figure_2\outputs\panels\supplementary_figure_2a.svg — contains SVG text nodes=True
+- [PASS] output supplementary_figure_2\outputs\panels\supplementary_figure_2c.svg — 8638 bytes
+- [PASS] output supplementary_figure_2\outputs\panels\supplementary_figure_2c.pdf — 32273 bytes
+- [PASS] output supplementary_figure_2\outputs\panels\supplementary_figure_2c.png — 31504 bytes
+- [PASS] PNG content supplementary_figure_2\outputs\panels\supplementary_figure_2c.png — 950x739, density=0.4469
+- [PASS] editable SVG supplementary_figure_2\outputs\panels\supplementary_figure_2c.svg — contains SVG text nodes=True
+- [PASS] output supplementary_figure_2\outputs\panels\supplementary_figure_2d.svg — 13962 bytes
+- [PASS] output supplementary_figure_2\outputs\panels\supplementary_figure_2d.pdf — 34887 bytes
+- [PASS] output supplementary_figure_2\outputs\panels\supplementary_figure_2d.png — 38193 bytes
+- [PASS] PNG content supplementary_figure_2\outputs\panels\supplementary_figure_2d.png — 962x733, density=0.3436
+- [PASS] editable SVG supplementary_figure_2\outputs\panels\supplementary_figure_2d.svg — contains SVG text nodes=True
+- [PASS] output supplementary_figure_2\outputs\panels\supplementary_figure_2b.svg — 21365 bytes
+- [PASS] output supplementary_figure_2\outputs\panels\supplementary_figure_2b.pdf — 24163 bytes
+- [PASS] output supplementary_figure_2\outputs\panels\supplementary_figure_2b.png — 39798 bytes
+- [PASS] PNG content supplementary_figure_2\outputs\panels\supplementary_figure_2b.png — 920x722, density=0.2968
+- [PASS] editable SVG supplementary_figure_2\outputs\panels\supplementary_figure_2b.svg — contains SVG text nodes=True
+- [PASS] output supplementary_figure_2\outputs\supplementary_figure_2.svg — 66221 bytes
+- [PASS] output supplementary_figure_2\outputs\supplementary_figure_2.pdf — 41928 bytes
+- [PASS] output supplementary_figure_2\outputs\supplementary_figure_2.png — 154760 bytes
+- [PASS] PNG content supplementary_figure_2\outputs\supplementary_figure_2.png — 2127x1536, density=0.2829
+- [PASS] editable SVG supplementary_figure_2\outputs\supplementary_figure_2.svg — contains SVG text nodes=True
+- [PASS] output supplementary_figure_3\outputs\panels\supplementary_figure_3a.svg — 15537 bytes
+- [PASS] output supplementary_figure_3\outputs\panels\supplementary_figure_3a.pdf — 35328 bytes
+- [PASS] output supplementary_figure_3\outputs\panels\supplementary_figure_3a.png — 57534 bytes
+- [PASS] PNG content supplementary_figure_3\outputs\panels\supplementary_figure_3a.png — 968x700, density=0.0535
+- [PASS] editable SVG supplementary_figure_3\outputs\panels\supplementary_figure_3a.svg — contains SVG text nodes=True
+- [PASS] output supplementary_figure_3\outputs\panels\supplementary_figure_3b.svg — 15567 bytes
+- [PASS] output supplementary_figure_3\outputs\panels\supplementary_figure_3b.pdf — 37554 bytes
+- [PASS] output supplementary_figure_3\outputs\panels\supplementary_figure_3b.png — 51483 bytes
+- [PASS] PNG content supplementary_figure_3\outputs\panels\supplementary_figure_3b.png — 1010x658, density=0.3221
+- [PASS] editable SVG supplementary_figure_3\outputs\panels\supplementary_figure_3b.svg — contains SVG text nodes=True
+- [PASS] output supplementary_figure_3\outputs\panels\supplementary_figure_3c.svg — 15566 bytes
+- [PASS] output supplementary_figure_3\outputs\panels\supplementary_figure_3c.pdf — 37008 bytes
+- [PASS] output supplementary_figure_3\outputs\panels\supplementary_figure_3c.png — 51254 bytes
+- [PASS] PNG content supplementary_figure_3\outputs\panels\supplementary_figure_3c.png — 1010x658, density=0.2859
+- [PASS] editable SVG supplementary_figure_3\outputs\panels\supplementary_figure_3c.svg — contains SVG text nodes=True
+- [PASS] output supplementary_figure_3\outputs\panels\supplementary_figure_3d.svg — 15563 bytes
+- [PASS] output supplementary_figure_3\outputs\panels\supplementary_figure_3d.pdf — 36843 bytes
+- [PASS] output supplementary_figure_3\outputs\panels\supplementary_figure_3d.png — 50747 bytes
+- [PASS] PNG content supplementary_figure_3\outputs\panels\supplementary_figure_3d.png — 1010x658, density=0.2777
+- [PASS] editable SVG supplementary_figure_3\outputs\panels\supplementary_figure_3d.svg — contains SVG text nodes=True
+- [PASS] output supplementary_figure_3\outputs\supplementary_figure_3.svg — 54923 bytes
+- [PASS] output supplementary_figure_3\outputs\supplementary_figure_3.pdf — 44805 bytes
+- [PASS] output supplementary_figure_3\outputs\supplementary_figure_3.png — 163588 bytes
+- [PASS] PNG content supplementary_figure_3\outputs\supplementary_figure_3.png — 2116x1596, density=0.2617
+- [PASS] editable SVG supplementary_figure_3\outputs\supplementary_figure_3.svg — contains SVG text nodes=True
+- [PASS] output supplementary_figure_4\outputs\panels\supplementary_figure_4a.svg — 75469 bytes
+- [PASS] output supplementary_figure_4\outputs\panels\supplementary_figure_4a.pdf — 63067 bytes
+- [PASS] output supplementary_figure_4\outputs\panels\supplementary_figure_4a.png — 104482 bytes
+- [PASS] PNG content supplementary_figure_4\outputs\panels\supplementary_figure_4a.png — 704x672, density=0.1540
+- [PASS] editable SVG supplementary_figure_4\outputs\panels\supplementary_figure_4a.svg — contains SVG text nodes=True
+- [PASS] output supplementary_figure_4\outputs\panels\supplementary_figure_4b.svg — 52949 bytes
+- [PASS] output supplementary_figure_4\outputs\panels\supplementary_figure_4b.pdf — 54208 bytes
+- [PASS] output supplementary_figure_4\outputs\panels\supplementary_figure_4b.png — 76089 bytes
+- [PASS] PNG content supplementary_figure_4\outputs\panels\supplementary_figure_4b.png — 678x672, density=0.1431
+- [PASS] editable SVG supplementary_figure_4\outputs\panels\supplementary_figure_4b.svg — contains SVG text nodes=True
+- [PASS] output supplementary_figure_4\outputs\panels\supplementary_figure_4c.svg — 58262 bytes
+- [PASS] output supplementary_figure_4\outputs\panels\supplementary_figure_4c.pdf — 55348 bytes
+- [PASS] output supplementary_figure_4\outputs\panels\supplementary_figure_4c.png — 81518 bytes
+- [PASS] PNG content supplementary_figure_4\outputs\panels\supplementary_figure_4c.png — 704x672, density=0.1254
+- [PASS] editable SVG supplementary_figure_4\outputs\panels\supplementary_figure_4c.svg — contains SVG text nodes=True
+- [PASS] output supplementary_figure_4\outputs\panels\supplementary_figure_4d.svg — 56111 bytes
+- [PASS] output supplementary_figure_4\outputs\panels\supplementary_figure_4d.pdf — 55029 bytes
+- [PASS] output supplementary_figure_4\outputs\panels\supplementary_figure_4d.png — 81794 bytes
+- [PASS] PNG content supplementary_figure_4\outputs\panels\supplementary_figure_4d.png — 704x672, density=0.1168
+- [PASS] editable SVG supplementary_figure_4\outputs\panels\supplementary_figure_4d.svg — contains SVG text nodes=True
+- [PASS] output supplementary_figure_4\outputs\panels\supplementary_figure_4e.svg — 51230 bytes
+- [PASS] output supplementary_figure_4\outputs\panels\supplementary_figure_4e.pdf — 51484 bytes
+- [PASS] output supplementary_figure_4\outputs\panels\supplementary_figure_4e.png — 72026 bytes
+- [PASS] PNG content supplementary_figure_4\outputs\panels\supplementary_figure_4e.png — 678x672, density=0.1222
+- [PASS] editable SVG supplementary_figure_4\outputs\panels\supplementary_figure_4e.svg — contains SVG text nodes=True
+- [PASS] output supplementary_figure_4\outputs\panels\supplementary_figure_4f.svg — 67678 bytes
+- [PASS] output supplementary_figure_4\outputs\panels\supplementary_figure_4f.pdf — 61064 bytes
+- [PASS] output supplementary_figure_4\outputs\panels\supplementary_figure_4f.png — 91855 bytes
+- [PASS] PNG content supplementary_figure_4\outputs\panels\supplementary_figure_4f.png — 678x672, density=0.1461
+- [PASS] editable SVG supplementary_figure_4\outputs\panels\supplementary_figure_4f.svg — contains SVG text nodes=True
+- [PASS] output supplementary_figure_4\outputs\supplementary_figure_4.svg — 294405 bytes
+- [PASS] output supplementary_figure_4\outputs\supplementary_figure_4.pdf — 146454 bytes
+- [PASS] output supplementary_figure_4\outputs\supplementary_figure_4.png — 344759 bytes
+- [PASS] PNG content supplementary_figure_4\outputs\supplementary_figure_4.png — 1070x1563, density=0.1617
+- [PASS] editable SVG supplementary_figure_4\outputs\supplementary_figure_4.svg — contains SVG text nodes=True

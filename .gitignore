@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+.idea/
+.vscode/
+weights/checkpoints/
+outputs/tmp/
+results/
+*.log
+*.tmp
+.env
+.env.*
+zenodo_token*
+inference_assets/
+checkpoint_archive/
+figures/**/outputs/*.tif
+figures/**/outputs/*.tiff

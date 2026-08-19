@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "targets": 194,
+  "soc_tasks": 18,
+  "manuscript_figures": 14,
+  "code_figure_entrypoints": 12,
+  "weight_files": 37,
+  "errors": [],
+  "warnings": []
+}

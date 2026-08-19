@@ -1,0 +1,11 @@
+pipeline: DOT-SafeNet publication workflow
+input: [drug_name, canonical_smiles, daily_dose_mg]
+steps:
+  - OT-ProfileNet: canonical_smiles to 194 pAC50 values
+  - PlasmaBindNet-Fu: canonical_smiles to PPB and free fraction
+  - DoseExpoNet: canonical_smiles plus daily_dose_mg to total Cmax
+  - exposure: total Cmax times free fraction to free Cmax in micromolar
+  - feature_assembly: log10 free Cmax plus 194 values of 6-pAC50 plus 194 target-exposure products
+  - DOT-SafeNet: 389 features plus SOC index to 18 SOC probabilities
+target_order: data/manifests/target_order.csv
+soc_order: data/manifests/soc_order.csv

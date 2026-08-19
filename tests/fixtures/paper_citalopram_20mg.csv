@@ -1,0 +1,2 @@
+compound_id,name,smiles,dose_mg_day,route
+PAPER_CITALOPRAM_20,Citalopram,CN(C)CCCC1(c2ccc(F)cc2)OCc2cc(C#N)ccc21,20,oral

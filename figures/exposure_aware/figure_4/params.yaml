@@ -1,0 +1,41 @@
+figure:
+  panel_a_size: [2.45, 2.35]
+  training_comparison_size: [7.2, 2.15]
+  finetune_metric_size: [2.15, 2.15]
+  panel_b_size: [4.15, 5.15]
+  panel_c_size: [3.15, 5.15]
+  panel_d_size: [7.2, 1.82]
+  composite_size: [7.2, 7.25]
+  dpi: 300
+text:
+  font_family: Arial
+  font_size: 8
+  label_size: 9
+  tick_size: 7.5
+  legend_size: 7.5
+colors:
+  dotsafenet: "#C44E52"
+  ac50: "#4C78A8"
+  free_margin: "#F2A65A"
+  comparator: "#BDBDBD"
+  before_finetune: "#BDBDBD"
+  after_finetune: "#C44E52"
+  light_positive: "#9ECAE1"
+  positive: "#2166AC"
+  background: "#D9D9D9"
+  gas_vas_light: "#A7D8D5"
+  gas_vas_dark: "#247B7B"
+  ner_psy_light: "#D3C1DD"
+  ner_psy_dark: "#76518B"
+axes:
+  full_frame: true
+  grid: false
+  threshold: 0.5
+layout:
+  roc_rows: 6
+  roc_columns: 3
+  umap_hspace: 0.00
+  umap_wspace: 0.08
+export:
+  formats: [png, pdf, svg]
+  transparent: false
