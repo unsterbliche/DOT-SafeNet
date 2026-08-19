@@ -1,0 +1,12 @@
+figure:
+  width_mm: 82
+  height_mm: 50
+  dpi: 300
+style:
+  axis_label_pt: 10
+  tick_label_pt: 9
+  full_frame: true
+  panel_letters: false
+data_checks:
+  targets: 7258
+  total_pairs: 2102767

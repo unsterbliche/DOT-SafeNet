@@ -1,0 +1,15 @@
+figure,manuscript_order,generation,entrypoint,source_data,final_reference,editable_source
+Figure 1,1,hybrid,figures/exposure_aware/figure_1/run.py,figures/exposure_aware/figure_1/assets,paper_figures/final_tiff/Figure_1.tiff,paper_figures/figure.pptx
+Figure 2,2,code_and_layout,figures/ot_profilenet/figure_2/run.py,figures/ot_profilenet/figure_2/data,paper_figures/final_tiff/Figure_2.tiff,paper_figures/figure.pptx
+Figure 3,3,code_and_layout,figures/exposure_aware/figure_3/run.py,figures/exposure_aware/figure_3/data,paper_figures/final_tiff/Figure_3.tiff,paper_figures/figure.pptx
+Figure 4,4,hybrid,figures/exposure_aware/supplementary_figure_7_dotsafenet/run.py,figures/exposure_aware/supplementary_figure_7_dotsafenet/data,paper_figures/final_tiff/Figure_4.tiff,paper_figures/figure.pptx
+Figure 5,5,code_and_layout,figures/exposure_aware/figure_4/run.py,figures/exposure_aware/figure_4/data,paper_figures/final_tiff/Figure_5.tiff,paper_figures/figure.pptx
+Figure 6,6,code_and_layout,figures/exposure_aware/figure_5/run.py,figures/exposure_aware/figure_5/data,paper_figures/final_tiff/Figure_6.tiff,paper_figures/figure.pptx
+Supplementary Figure 1,7,editable_schematic,,,paper_figures/final_tiff/Supplementary_Figure_1.tiff,paper_figures/figure.pptx
+Supplementary Figure 2,8,code_and_layout,figures/ot_profilenet/supplementary_figure_2/run.py,figures/ot_profilenet/supplementary_figure_2/data,paper_figures/final_tiff/Supplementary_Figure_2.tiff,paper_figures/figure.pptx
+Supplementary Figure 3,9,code_and_layout,figures/ot_profilenet/supplementary_figure_3/run.py,figures/ot_profilenet/supplementary_figure_3/data,paper_figures/final_tiff/Supplementary_Figure_3.tiff,paper_figures/figure.pptx
+Supplementary Figure 4,10,code_and_layout,figures/ot_profilenet/supplementary_figure_4/run.py,figures/ot_profilenet/supplementary_figure_4/data,paper_figures/final_tiff/Supplementary_Figure_4.tiff,paper_figures/figure.pptx
+Supplementary Figure 5,11,editable_schematic,,,paper_figures/final_tiff/Supplementary_Figure_5.tiff,paper_figures/figure.pptx
+Supplementary Figure 6,12,code_and_layout,figures/exposure_aware/supplementary_figure_6/run.py,figures/exposure_aware/supplementary_figure_6/data,paper_figures/final_tiff/Supplementary_Figure_6.tiff,paper_figures/figure.pptx
+Supplementary Figure 7,13,code_and_layout,figures/exposure_aware/supplementary_figure_7/run.py,figures/exposure_aware/supplementary_figure_7/data,paper_figures/final_tiff/Supplementary_Figure_7.tiff,paper_figures/figure.pptx
+Supplementary Figure 8,14,code_and_layout,figures/exposure_aware/supplementary_figure_8/run.py,figures/exposure_aware/supplementary_figure_8/data,paper_figures/final_tiff/Supplementary_Figure_8.tiff,paper_figures/figure.pptx

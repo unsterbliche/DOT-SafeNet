@@ -1,0 +1,141 @@
+﻿target_family,model,metric,si_reported,a100_workbook,array_recalculated,abs_diff_si_workbook,abs_diff_si_array,status
+GPCR,GraphDTA,RMSE,0.812,0.812,,0.0,,consistent
+GPCR,GraphDTA,PCC,0.792,0.792,,0.0,,consistent
+GPCR,GraphDTA,Spearman,0.781,0.781,,0.0,,consistent
+GPCR,GraphDTA,R2,0.622,0.622,,0.0,,consistent
+GPCR,BACPI,RMSE,0.817,0.817,,0.0,,consistent
+GPCR,BACPI,PCC,0.794,0.794,,0.0,,consistent
+GPCR,BACPI,Spearman,0.788,0.788,,0.0,,consistent
+GPCR,BACPI,R2,0.617,0.617,,0.0,,consistent
+GPCR,PMF-CPI,RMSE,0.713,0.713,,0.0,,consistent
+GPCR,PMF-CPI,PCC,0.845,0.845,,0.0,,consistent
+GPCR,PMF-CPI,Spearman,0.837,0.837,,0.0,,consistent
+GPCR,PMF-CPI,R2,0.708,0.708,,0.0,,consistent
+GPCR,PreMOTA (from-scratch),RMSE,0.663,0.663,,0.0,,consistent
+GPCR,PreMOTA (from-scratch),PCC,0.869,0.869,,0.0,,consistent
+GPCR,PreMOTA (from-scratch),Spearman,0.864,0.864,,0.0,,consistent
+GPCR,PreMOTA (from-scratch),R2,0.748,0.748,,0.0,,consistent
+GPCR,PreMOTA (fine-tuned),RMSE,0.643,0.643,0.642600029706955,0.0,0.00039997029304505993,consistent
+GPCR,PreMOTA (fine-tuned),PCC,0.877,0.877,0.8771918091154263,0.0,0.00019180911542626689,consistent
+GPCR,PreMOTA (fine-tuned),Spearman,0.872,0.872,0.8724868721782439,0.0,0.0004868721782439467,consistent
+GPCR,PreMOTA (fine-tuned),R2,0.764,0.764,0.7635403573513031,0.0,0.00045964264869691185,consistent
+Ion channel,GraphDTA,RMSE,0.774,0.774,,0.0,,consistent
+Ion channel,GraphDTA,PCC,0.827,0.827,,0.0,,consistent
+Ion channel,GraphDTA,Spearman,0.831,0.831,,0.0,,consistent
+Ion channel,GraphDTA,R2,0.676,0.676,,0.0,,consistent
+Ion channel,BACPI,RMSE,0.704,0.704,,0.0,,consistent
+Ion channel,BACPI,PCC,0.86,0.86,,0.0,,consistent
+Ion channel,BACPI,Spearman,0.864,0.864,,0.0,,consistent
+Ion channel,BACPI,R2,0.734,0.734,,0.0,,consistent
+Ion channel,PMF-CPI,RMSE,0.731,0.731,,0.0,,consistent
+Ion channel,PMF-CPI,PCC,0.85,0.85,,0.0,,consistent
+Ion channel,PMF-CPI,Spearman,0.852,0.852,,0.0,,consistent
+Ion channel,PMF-CPI,R2,0.712,0.712,,0.0,,consistent
+Ion channel,PreMOTA (from-scratch),RMSE,0.689,0.689,,0.0,,consistent
+Ion channel,PreMOTA (from-scratch),PCC,0.866,0.866,,0.0,,consistent
+Ion channel,PreMOTA (from-scratch),Spearman,0.873,0.873,,0.0,,consistent
+Ion channel,PreMOTA (from-scratch),R2,0.746,0.746,,0.0,,consistent
+Ion channel,PreMOTA (fine-tuned),RMSE,0.647,0.647,0.6474990844726562,0.0,0.0004990844726562305,consistent
+Ion channel,PreMOTA (fine-tuned),PCC,0.887,0.887,0.8869496340323573,0.0,5.036596764274037e-05,consistent
+Ion channel,PreMOTA (fine-tuned),Spearman,0.893,0.893,0.8932113352358361,0.0,0.00021133523583605207,consistent
+Ion channel,PreMOTA (fine-tuned),R2,0.775,0.775,0.774711549282074,0.0,0.0002884507179260476,consistent
+Enzyme,GraphDTA,RMSE,0.856,0.856,,0.0,,consistent
+Enzyme,GraphDTA,PCC,0.854,0.854,,0.0,,consistent
+Enzyme,GraphDTA,Spearman,0.832,0.832,,0.0,,consistent
+Enzyme,GraphDTA,R2,0.696,0.696,,0.0,,consistent
+Enzyme,BACPI,RMSE,0.803,0.803,,0.0,,consistent
+Enzyme,BACPI,PCC,0.86,0.86,,0.0,,consistent
+Enzyme,BACPI,Spearman,0.843,0.843,,0.0,,consistent
+Enzyme,BACPI,R2,0.733,0.733,,0.0,,consistent
+Enzyme,PMF-CPI,RMSE,0.771,0.771,,0.0,,consistent
+Enzyme,PMF-CPI,PCC,0.87,0.87,,0.0,,consistent
+Enzyme,PMF-CPI,Spearman,0.852,0.852,,0.0,,consistent
+Enzyme,PMF-CPI,R2,0.756,0.756,,0.0,,consistent
+Enzyme,PreMOTA (from-scratch),RMSE,0.653,0.653,,0.0,,consistent
+Enzyme,PreMOTA (from-scratch),PCC,0.909,0.909,,0.0,,consistent
+Enzyme,PreMOTA (from-scratch),Spearman,0.894,0.894,,0.0,,consistent
+Enzyme,PreMOTA (from-scratch),R2,0.824,0.824,,0.0,,consistent
+Enzyme,PreMOTA (fine-tuned),RMSE,0.63,0.63,0.6299927830696106,0.0,7.216930389408738e-06,consistent
+Enzyme,PreMOTA (fine-tuned),PCC,0.917,0.917,0.9165765207858181,0.0,0.00042347921418195433,consistent
+Enzyme,PreMOTA (fine-tuned),Spearman,0.904,0.904,0.9037040360543191,0.0,0.00029596394568087714,consistent
+Enzyme,PreMOTA (fine-tuned),R2,0.836,0.836,0.8363178372383118,0.0,0.0003178372383118022,consistent
+Kinases,GraphDTA,RMSE,0.803,0.803,,0.0,,consistent
+Kinases,GraphDTA,PCC,0.809,0.809,,0.0,,consistent
+Kinases,GraphDTA,Spearman,0.801,0.801,,0.0,,consistent
+Kinases,GraphDTA,R2,0.656,0.656,,0.0,,consistent
+Kinases,BACPI,RMSE,0.789,0.789,,0.0,,consistent
+Kinases,BACPI,PCC,0.825,0.825,,0.0,,consistent
+Kinases,BACPI,Spearman,0.814,0.814,,0.0,,consistent
+Kinases,BACPI,R2,0.672,0.672,,0.0,,consistent
+Kinases,PMF-CPI,RMSE,0.739,0.739,,0.0,,consistent
+Kinases,PMF-CPI,PCC,0.85,0.85,,0.0,,consistent
+Kinases,PMF-CPI,Spearman,0.842,0.842,,0.0,,consistent
+Kinases,PMF-CPI,R2,0.714,0.714,,0.0,,consistent
+Kinases,PreMOTA (from-scratch),RMSE,0.709,0.709,,0.0,,consistent
+Kinases,PreMOTA (from-scratch),PCC,0.863,0.863,,0.0,,consistent
+Kinases,PreMOTA (from-scratch),Spearman,0.856,0.856,,0.0,,consistent
+Kinases,PreMOTA (from-scratch),R2,0.738,0.738,,0.0,,consistent
+Kinases,PreMOTA (fine-tuned),RMSE,0.689,0.689,0.689015805721283,0.0,1.5805721283013163e-05,consistent
+Kinases,PreMOTA (fine-tuned),PCC,0.872,0.872,0.8719213748359591,0.0,7.862516404089082e-05,consistent
+Kinases,PreMOTA (fine-tuned),Spearman,0.867,0.867,0.8671401878485316,0.0,0.00014018784853164767,consistent
+Kinases,PreMOTA (fine-tuned),R2,0.752,0.752,0.7517609596252441,0.0,0.00023904037475586115,consistent
+NR,GraphDTA,RMSE,0.853,0.853,,0.0,,consistent
+NR,GraphDTA,PCC,0.799,0.799,,0.0,,consistent
+NR,GraphDTA,Spearman,0.794,0.794,,0.0,,consistent
+NR,GraphDTA,R2,0.591,0.591,,0.0,,consistent
+NR,BACPI,RMSE,0.777,0.777,,0.0,,consistent
+NR,BACPI,PCC,0.818,0.818,,0.0,,consistent
+NR,BACPI,Spearman,0.814,0.814,,0.0,,consistent
+NR,BACPI,R2,0.659,0.659,,0.0,,consistent
+NR,PMF-CPI,RMSE,0.792,0.792,,0.0,,consistent
+NR,PMF-CPI,PCC,0.815,0.815,,0.0,,consistent
+NR,PMF-CPI,Spearman,0.807,0.807,,0.0,,consistent
+NR,PMF-CPI,R2,0.647,0.647,,0.0,,consistent
+NR,PreMOTA (from-scratch),RMSE,0.733,0.733,,0.0,,consistent
+NR,PreMOTA (from-scratch),PCC,0.836,0.836,,0.0,,consistent
+NR,PreMOTA (from-scratch),Spearman,0.84,0.84,,0.0,,consistent
+NR,PreMOTA (from-scratch),R2,0.697,0.697,,0.0,,consistent
+NR,PreMOTA (fine-tuned),RMSE,0.634,0.634,0.6237070560455322,0.0,0.010292943954467781,ARRAY_MISMATCH
+NR,PreMOTA (fine-tuned),PCC,0.886,0.886,0.8864767113440686,0.0,0.00047671134406856996,consistent
+NR,PreMOTA (fine-tuned),Spearman,0.883,0.883,0.8826030020795523,0.0,0.00039699792044767257,consistent
+NR,PreMOTA (fine-tuned),R2,0.781,0.781,0.781178206205368,0.0,0.00017820620536801446,consistent
+Transporter,GraphDTA,RMSE,0.734,0.734,,0.0,,consistent
+Transporter,GraphDTA,PCC,0.811,0.811,,0.0,,consistent
+Transporter,GraphDTA,Spearman,0.798,0.798,,0.0,,consistent
+Transporter,GraphDTA,R2,0.651,0.651,,0.0,,consistent
+Transporter,BACPI,RMSE,0.709,0.709,,0.0,,consistent
+Transporter,BACPI,PCC,0.827,0.827,,0.0,,consistent
+Transporter,BACPI,Spearman,0.82,0.82,,0.0,,consistent
+Transporter,BACPI,R2,0.675,0.675,,0.0,,consistent
+Transporter,PMF-CPI,RMSE,0.704,0.704,,0.0,,consistent
+Transporter,PMF-CPI,PCC,0.827,0.827,,0.0,,consistent
+Transporter,PMF-CPI,Spearman,0.82,0.82,,0.0,,consistent
+Transporter,PMF-CPI,R2,0.679,0.679,,0.0,,consistent
+Transporter,PreMOTA (from-scratch),RMSE,0.681,0.681,,0.0,,consistent
+Transporter,PreMOTA (from-scratch),PCC,0.839,0.839,,0.0,,consistent
+Transporter,PreMOTA (from-scratch),Spearman,0.829,0.829,,0.0,,consistent
+Transporter,PreMOTA (from-scratch),R2,0.699,0.699,,0.0,,consistent
+Transporter,PreMOTA (fine-tuned),RMSE,0.586,0.586,0.5862402319908142,0.0,0.00024023199081424362,consistent
+Transporter,PreMOTA (fine-tuned),PCC,0.884,0.884,0.8843104815987246,0.0,0.000310481598724599,consistent
+Transporter,PreMOTA (fine-tuned),Spearman,0.875,0.875,0.874765979060047,0.0,0.00023402093995295026,consistent
+Transporter,PreMOTA (fine-tuned),R2,0.777,0.777,0.7772688269615173,0.0,0.00026882696151731,consistent
+Other,GraphDTA,RMSE,0.705,0.705,,0.0,,consistent
+Other,GraphDTA,PCC,0.785,0.785,,0.0,,consistent
+Other,GraphDTA,Spearman,0.762,0.762,,0.0,,consistent
+Other,GraphDTA,R2,0.611,0.611,,0.0,,consistent
+Other,BACPI,RMSE,0.68,0.68,,0.0,,consistent
+Other,BACPI,PCC,0.807,0.807,,0.0,,consistent
+Other,BACPI,Spearman,0.791,0.791,,0.0,,consistent
+Other,BACPI,R2,0.64,0.64,,0.0,,consistent
+Other,PMF-CPI,RMSE,0.695,0.695,,0.0,,consistent
+Other,PMF-CPI,PCC,0.793,0.793,,0.0,,consistent
+Other,PMF-CPI,Spearman,0.785,0.785,,0.0,,consistent
+Other,PMF-CPI,R2,0.621,0.621,,0.0,,consistent
+Other,PreMOTA (from-scratch),RMSE,0.744,0.744,,0.0,,consistent
+Other,PreMOTA (from-scratch),PCC,0.753,0.753,,0.0,,consistent
+Other,PreMOTA (from-scratch),Spearman,0.742,0.742,,0.0,,consistent
+Other,PreMOTA (from-scratch),R2,0.561,0.561,,0.0,,consistent
+Other,PreMOTA (fine-tuned),RMSE,0.557,0.557,0.5568099617958069,0.0,0.00019003820419316586,consistent
+Other,PreMOTA (fine-tuned),PCC,0.879,0.879,0.8792362417202122,0.0,0.00023624172021219358,consistent
+Other,PreMOTA (fine-tuned),Spearman,0.866,0.866,0.8664170861561802,0.0,0.00041708615618019085,consistent
+Other,PreMOTA (fine-tuned),R2,0.758,0.758,0.7584612965583801,0.0,0.00046129655838011985,consistent

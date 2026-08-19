@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "targets": 194,
+  "soc_tasks": 18,
+  "manuscript_figures": 14,
+  "code_figure_entrypoints": 12,
+  "weight_files": 37,
+  "profiler_examples": 4,
+  "profiler_reference_targets": 194,
+  "profiler_skill_archive": "multisafe-safety-profiler.skill.zip",
+  "errors": [],
+  "warnings": []
+}

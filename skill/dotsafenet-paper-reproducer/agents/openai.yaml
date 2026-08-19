@@ -1,0 +1,4 @@
+interface:
+  display_name: "DOT-SafeNet Paper Reproducer"
+  short_description: "Audit and reproduce DOT-SafeNet paper results"
+  default_prompt: "Use $dotsafenet-paper-reproducer to validate this release and reproduce its reported figures and metrics."

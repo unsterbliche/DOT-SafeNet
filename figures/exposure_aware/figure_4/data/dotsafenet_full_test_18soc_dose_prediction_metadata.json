@@ -1,0 +1,17 @@
+{
+  "model": "DOT-SafeNet: old PreMOTA + balanced new PPB + A2-mono-lite + CT-ADE clinical fine-tuning",
+  "dose_reference_mg_day": 100.0,
+  "doses_mg_day": [
+    20.0,
+    250.0
+  ],
+  "exposure_transform": "log10 free Cmax shifted by log10(dose/100); target*Cmax interactions recomputed",
+  "n_drugs": 921,
+  "n_tasks": 18,
+  "n_rows": 33156,
+  "probability_range": [
+    0.004098052904009819,
+    0.9910521030426025
+  ],
+  "output": "/tmp/dotsafenet_dose_20260805/out/dotsafenet_full_test_18soc_dose_predictions.csv.gz"
+}

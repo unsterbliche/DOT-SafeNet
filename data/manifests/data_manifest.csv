@@ -1,0 +1,14 @@
+﻿dataset,location,included,use,release_note
+DOT-SafeNet test features,data/dotsafenet_test/test_X.csv,yes,prediction and evaluation,derived 57-drug feature matrix released with the software
+DOT-SafeNet test labels,data/dotsafenet_test/test_y.csv,yes,18-SOC evaluation,missing labels preserved
+PPB random split,figures/exposure_aware/supplementary_figure_6/data/ppb/ppb_random_split,yes,PPB evaluation,figure source package
+Cmax random split,figures/exposure_aware/supplementary_figure_6/data/cmax/cmax_random_split,yes,Cmax evaluation,figure source package
+OT-ProfileNet figure data,figures/ot_profilenet,yes,Figure 2 and Supplementary Figures 2-4,panel-level source tables
+Complete training datasets,source databases and local processing outputs,no,model training,not redistributed; reconstruct from the cited source databases under their respective terms
+Profiler paper-case inputs,data/examples/paper_case_inputs.csv,yes,example report generation,four manuscript compounds and clinical daily doses
+Profiler paper-case reference outputs,data/examples/paper_case_soc_reference.csv; data/examples/paper_case_margin_reference.csv.gz; data/examples/paper_case_attribution_reference.csv.gz,yes,paper-case result reproduction,fixed source tables used for release regression tests
+Profiler SOC background,data/reference/soc_background_quantiles.csv.gz,yes,within-SOC empirical percentile,derived from the development prediction distribution
+Profiler target replacement reference,data/reference/target_feature_reference.csv,yes,target attribution,training-set target-feature medians and 90th percentiles
+Profiler ADR-target evidence,data/reference/soc_target_evidence_matrix.csv,yes,result annotation,0 none; 1 secondary; 2 direct evidence
+OT-ProfileNet inference assets,Zenodo 10.5281/zenodo.22010299,no,new-molecule target prediction,seven protein-family files and 194 fixed ESM2 embeddings
+Model checkpoints,Zenodo 10.5281/zenodo.22010299,no,model inference,37 files verified by weights/weights_manifest.tsv

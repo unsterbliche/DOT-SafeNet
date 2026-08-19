@@ -1,0 +1,20 @@
+{
+  "figure": {
+    "selected_cases": ["meclofenamic_acid", "citalopram", "spironolactone", "candesartan"],
+    "panel_labels": {
+      "meclofenamic_acid": "a",
+      "citalopram": "b",
+      "spironolactone": "c",
+      "candesartan": "d"
+    },
+    "dpi": 300
+  },
+  "colors": {
+    "direct": "#2A6FBB",
+    "secondary": "#E69F54",
+    "empty": "#E8ECEF",
+    "grid": "#D7DCE1",
+    "text": "#262626"
+  },
+  "export": {"formats": ["png", "pdf"], "transparent": false}
+}

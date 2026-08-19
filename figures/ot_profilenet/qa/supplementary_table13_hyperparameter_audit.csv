@@ -1,0 +1,9 @@
+﻿supplementary_table,hyperparameter,si_reported,code_value,status,code_file,executed_evidence
+13,epochs,200,200,consistent,09_results\manuscript_replacement_20260715\external_source\MultiSafeEvaluator_github\PreMOTA\regression_multitask\train_reg_fintune.py,family-level training logs/checkpoint epochs were not copied into the local archive
+13,learning rate,0.0001,0.0001,consistent,09_results\manuscript_replacement_20260715\external_source\MultiSafeEvaluator_github\PreMOTA\regression_multitask\train_reg_fintune.py,fine-tuned checkpoint filenames contain LR_1e-4
+13,early stop num,25,25,consistent,09_results\manuscript_replacement_20260715\external_source\MultiSafeEvaluator_github\PreMOTA\regression_multitask\train_reg_fintune.py,
+13,number of layers of LSTM,2,2,consistent,09_results\manuscript_replacement_20260715\external_source\MultiSafeEvaluator_github\PreMOTA\regression_multitask\model.py,
+13,molecule_embbedding_dimension,256,256,consistent,09_results\manuscript_replacement_20260715\external_source\MultiSafeEvaluator_github\PreMOTA\regression_multitask\train_reg_fintune.py,
+13,protein_embbedding_dimension,256,512,mismatch,09_results\manuscript_replacement_20260715\external_source\MultiSafeEvaluator_github\PreMOTA\regression_multitask\train_reg_fintune.py,
+13,hidden_dimension,512,512,consistent,09_results\manuscript_replacement_20260715\external_source\MultiSafeEvaluator_github\PreMOTA\regression_multitask\train_reg_fintune.py,
+13,attention_heads,2,2,consistent,09_results\manuscript_replacement_20260715\external_source\MultiSafeEvaluator_github\PreMOTA\regression_multitask\train_reg_fintune.py,

@@ -1,0 +1,31 @@
+# Recorded layout values for the static Supplementary Figure 4 scripts.
+render_mode: static
+source_template: "figure_2/scripts/plot_panel_c.py"
+show_panel_labels: false
+
+composition:
+  arrangement: "3x2"
+  width_mm: 88
+  height_mm: 132
+  column_spacing: 0.12
+  row_spacing: 0.18
+  marginal_gap: 0
+  square_main_axes: true
+  full_frame: true
+  x_axis_titles: "bottom row only"
+  y_axis_titles: "left column only"
+
+individual_panels:
+  width_mm: 58
+  height_mm: 58
+
+text:
+  tick_size_pt: 7.5
+  axis_label_size_pt: 8.5
+  family_label_size_pt: 9
+  metrics_size_pt: 7.5
+
+export:
+  formats: [svg, pdf, png]
+  composition_tiff: true
+  png_dpi: 300

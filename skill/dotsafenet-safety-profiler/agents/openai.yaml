@@ -1,0 +1,5 @@
+interface:
+  display_name: "DOT-SafeNet Safety Profiler"
+  short_description: "Predict exposure-aware safety profiles for new molecules"
+  default_prompt: "Use $dotsafenet-safety-profiler to analyze this molecule and dose regimen."
+  brand_color: "#2D75B8"

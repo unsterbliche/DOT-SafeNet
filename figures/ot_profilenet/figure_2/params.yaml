@@ -1,0 +1,55 @@
+# Recorded layout values for the static Figure 2 panel scripts.
+# The scripts remain explicit so every panel is independently reproducible.
+render_mode: static
+show_panel_labels: false
+chemical_index_subscript: true
+
+panel_a:
+  chart_type: "pie"
+  width_mm: 78
+  height_mm: 78
+  direct_labels: true
+  transporter_label_y_offset: 0.12
+
+panel_c:
+  arrangement: "3x2"
+  width_mm: 88
+  height_mm: 132
+  square_main_axes: true
+  tick_font_size_pt: 7.5
+  axis_label_size_pt: 8.5
+  family_label_size_pt: 9
+  full_frame: true
+  marginal_gap: 0
+  column_spacing: 0.12
+  row_spacing: 0.18
+  x_axis_titles: 'bottom row only'
+  y_axis_titles: 'left column only'
+
+panel_d:
+  arrangement: "2x1"
+  width_mm: 68
+  height_mm: 105.6
+  vertical_spacing: 0.12
+  shared_x_axis: true
+  rmse_range: [0.50, 0.95]
+  pearson_range: [0.60, 1.02]
+  full_frame: true
+  separate_legend: true
+  legend_layout: "3+2"
+  legend_width_mm: 78
+  legend_height_mm: 24
+  legend_row_anchors: [0.85, 0.18]
+
+panel_e:
+  width_mm: 82
+  height_mm: 65.6
+  square_axes: true
+  full_frame: true
+  title: null
+  in_plot_label: "hERG, lower right"
+  x_axis_label: "Observed pIC50 (50 shown as subscript)"
+
+export:
+  formats: [svg, pdf, png]
+  png_dpi: 300

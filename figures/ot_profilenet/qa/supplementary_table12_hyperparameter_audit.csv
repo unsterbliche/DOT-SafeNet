@@ -1,0 +1,8 @@
+﻿supplementary_table,hyperparameter,si_reported,code_value,status,code_file,executed_evidence
+12,epochs,70,100,mismatch,09_results\manuscript_replacement_20260715\external_source\MultiSafeEvaluator_github\PreMOTA\src\train.py,archived loss.csv contains epochs 1-100
+12,learning rate,0.0001,0.0001,consistent,09_results\manuscript_replacement_20260715\external_source\MultiSafeEvaluator_github\PreMOTA\src\train.py,pretraining checkpoint filename contains LR0.0001
+12,dropout,0.2,0.2,consistent,09_results\manuscript_replacement_20260715\external_source\MultiSafeEvaluator_github\PreMOTA\src\train.py,
+12,molecule_embbedding_dimension,256,256,consistent,09_results\manuscript_replacement_20260715\external_source\MultiSafeEvaluator_github\PreMOTA\src\train.py,
+12,protein_embbedding_dimension,256,512,mismatch,09_results\manuscript_replacement_20260715\external_source\MultiSafeEvaluator_github\PreMOTA\src\train.py,
+12,hidden_dimension,512,512,consistent,09_results\manuscript_replacement_20260715\external_source\MultiSafeEvaluator_github\PreMOTA\src\train.py,
+12,attention_heads,2,2,consistent,09_results\manuscript_replacement_20260715\external_source\MultiSafeEvaluator_github\PreMOTA\src\train.py,

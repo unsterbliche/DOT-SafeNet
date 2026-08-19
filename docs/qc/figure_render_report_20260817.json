@@ -1,0 +1,78 @@
+{
+  "python": "D:\\Anaconda3\\envs\\Projects\\python.exe",
+  "figures": [
+    {
+      "figure": "Figure 1",
+      "entrypoint": "figures/exposure_aware/figure_1/run.py",
+      "returncode": 0,
+      "seconds": 4.288
+    },
+    {
+      "figure": "Figure 2",
+      "entrypoint": "figures/ot_profilenet/figure_2/run.py",
+      "returncode": 0,
+      "seconds": 61.591
+    },
+    {
+      "figure": "Figure 3",
+      "entrypoint": "figures/exposure_aware/figure_3/run.py",
+      "returncode": 0,
+      "seconds": 30.717
+    },
+    {
+      "figure": "Figure 4",
+      "entrypoint": "figures/exposure_aware/supplementary_figure_7_dotsafenet/run.py",
+      "returncode": 0,
+      "seconds": 13.684
+    },
+    {
+      "figure": "Figure 5",
+      "entrypoint": "figures/exposure_aware/figure_4/run.py",
+      "returncode": 0,
+      "seconds": 15.623
+    },
+    {
+      "figure": "Figure 6",
+      "entrypoint": "figures/exposure_aware/figure_5/run.py",
+      "returncode": 0,
+      "seconds": 11.787
+    },
+    {
+      "figure": "Supplementary Figure 2",
+      "entrypoint": "figures/ot_profilenet/supplementary_figure_2/run.py",
+      "returncode": 0,
+      "seconds": 33.676
+    },
+    {
+      "figure": "Supplementary Figure 3",
+      "entrypoint": "figures/ot_profilenet/supplementary_figure_3/run.py",
+      "returncode": 0,
+      "seconds": 84.42
+    },
+    {
+      "figure": "Supplementary Figure 4",
+      "entrypoint": "figures/ot_profilenet/supplementary_figure_4/run.py",
+      "returncode": 0,
+      "seconds": 55.27
+    },
+    {
+      "figure": "Supplementary Figure 6",
+      "entrypoint": "figures/exposure_aware/supplementary_figure_6/run.py",
+      "returncode": 0,
+      "seconds": 29.363
+    },
+    {
+      "figure": "Supplementary Figure 7",
+      "entrypoint": "figures/exposure_aware/supplementary_figure_7/run.py",
+      "returncode": 0,
+      "seconds": 22.001
+    },
+    {
+      "figure": "Supplementary Figure 8",
+      "entrypoint": "figures/exposure_aware/supplementary_figure_8/run.py",
+      "returncode": 0,
+      "seconds": 9.587
+    }
+  ],
+  "status": "passed"
+}

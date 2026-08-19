@@ -1,0 +1,22 @@
+figure:
+  panel_width_mm: 82
+  panel_height_mm: 62
+  dpi: 300
+text:
+  axis_label_pt: 9
+  tick_label_pt: 8
+  legend_pt: 8
+axes:
+  full_frame: true
+  metric_y_min: 0.5
+  metric_y_max: 1.0
+legend:
+  show_in_panels: false
+  export_separately: true
+  model_columns: 3
+  loss_columns: 2
+annotations:
+  panel_letters: false
+export:
+  directory: outputs/panels
+  formats: [svg, pdf, png]

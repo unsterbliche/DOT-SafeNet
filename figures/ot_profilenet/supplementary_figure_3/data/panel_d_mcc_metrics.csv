@@ -1,0 +1,29 @@
+target,model,MCC
+GPCR,MTGNN,0.769
+GPCR,PreMOTA (Train only),0.833
+GPCR,PreMOTA (Pretrain only),0.303
+GPCR,PreMOTA (Pretrain + FT),0.842
+Ion channel,MTGNN,0.816
+Ion channel,PreMOTA (Train only),0.825
+Ion channel,PreMOTA (Pretrain only),0.076
+Ion channel,PreMOTA (Pretrain + FT),0.841
+Enzyme,MTGNN,0.742
+Enzyme,PreMOTA (Train only),0.83
+Enzyme,PreMOTA (Pretrain only),0.351
+Enzyme,PreMOTA (Pretrain + FT),0.844
+Kinases,MTGNN,0.775
+Kinases,PreMOTA (Train only),0.8
+Kinases,PreMOTA (Pretrain only),0.261
+Kinases,PreMOTA (Pretrain + FT),0.817
+NR,MTGNN,0.748
+NR,PreMOTA (Train only),0.801
+NR,PreMOTA (Pretrain only),0.218
+NR,PreMOTA (Pretrain + FT),0.821
+Transporter,MTGNN,0.893
+Transporter,PreMOTA (Train only),0.894
+Transporter,PreMOTA (Pretrain only),0.31
+Transporter,PreMOTA (Pretrain + FT),0.891
+Other,MTGNN,0.866
+Other,PreMOTA (Train only),0.884
+Other,PreMOTA (Pretrain only),0.364
+Other,PreMOTA (Pretrain + FT),0.907

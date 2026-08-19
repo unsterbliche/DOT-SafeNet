@@ -1,0 +1,29 @@
+target,model,AUROC
+GPCR,MTGNN,0.972
+GPCR,PreMOTA (Train only),0.983
+GPCR,PreMOTA (Pretrain only),0.778
+GPCR,PreMOTA (Pretrain + FT),0.984
+Ion channel,MTGNN,0.97
+Ion channel,PreMOTA (Train only),0.976
+Ion channel,PreMOTA (Pretrain only),0.565
+Ion channel,PreMOTA (Pretrain + FT),0.979
+Enzyme,MTGNN,0.966
+Enzyme,PreMOTA (Train only),0.981
+Enzyme,PreMOTA (Pretrain only),0.788
+Enzyme,PreMOTA (Pretrain + FT),0.982
+Kinases,MTGNN,0.968
+Kinases,PreMOTA (Train only),0.975
+Kinases,PreMOTA (Pretrain only),0.705
+Kinases,PreMOTA (Pretrain + FT),0.975
+NR,MTGNN,0.966
+NR,PreMOTA (Train only),0.98
+NR,PreMOTA (Pretrain only),0.697
+NR,PreMOTA (Pretrain + FT),0.982
+Transporter,MTGNN,0.995
+Transporter,PreMOTA (Train only),0.993
+Transporter,PreMOTA (Pretrain only),0.769
+Transporter,PreMOTA (Pretrain + FT),0.991
+Other,MTGNN,0.987
+Other,PreMOTA (Train only),0.99
+Other,PreMOTA (Pretrain only),0.832
+Other,PreMOTA (Pretrain + FT),0.992

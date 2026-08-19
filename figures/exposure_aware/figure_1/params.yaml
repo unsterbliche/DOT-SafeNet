@@ -1,0 +1,17 @@
+figure:
+  width_mm: 78
+  height_mm: 68
+  dpi: 300
+colors:
+  coral: "#E76F61"
+  coral_dark: "#C74D45"
+  peach: "#FFF4EF"
+  blue: "#2166AC"
+  purple: "#762A83"
+  grey: "#A9B2BA"
+  light_grey: "#E9EDF0"
+preview:
+  x_px: 270
+  y_px: 558
+  width_px: 275
+  height_px: 248

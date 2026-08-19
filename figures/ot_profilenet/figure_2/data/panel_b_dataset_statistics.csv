@@ -1,0 +1,8 @@
+target_family,target_count,compound_count,compound_target_pair_count
+GPCR,107,164254,237950
+Ion channel,19,33187,33789
+Enzyme,20,53482,64036
+Kinases,28,75858,87061
+NR,9,23090,26713
+Transporter,9,13605,22192
+Other,2,5354,5354

@@ -1,0 +1,22 @@
+figure:
+  panel_size: [2.30, 1.78]
+  composite_size: [7.2, 5.45]
+  dpi: 300
+text:
+  font_family: Arial
+  font_size: 8
+  label_size: 8.5
+  tick_size: 7.2
+  drug_name_size: 8.5
+colors:
+  original: "#2166AC"
+  revised: "#D6604D"
+  observed: "#B2182B"
+  comparator: "#BDBDBD"
+  interval: "#B8D3E8"
+layout:
+  wspace: 0.10
+  hspace: 0.12
+export:
+  formats: [png, pdf, svg]
+  transparent: false
