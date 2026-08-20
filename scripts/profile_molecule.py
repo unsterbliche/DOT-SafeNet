@@ -113,8 +113,7 @@ def analyze(args: argparse.Namespace) -> None:
         "--data-root", str(asset_root / "PreMOTA/dataset_reg_multitask"),
         "--checkpoint-root", str(checkpoint_root / "PreMOTA/regression_multitask/model_fintune_save"),
         "--input-csv", str(output / "input_standardized.csv"),
-        "--smiles-column", "smiles", "--output-json", str(ot_json),
-        "--device", args.ot_device or args.device,
+        "--smiles-column", "smiles", "--output-json", str(ot_json), "--device", args.device,
     ], ROOT / "src/ot_profilenet/finetuning")
 
     ppb_files = checkpoint_files(checkpoint_root, "PlasmaBindNet-Fu", "ensemble_checkpoint")
@@ -127,8 +126,7 @@ def analyze(args: argparse.Namespace) -> None:
         "--input-csv", str(output / "input_standardized.csv"), "--smiles-col", "smiles",
         "--checkpoint-dirs", ",".join(map(str, ppb_dirs)), "--out-csv", str(ppb_csv),
         "--config-path", str(ROOT / "configs/exposure_model_architecture.json"),
-        "--target", "logitfu", "--set-layer", "SetRep",
-        "--device", args.exposure_device or args.device,
+        "--target", "logitfu", "--set-layer", "SetRep", "--device", args.device,
     ], ROOT / "src/plasmabindnet_fu")
 
     cmax_files = checkpoint_files(checkpoint_root, "DoseExpoNet", "ensemble_checkpoint")
@@ -140,8 +138,7 @@ def analyze(args: argparse.Namespace) -> None:
         "--input-csv", str(output / "input_standardized.csv"),
         "--checkpoint-files", ",".join(map(str, cmax_files)),
         "--config-json", str(ROOT / "configs/exposure_model_architecture.json"),
-        "--output-csv", str(cmax_csv),
-        "--device", args.exposure_device or args.device,
+        "--output-csv", str(cmax_csv), "--device", args.device,
     ], ROOT / "src/dose_exponet")
 
     ot = read_ot_profile(ot_json, contract.target_ids)
@@ -241,8 +238,6 @@ def parser() -> argparse.ArgumentParser:
     a.add_argument("--exposure-python", required=True)
     a.add_argument("--adr-python", required=True)
     a.add_argument("--device", default="cuda:0")
-    a.add_argument("--ot-device", help="OT-ProfileNet device; defaults to --device")
-    a.add_argument("--exposure-device", help="PlasmaBindNet-Fu and DoseExpoNet device; defaults to --device")
     a.set_defaults(func=analyze)
     return p
 
