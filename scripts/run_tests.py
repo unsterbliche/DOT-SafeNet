@@ -24,13 +24,10 @@ def main() -> None:
         raise SystemExit("Python compilation failed under src/")
     if not compileall.compile_dir(ROOT / "reproduce", quiet=1):
         raise SystemExit("Python compilation failed under reproduce/")
-    if not compileall.compile_dir(ROOT / "webapp", quiet=1):
-        raise SystemExit("Python compilation failed under webapp/")
     run("-m", "unittest", "discover", "-s", "tests", "-p", "test_*.py", "-v")
-    run("webapp/tests/test_samples.py")
     run("scripts/validate_release.py")
     run("scripts/render_all_figures.py", "--check-only")
-    with tempfile.TemporaryDirectory(prefix="dotsafenet_metrics_") as directory:
+    with tempfile.TemporaryDirectory(prefix="multisafe_metrics_") as directory:
         run("scripts/reproduce_metrics.py", "--output-dir", directory)
     print("All publication-package tests passed.")
 

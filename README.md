@@ -20,7 +20,6 @@ scripts/      Training, prediction, evaluation and validation commands
 skills/       Installable agent skills for reproduction and molecule profiling
 src/          Model implementations
 tests/        Data-contract and inference tests
-webapp/       Browser interface for prospective molecule profiling
 weights/      Checkpoint manifest and Zenodo download instructions
 ```
 
@@ -72,17 +71,6 @@ python scripts/profile_molecule.py analyze \
 ```
 
 The output includes PPB, total and free Cmax, 194 predicted target activities and exposure margins, 18 SOC scores, background percentiles, target-replacement attribution, and HTML/JSON reports.
-
-## Run the web application
-
-The browser interface accepts SMILES, SDF or MOL2 input and one or more total daily doses. It executes the same prospective inference command and provides interactive dose–exposure, SOC-risk and target-attribution views.
-
-```bash
-pip install -r webapp/requirements.txt
-uvicorn app.main:app --app-dir webapp --host 127.0.0.1 --port 18000
-```
-
-Runtime paths and optional remote-GPU configuration are described in `webapp/README.md`.
 
 ## Training and model evaluation
 
