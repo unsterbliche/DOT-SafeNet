@@ -125,7 +125,7 @@ def analyze(args: argparse.Namespace) -> None:
         "--motif-root", str(ROOT / "src/plasmabindnet_fu"),
         "--input-csv", str(output / "input_standardized.csv"), "--smiles-col", "smiles",
         "--checkpoint-dirs", ",".join(map(str, ppb_dirs)), "--out-csv", str(ppb_csv),
-        "--config-path", str(ROOT / "configs/run_records/dose_exponet_seed2023_config.json"),
+        "--config-path", str(ROOT / "configs/exposure_model_architecture.json"),
         "--target", "logitfu", "--set-layer", "SetRep", "--device", args.device,
     ], ROOT / "src/plasmabindnet_fu")
 
@@ -137,7 +137,7 @@ def analyze(args: argparse.Namespace) -> None:
         "--model-root", str(ROOT / "src/dose_exponet"),
         "--input-csv", str(output / "input_standardized.csv"),
         "--checkpoint-files", ",".join(map(str, cmax_files)),
-        "--config-json", str(ROOT / "configs/run_records/dose_exponet_seed2023_config.json"),
+        "--config-json", str(ROOT / "configs/exposure_model_architecture.json"),
         "--output-csv", str(cmax_csv), "--device", args.device,
     ], ROOT / "src/dose_exponet")
 

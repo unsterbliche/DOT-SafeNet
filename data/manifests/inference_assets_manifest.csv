@@ -1,7 +1,0 @@
-model,relative_path,content,expected_count,release_status
-OT-ProfileNet,PreMOTA/dataset_reg_multitask/{family}/proteins.txt,target identifiers and protein sequences,194,external archive required
-OT-ProfileNet,PreMOTA/dataset_reg_multitask/{family}/esm2/,fixed ESM2 protein embeddings,194,external archive required
-MultiSafe safety profiler,data/reference/target_feature_reference.csv,aggregate target-feature replacement values,194,included
-MultiSafe safety profiler,data/reference/target_gene_map.csv,UniProt-to-gene display map,194,included
-MultiSafe safety profiler,data/reference/soc_target_evidence_matrix.csv,direct and secondary SOC-target evidence,18x194,included
-MultiSafe safety profiler,data/reference/soc_background_quantiles.csv.gz,within-SOC development score percentiles,18 SOC,included

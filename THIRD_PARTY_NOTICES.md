@@ -35,7 +35,7 @@ permission notices are retained.
 ## nature-skills
 
 - Source: https://github.com/Yuan1z0825/nature-skills
-- License: Apache-2.0 (`figures/ot_profilenet/licenses/nature-skills-Apache-2.0.txt`)
+- License: Apache-2.0; see the upstream repository for the full license text.
 - Use in this release: scientific-figure style conventions.
 
 The notices above apply only to the indicated components. All other original

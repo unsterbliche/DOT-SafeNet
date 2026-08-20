@@ -1,5 +1,0 @@
-#!/usr/bin/env bash
-set -euo pipefail
-: "$PROJECT_ROOT" "$DOT_DATASET" "$CLINICAL_DATASET" "$OUTPUT_ROOT"
-python "$PROJECT_ROOT/src/dotsafenet/train_hetsia_soft_pseudo_monotone_loss_task_head.py" --dataset-dir "$DOT_DATASET" --out-dir "$OUTPUT_ROOT/base" --gpu "$GPU_ID" --folds 5 --batch-size 64 --lr 1e-4 --patience 25 --positive-delta-label-weights '0.30103:0.92:0.60,0.60206:0.96:0.80,-0.30103:0.75:0.20' --negative-delta-label-weights='-0.60206:0.02:0.80,-0.30103:0.04:0.60,0.30103:0.18:0.20,0.60206:0.30:0.10' --monotone-deltas '0.30103,0.60206' --monotone-lambda 0.5 --monotone-margin 0 --monotone-batch-size 512 --interaction-mode product
-python "$PROJECT_ROOT/src/dotsafenet/finetune_hetsia_ctade_dose_task_head_20260529.py" --dataset-dir "$CLINICAL_DATASET" --baseline-weights "$OUTPUT_ROOT/base/fold_checkpoints/best_model_fold_{fold}_weights" --out-dir "$OUTPUT_ROOT/clinical" --gpu "$GPU_ID" --seed 2025 --epochs 12 --batch-size 128 --lr 7e-6 --patience 4 --clinical-weight 0.35 --trainable-scope task_head

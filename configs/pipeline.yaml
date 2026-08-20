@@ -7,5 +7,5 @@ steps:
   - exposure: total Cmax times free fraction to free Cmax in micromolar
   - feature_assembly: log10 free Cmax plus 194 values of 6-pAC50 plus 194 target-exposure products
   - DOT-SafeNet: 389 features plus SOC index to 18 SOC probabilities
-target_order: data/manifests/target_order.csv
-soc_order: data/manifests/soc_order.csv
+target_order: data/model/target_order.csv
+soc_order: data/model/soc_order.csv

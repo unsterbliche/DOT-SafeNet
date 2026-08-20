@@ -1,7 +1,0 @@
-Data set,Split,N samples
-PPB,Train,6260
-PPB,Valid,782
-PPB,Test,784
-Cmax,Train,4516
-Cmax,Valid,564
-Cmax,Test,562

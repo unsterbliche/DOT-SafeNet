@@ -22,8 +22,8 @@ def main() -> None:
         raise SystemExit("Python compilation failed under scripts/")
     if not compileall.compile_dir(ROOT / "src", quiet=1):
         raise SystemExit("Python compilation failed under src/")
-    if not compileall.compile_dir(ROOT / "figures", quiet=1):
-        raise SystemExit("Python compilation failed under figures/")
+    if not compileall.compile_dir(ROOT / "reproduce", quiet=1):
+        raise SystemExit("Python compilation failed under reproduce/")
     run("-m", "unittest", "discover", "-s", "tests", "-p", "test_*.py", "-v")
     run("scripts/validate_release.py")
     run("scripts/render_all_figures.py", "--check-only")

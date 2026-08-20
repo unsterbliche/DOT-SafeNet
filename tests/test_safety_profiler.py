@@ -79,7 +79,7 @@ class SafetyProfilerTest(unittest.TestCase):
         with tempfile.TemporaryDirectory(prefix="multisafe_skill_") as directory:
             subprocess.run([
                 sys.executable,
-                str(ROOT / "skill/dotsafenet-safety-profiler/scripts/profile.py"),
+                str(ROOT / "skills/dotsafenet-safety-profiler/scripts/profile.py"),
                 "--release-root", str(ROOT), "replay", "--input",
                 str(ROOT / "tests/fixtures/paper_citalopram_20mg.csv"),
                 "--output", directory,
@@ -89,7 +89,7 @@ class SafetyProfilerTest(unittest.TestCase):
             self.assertEqual(set(adr["compound_id"]), {"PAPER_CITALOPRAM_20"})
 
     def test_full_pipeline_smoke_record(self):
-        root = ROOT / "docs/qc/profiler_full_smoke"
+        root = ROOT / "data/examples/citalopram_full_inference"
         adr = pd.read_csv(root / "adr_predictions.csv")
         margins = pd.read_csv(root / "target_margins.csv")
         attribution = pd.read_csv(root / "target_attribution.csv")
