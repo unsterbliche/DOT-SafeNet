@@ -105,10 +105,14 @@ def analyze(args: argparse.Namespace) -> None:
     standardized.to_csv(output / "input_standardized.csv", index=False)
     checkpoint_root = args.checkpoint_root.resolve()
     asset_root = args.asset_root.resolve()
+    shared_python = args.python or sys.executable
+    ot_python = args.ot_python or shared_python
+    exposure_python = args.exposure_python or shared_python
+    adr_python = args.adr_python or shared_python
 
     ot_json = output / "ot_profile.json"
     run([
-        args.ot_python,
+        ot_python,
         str(ROOT / "src/ot_profilenet/finetuning/predict_drugs.py"),
         "--data-root", str(asset_root / "PreMOTA/dataset_reg_multitask"),
         "--checkpoint-root", str(checkpoint_root / "PreMOTA/regression_multitask/model_fintune_save"),
@@ -120,7 +124,7 @@ def analyze(args: argparse.Namespace) -> None:
     ppb_dirs = [path.parent.parent for path in ppb_files]
     ppb_csv = output / "ppb_predictions.csv"
     run([
-        args.exposure_python,
+        exposure_python,
         str(ROOT / "src/plasmabindnet_fu/predict_ppb_ensemble_for_smiles.py"),
         "--motif-root", str(ROOT / "src/plasmabindnet_fu"),
         "--input-csv", str(output / "input_standardized.csv"), "--smiles-col", "smiles",
@@ -132,7 +136,7 @@ def analyze(args: argparse.Namespace) -> None:
     cmax_files = checkpoint_files(checkpoint_root, "DoseExpoNet", "ensemble_checkpoint")
     cmax_csv = output / "cmax_predictions.csv"
     run([
-        args.exposure_python,
+        exposure_python,
         str(ROOT / "src/safety_profiler/predict_cmax_ensemble.py"),
         "--model-root", str(ROOT / "src/dose_exponet"),
         "--input-csv", str(output / "input_standardized.csv"),
@@ -151,7 +155,7 @@ def analyze(args: argparse.Namespace) -> None:
 
     adr_dir = output / "dotsafenet"
     run([
-        args.adr_python,
+        adr_python,
         str(ROOT / "src/safety_profiler/predict_dotsafenet_ensemble.py"),
         "--release-root", str(ROOT), "--checkpoint-root", str(checkpoint_root),
         "--features-csv", str(output / "dotsafenet_features.csv"),
@@ -234,9 +238,13 @@ def parser() -> argparse.ArgumentParser:
     a.add_argument("--output", required=True, type=Path)
     a.add_argument("--checkpoint-root", required=True, type=Path)
     a.add_argument("--asset-root", required=True, type=Path)
-    a.add_argument("--ot-python", required=True)
-    a.add_argument("--exposure-python", required=True)
-    a.add_argument("--adr-python", required=True)
+    a.add_argument(
+        "--python",
+        help="Shared Python interpreter for all model stages (default: current interpreter)",
+    )
+    a.add_argument("--ot-python", help="Optional OT-ProfileNet interpreter override")
+    a.add_argument("--exposure-python", help="Optional exposure-model interpreter override")
+    a.add_argument("--adr-python", help="Optional DOT-SafeNet interpreter override")
     a.add_argument("--device", default="cuda:0")
     a.set_defaults(func=analyze)
     return p

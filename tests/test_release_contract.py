@@ -56,6 +56,26 @@ class ReleaseContractTest(unittest.TestCase):
         self.assertEqual(len(table), 18)
         self.assertTrue(table["auroc"].between(0.5, 1.0).all())
 
+    def test_ot_profilenet_preserves_pyg20_checkpoint_semantics(self):
+        for relative in [
+            "src/ot_profilenet/finetuning/model.py",
+            "src/ot_profilenet/pretraining/model.py",
+        ]:
+            text = (ROOT / relative).read_text(encoding="utf-8")
+            self.assertEqual(text.count("aggr='mean', normalize=True"), 3)
+
+    def test_model_requirements_use_shared_environment(self):
+        for relative in [
+            "src/ot_profilenet/requirements.txt",
+            "src/plasmabindnet_fu/requirements.txt",
+            "src/dose_exponet/requirements.txt",
+            "src/dotsafenet/requirements.txt",
+        ]:
+            self.assertEqual(
+                (ROOT / relative).read_text(encoding="utf-8").strip(),
+                "-r ../../requirements-unified.txt",
+            )
+
 
 if __name__ == "__main__":
     unittest.main()

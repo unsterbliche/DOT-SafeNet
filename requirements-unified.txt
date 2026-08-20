@@ -1,0 +1,37 @@
+--extra-index-url https://download.pytorch.org/whl/cu118
+--find-links https://data.pyg.org/whl/torch-2.2.2+cu118.html
+
+# Shared numerical and chemistry stack
+numpy==1.23.5
+pandas==1.5.3
+scipy==1.10.1
+scikit-learn==1.3.2
+networkx==3.2.1
+rdkit-pypi==2022.9.5
+biopython==1.83
+tqdm==4.66.4
+lifelines==0.27.8
+reprint==0.6.0
+
+# OT-ProfileNet, PlasmaBindNet-Fu and DoseExpoNet
+torch==2.2.2+cu118
+torchvision==0.17.2+cu118
+torchaudio==2.2.2+cu118
+torch-geometric==2.5.2
+torch-scatter==2.1.2+pt22cu118
+torch-sparse==0.6.18+pt22cu118
+torch-cluster==1.6.3+pt22cu118
+torch-spline-conv==1.2.2+pt22cu118
+
+# DOT-SafeNet
+tensorflow==2.10.0
+tensorflow-addons==0.23.0
+tensorboard==2.10.1
+protobuf==3.19.6
+h5py==3.14.0
+pydot>=1.4,<3
+
+# Evaluation and figure scripts
+matplotlib==3.7.5
+seaborn==0.13.2
+PyYAML==6.0.3

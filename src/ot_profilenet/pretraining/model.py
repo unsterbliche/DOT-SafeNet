@@ -20,9 +20,20 @@ class CPI_classification(torch.nn.Module):
         self.emb_size = emb_size
         self.modulator_emb_dim = modulator_emb_dim
         # compounds network
-        self.mol_conv1 = SAGEConv(num_features_mol, num_features_mol*2,'mean') #num_features_mol: The feature dimension of molecules (78 in this case)
-        self.mol_conv2_f = SAGEConv(num_features_mol*2,num_features_mol*2,'mean')
-        self.mol_conv3_f = SAGEConv(num_features_mol*2,num_features_mol*4,'mean')
+        # Preserve the PyG 2.0 checkpoint semantics under newer PyG releases:
+        # the legacy third positional argument enabled output normalization.
+        self.mol_conv1 = SAGEConv(
+            num_features_mol, num_features_mol * 2,
+            aggr='mean', normalize=True,
+        ) #num_features_mol: The feature dimension of molecules (78 in this case)
+        self.mol_conv2_f = SAGEConv(
+            num_features_mol * 2, num_features_mol * 2,
+            aggr='mean', normalize=True,
+        )
+        self.mol_conv3_f = SAGEConv(
+            num_features_mol * 2, num_features_mol * 4,
+            aggr='mean', normalize=True,
+        )
         self.mol_fc_g1 = nn.Linear(num_features_mol*4, modulator_emb_dim)
         self.dropout = nn.Dropout(dropout)
         # proteins network
@@ -83,4 +94,3 @@ class CPI_classification(torch.nn.Module):
         output, att = self.bcn(comp_out, prot_out,mask=mask_q)
         output = self.fc(output)
         return output
-

@@ -37,6 +37,7 @@ def validate_package(check_hashes: bool = False) -> dict:
     errors: list[str] = []
     required = [
         "README.md", "LICENSE", "CITATION.cff", "requirements-figures.txt",
+        "requirements-unified.txt",
         "configs/pipeline.yaml", "configs/safety_profiler.yaml",
         "data/model/target_order.csv", "data/model/soc_order.csv",
         "data/test/dotsafenet_test_X.csv", "data/test/dotsafenet_test_y.csv",
@@ -44,7 +45,9 @@ def validate_package(check_hashes: bool = False) -> dict:
         "data/reference/soc_target_evidence_matrix.csv",
         "data/reference/soc_background_quantiles.csv.gz",
         "data/examples/paper_case_inputs.csv", "data/examples/paper_case_soc_reference.csv",
-        "scripts/profile_molecule.py", "scripts/render_all_figures.py",
+        "scripts/profile_molecule.py", "scripts/create_unified_environment.sh",
+        "scripts/run_unified_profile.sh",
+        "scripts/validate_unified_runtime.py", "scripts/render_all_figures.py",
         "scripts/reproduce_metrics.py", "scripts/check_weights.py",
         "skills/dotsafenet-paper-reproducer/SKILL.md",
         "skills/dotsafenet-safety-profiler/SKILL.md",

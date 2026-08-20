@@ -58,19 +58,35 @@ python scripts/profile_molecule.py replay --output results/paper_cases
 
 Prepare a CSV with `smiles` and `dose_mg_day`; optional columns are `compound_id`, `name` and `route`. Full inference requires the Zenodo checkpoints and OT-ProfileNet inference resources.
 
+All prediction stages use one Python 3.9 environment. Install it with:
+
 ```bash
-python scripts/profile_molecule.py analyze \
+scripts/create_unified_environment.sh .venv-conda
+```
+
+The script creates a clean Python 3.9.12 Conda environment, installs the pinned
+PyTorch, PyTorch Geometric and TensorFlow stacks, and runs `pip check`.
+
+```bash
+DOTSAFENET_PYTHON=.venv-conda/bin/python scripts/run_unified_profile.sh analyze \
   --input compounds.csv \
   --output results/new_compounds \
   --checkpoint-root /path/to/checkpoints \
   --asset-root /path/to/inference_assets \
-  --ot-python /path/to/ot_env/bin/python \
-  --exposure-python /path/to/exposure_env/bin/python \
-  --adr-python /path/to/adr_env/bin/python \
   --device cuda:0
 ```
 
 The output includes PPB, total and free Cmax, 194 predicted target activities and exposure margins, 18 SOC scores, background percentiles, target-replacement attribution, and HTML/JSON reports.
+
+Validate the installed environment and deposited resources against the complete Citalopram 20 mg/day reference run:
+
+```bash
+.venv-conda/bin/python scripts/validate_unified_runtime.py \
+  --checkpoint-root /path/to/checkpoints \
+  --asset-root /path/to/inference_assets \
+  --output-dir results/runtime_validation \
+  --device cuda:0
+```
 
 ## Training and model evaluation
 
