@@ -43,4 +43,4 @@ Seven profiler unit tests passed. They cover the fixed target and SOC contracts,
 
 ## Public deposition fields
 
-Prospective inference requires the checkpoint archive and the OT-ProfileNet protein-sequence and ESM2-embedding archive. Their DOI or download URLs must be added to `weights/README.md` before public deposition.
+The checkpoint and OT-ProfileNet inference-asset archives are stored in the Zenodo draft reserved as DOI `10.5281/zenodo.22010299`. The 48 MiB archive parts, reconstruction commands and SHA256 verification procedure are documented in `weights/README.md` and in the deposited `README.md`.
