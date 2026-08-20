@@ -1,10 +1,9 @@
 #!/usr/bin/env python3
-"""Render all code-derived manuscript figures from the release manifest."""
+"""Render code-derived DOT-SafeNet manuscript figures in manuscript order."""
 
 from __future__ import annotations
 
 import argparse
-import csv
 import json
 import subprocess
 import sys
@@ -13,56 +12,70 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
-MANIFEST = ROOT / "data" / "manifests" / "figure_manifest.csv"
+
+# Supplementary Figures 1 and 5 are model schematics and are supplied as final TIFFs.
+FIGURES = (
+    ("Figure 1", "reproduce/figure_1/run.py"),
+    ("Figure 2", "reproduce/figure_2/run.py"),
+    ("Figure 3", "reproduce/figure_3/run.py"),
+    ("Figure 4", "reproduce/figure_4/run.py"),
+    ("Figure 5", "reproduce/figure_5/run.py"),
+    ("Figure 6", "reproduce/figure_6/run.py"),
+    ("Supplementary Figure 1", ""),
+    ("Supplementary Figure 2", "reproduce/supplementary_figure_2/run.py"),
+    ("Supplementary Figure 3", "reproduce/supplementary_figure_3/run.py"),
+    ("Supplementary Figure 4", "reproduce/supplementary_figure_4/run.py"),
+    ("Supplementary Figure 5", ""),
+    ("Supplementary Figure 6", "reproduce/supplementary_figure_6/run.py"),
+    ("Supplementary Figure 7", "reproduce/supplementary_figure_7/run.py"),
+    ("Supplementary Figure 8", "reproduce/supplementary_figure_8/run.py"),
+)
 
 
-def load_rows() -> list[dict[str, str]]:
-    with MANIFEST.open(encoding="utf-8-sig", newline="") as handle:
-        return list(csv.DictReader(handle))
-
-
-def choose_rows(rows: list[dict[str, str]], requested: list[str]) -> list[dict[str, str]]:
+def choose_figures(requested: list[str]) -> list[tuple[str, str]]:
     if not requested:
-        return [row for row in rows if row["entrypoint"]]
+        return [(name, path) for name, path in FIGURES if path]
     wanted = {name.casefold() for name in requested}
-    selected = [row for row in rows if row["figure"].casefold() in wanted]
-    missing = wanted - {row["figure"].casefold() for row in selected}
+    selected = [(name, path) for name, path in FIGURES if name.casefold() in wanted]
+    missing = wanted - {name.casefold() for name, _ in selected}
     if missing:
         raise SystemExit("Unknown figure name(s): " + ", ".join(sorted(missing)))
-    return [row for row in selected if row["entrypoint"]]
+    unavailable = [name for name, path in selected if not path]
+    if unavailable:
+        raise SystemExit("No code-derived entrypoint for: " + ", ".join(unavailable))
+    return selected
 
 
 def main() -> None:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--figure", action="append", default=[], help="Exact manuscript figure name; repeat as needed")
+    parser.add_argument("--figure", action="append", default=[], help="Exact manuscript figure name")
     parser.add_argument("--check-only", action="store_true")
     parser.add_argument("--list", action="store_true")
     parser.add_argument("--report", type=Path)
     args = parser.parse_args()
 
-    rows = load_rows()
     if args.list:
-        for row in rows:
-            print(f"{row['manuscript_order']:>2}  {row['figure']:<24} {row['generation']}")
+        for index, (name, entrypoint) in enumerate(FIGURES, 1):
+            print(f"{index:>2}  {name:<24} {entrypoint or 'final TIFF only'}")
         return
 
-    selected = choose_rows(rows, args.figure)
-    missing = [row["entrypoint"] for row in selected if not (ROOT / row["entrypoint"]).is_file()]
+    selected = choose_figures(args.figure)
+    missing = [path for _, path in selected if not (ROOT / path).is_file()]
     if missing:
         raise SystemExit("Missing entrypoints:\n" + "\n".join(missing))
     if args.check_only:
-        print(f"OK: {len(rows)} manuscript figures; {len(selected)} code-derived entrypoints")
+        print(f"OK: {len(FIGURES)} manuscript figures; {len(selected)} code-derived entrypoints")
         return
 
     report = {"python": sys.executable, "figures": [], "status": "passed"}
-    for row in selected:
-        entrypoint = ROOT / row["entrypoint"]
+    for name, relative_path in selected:
+        entrypoint = ROOT / relative_path
         started = time.time()
-        print(f"[render] {row['figure']} -> {row['entrypoint']}", flush=True)
+        print(f"[render] {name} -> {relative_path}", flush=True)
         result = subprocess.run([sys.executable, str(entrypoint)], cwd=entrypoint.parent)
         report["figures"].append({
-            "figure": row["figure"],
-            "entrypoint": row["entrypoint"],
+            "figure": name,
+            "entrypoint": relative_path,
             "returncode": result.returncode,
             "seconds": round(time.time() - started, 3),
         })

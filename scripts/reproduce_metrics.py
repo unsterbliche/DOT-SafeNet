@@ -13,7 +13,7 @@ from sklearn.metrics import average_precision_score, roc_auc_score
 
 
 ROOT = Path(__file__).resolve().parents[1]
-DATA = ROOT / "figures" / "exposure_aware" / "figure_4" / "data"
+DATA = ROOT / "reproduce" / "figure_5" / "data"
 
 
 def clinical_57_metrics() -> tuple[pd.DataFrame, float]:
@@ -73,7 +73,7 @@ def base_and_finetune_summary() -> dict:
 
 def main() -> None:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--output-dir", type=Path, default=ROOT / "docs" / "qc" / "reproduced_metrics")
+    parser.add_argument("--output-dir", type=Path, default=ROOT / "outputs" / "reproduced_metrics")
     parser.add_argument("--tolerance", type=float, default=1e-12)
     args = parser.parse_args()
 

@@ -1,9 +1,0 @@
-figure,legacy_directory,entrypoint,content
-Figure 1,figure_1,figure_1/run.py,Exposure-aware framework insert
-Figure 3,figure_3,figure_3/run.py,PPB and dose-Cmax results
-Figure 4,supplementary_figure_7_dotsafenet,supplementary_figure_7_dotsafenet/run.py,ADR-target evidence and DOT-SafeNet strategy source panels
-Figure 5,figure_4,figure_4/run.py,DOT-SafeNet performance and representation results
-Figure 6,figure_5,figure_5/run.py,Clinical-dose target-attribution cases
-Supplementary Figure 6,supplementary_figure_6,supplementary_figure_6/run.py,PPB and Cmax dataset characteristics
-Supplementary Figure 7,supplementary_figure_7,supplementary_figure_7/run.py,Additional dose-Cmax results
-Supplementary Figure 8,supplementary_figure_8,supplementary_figure_8/run.py,Complete 18-SOC representation results

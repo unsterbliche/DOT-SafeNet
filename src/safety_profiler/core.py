@@ -29,8 +29,8 @@ class Contract:
 
 
 def load_contract(release_root: Path) -> Contract:
-    target = pd.read_csv(release_root / "data/manifests/target_order.csv")
-    soc = pd.read_csv(release_root / "data/manifests/soc_order.csv")
+    target = pd.read_csv(release_root / "data/model/target_order.csv")
+    soc = pd.read_csv(release_root / "data/model/soc_order.csv")
     target_ids = tuple(target["uniprot_accession"].astype(str))
     soc_codes = tuple(soc["soc_code"].astype(str))
     soc_names = tuple(soc["soc_name"].astype(str))

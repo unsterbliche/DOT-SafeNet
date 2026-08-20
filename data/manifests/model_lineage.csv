@@ -1,5 +1,0 @@
-﻿stage,publication_name,source_code,weight_group,output
-target_activity,OT-ProfileNet,src/ot_profilenet,OT-ProfileNet,194 pAC50 values
-plasma_protein_binding,PlasmaBindNet-Fu,src/plasmabindnet_fu,PlasmaBindNet-Fu,PPB and free fraction
-dose_exposure,DoseExpoNet,src/dose_exponet,DoseExpoNet,dose-dependent total Cmax
-adr_prediction,DOT-SafeNet,src/dotsafenet,DOT-SafeNet,18 SOC probabilities
