@@ -19,7 +19,7 @@ Install model-specific dependencies from:
 - `src/dose_exponet/requirements.txt`
 - `src/dotsafenet/requirements.txt`
 
-Use Python 3.9 or newer. Verify the checkpoint archive with `scripts/check_weights.py`, then run:
+Use Python 3.9 or newer. Download all `*.part-*` files from the Zenodo record, reconstruct the two archives as described in `weights/README.md`, extract them while retaining their directory structure, and verify the checkpoint directory with `scripts/check_weights.py`. Then run:
 
 ```bash
 python scripts/profile_molecule.py validate \

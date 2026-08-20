@@ -23,11 +23,20 @@ Model checkpoints and fixed inference assets are deposited at:
 
 Prospective molecule prediction also requires the fixed OT-ProfileNet protein files and ESM2 embeddings under `PreMOTA/dataset_reg_multitask/`. Deposit these inference assets with the checkpoint archive or as a second archive while retaining that relative directory structure.
 
-The Zenodo record contains two archives:
+The Zenodo record stores the two archives as consecutive 48 MiB parts:
 
-- `dotsafenet-model-checkpoints-v1.0.0.tar.gz`
-- `dotsafenet-ot-profilenet-inference-assets-v1.0.0.tar.gz`
+- `dotsafenet-model-checkpoints-v1.0.0.tar.gz.part-*`
+- `dotsafenet-ot-profilenet-inference-assets-v1.0.0.tar.gz.part-*`
 
-Archive-level SHA256 values are stored in `SHA256SUMS.txt` in the same record. File-level checkpoint hashes remain in `weights_manifest.tsv`.
+Reconstruct and verify the archives with:
 
-The checkpoint archive and OT-ProfileNet inference-asset archive are separate release requirements. `scripts/profile_molecule.py validate` checks both before prospective inference.
+```bash
+sha256sum -c PARTS_SHA256SUMS.txt
+cat dotsafenet-model-checkpoints-v1.0.0.tar.gz.part-* > dotsafenet-model-checkpoints-v1.0.0.tar.gz
+cat dotsafenet-ot-profilenet-inference-assets-v1.0.0.tar.gz.part-* > dotsafenet-ot-profilenet-inference-assets-v1.0.0.tar.gz
+sha256sum -c SHA256SUMS.txt
+```
+
+`multipart_manifest.json` records part order, byte counts and SHA256 values. File-level checkpoint hashes remain in `weights_manifest.tsv`.
+
+The reconstructed checkpoint and OT-ProfileNet inference-asset archives are separate release requirements. `scripts/profile_molecule.py validate` checks both before prospective inference.
