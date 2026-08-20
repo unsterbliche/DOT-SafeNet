@@ -17,7 +17,7 @@ data/         Model definitions, test data and four paper examples
 figures/      Final 600 dpi TIFF files
 reproduce/    Figure code and fixed source tables in manuscript order
 scripts/      Training, prediction, evaluation and validation commands
-skills/       Installable Codex skills for reproduction and molecule profiling
+skills/       Installable agent skills for reproduction and molecule profiling
 src/          Model implementations
 tests/        Data-contract and inference tests
 weights/      Checkpoint manifest and Zenodo download instructions
@@ -89,9 +89,9 @@ scripts/predict_dotsafenet_clinical.sh
 
 Complete training datasets remain subject to their original database licenses. The repository includes the fixed DOT-SafeNet test table, model feature order, SOC order, target annotations and figure source tables needed for the reported evaluations.
 
-## Codex skills
+## Agent skills
 
-The two directories under `skills/` are directly installable; separate archive copies are unnecessary.
+The two agent skills under `skills/` are directly installable; separate archive copies are unnecessary.
 
 ```bash
 cp -r skills/dotsafenet-paper-reproducer ~/.codex/skills/
