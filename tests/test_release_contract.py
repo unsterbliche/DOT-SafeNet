@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import ast
 import importlib.util
 import sys
 import unittest
@@ -56,13 +57,24 @@ class ReleaseContractTest(unittest.TestCase):
         self.assertEqual(len(table), 18)
         self.assertTrue(table["auroc"].between(0.5, 1.0).all())
 
-    def test_ot_profilenet_preserves_pyg20_checkpoint_semantics(self):
+    def test_ot_profilenet_preserves_pyg24_checkpoint_semantics(self):
         for relative in [
             "src/ot_profilenet/finetuning/model.py",
             "src/ot_profilenet/pretraining/model.py",
         ]:
             text = (ROOT / relative).read_text(encoding="utf-8")
-            self.assertEqual(text.count("aggr='mean', normalize=True"), 3)
+            tree = ast.parse(text)
+            sage_calls = [
+                node for node in ast.walk(tree)
+                if isinstance(node, ast.Call)
+                and isinstance(node.func, ast.Name)
+                and node.func.id == "SAGEConv"
+            ]
+            self.assertEqual(len(sage_calls), 3)
+            for call in sage_calls:
+                keywords = {item.arg: ast.literal_eval(item.value) for item in call.keywords}
+                self.assertEqual(keywords["aggr"], "mean")
+                self.assertIs(keywords["normalize"], False)
 
     def test_model_requirements_use_shared_environment(self):
         for relative in [

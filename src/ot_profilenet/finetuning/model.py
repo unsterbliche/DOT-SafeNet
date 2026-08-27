@@ -19,22 +19,21 @@ class CPI_classification(torch.nn.Module):
         self.max_length = max_length
         self.emb_size = emb_size
         # compounds network
-        # The published checkpoints were trained with PyG 2.0, where the
-        # third positional argument was ``normalize``.  The original value
-        # ``'mean'`` therefore enabled L2 normalization.  PyG 2.5 assigns the
-        # same position to ``aggr``.  Explicit keywords preserve the published
-        # computation across both APIs.
+        # The published checkpoints were trained with PyG 2.4.0. In that
+        # version, the legacy third positional value ``'mean'`` selected mean
+        # aggregation and left output normalization disabled. Use explicit
+        # keywords so inference preserves the training-time computation.
         self.mol_conv1 = SAGEConv(
             num_features_mol, num_features_mol * 2,
-            aggr='mean', normalize=True,
+            aggr='mean', normalize=False,
         )
         self.mol_conv2_f = SAGEConv(
             num_features_mol * 2, num_features_mol * 2,
-            aggr='mean', normalize=True,
+            aggr='mean', normalize=False,
         )
         self.mol_conv3_f = SAGEConv(
             num_features_mol * 2, num_features_mol * 4,
-            aggr='mean', normalize=True,
+            aggr='mean', normalize=False,
         )
         self.mol_fc_g1 = nn.Linear(num_features_mol*4, modulator_emb_dim)
         self.dropout = nn.Dropout(dropout)
