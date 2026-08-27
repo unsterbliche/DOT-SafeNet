@@ -2,9 +2,12 @@ from __future__ import annotations
 
 import ast
 import importlib.util
+import os
 import sys
 import unittest
 from pathlib import Path
+from types import SimpleNamespace
+from unittest.mock import patch
 
 import yaml
 
@@ -23,6 +26,7 @@ def load_module(name: str, path: Path):
 
 VALIDATE = load_module("release_validate", ROOT / "scripts" / "validate_release.py")
 METRICS = load_module("release_metrics", ROOT / "scripts" / "reproduce_metrics.py")
+FIGURES = load_module("release_figures", ROOT / "scripts" / "render_all_figures.py")
 
 
 class ReleaseContractTest(unittest.TestCase):
@@ -87,6 +91,34 @@ class ReleaseContractTest(unittest.TestCase):
                 (ROOT / relative).read_text(encoding="utf-8").strip(),
                 "-r ../../requirements-unified.txt",
             )
+
+    def test_public_reproduction_entrypoints_match_skill(self):
+        entrypoints = [
+            "scripts/validate_release.py",
+            "scripts/reproduce_metrics.py",
+            "scripts/render_all_figures.py",
+            "scripts/run_tests.py",
+        ]
+        skill_text = (ROOT / "skills/dotsafenet-paper-reproducer/SKILL.md").read_text(encoding="utf-8")
+        for relative in entrypoints:
+            self.assertTrue((ROOT / relative).is_file(), relative)
+            self.assertIn(relative, skill_text)
+        self.assertNotIn("scripts/reproduce.py", skill_text)
+
+    def test_figure_environment_includes_rdkit_and_headless_backend(self):
+        requirements = (ROOT / "requirements-figures.txt").read_text(encoding="utf-8").lower().splitlines()
+        self.assertTrue(any(line.strip().startswith("rdkit") for line in requirements))
+        with patch.dict(os.environ, {}, clear=True), patch.object(
+            FIGURES.subprocess,
+            "run",
+            return_value=SimpleNamespace(returncode=0),
+        ) as mocked_run, patch.object(
+            sys,
+            "argv",
+            ["render_all_figures.py", "--figure", "Figure 1"],
+        ):
+            FIGURES.main()
+        self.assertEqual(mocked_run.call_args.kwargs["env"]["MPLBACKEND"], "Agg")
 
 
 if __name__ == "__main__":

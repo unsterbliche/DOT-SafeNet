@@ -33,6 +33,8 @@ python scripts/render_all_figures.py --check-only
 python scripts/run_tests.py
 ```
 
+`requirements-figures.txt` includes RDKit for the ECFP4 analysis in Supplementary Figure 6. The figure dispatcher sets `MPLBACKEND=Agg`, allowing the complete figure set to render on headless macOS and Linux hosts.
+
 ## Reproduce figures
 
 The directories under `reproduce/` follow the final manuscript numbering. Generated files are written to an untracked `outputs/` directory inside each figure directory.

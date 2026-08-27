@@ -49,6 +49,7 @@ def validate_package(check_hashes: bool = False) -> dict:
         "scripts/run_unified_profile.sh",
         "scripts/validate_unified_runtime.py", "scripts/render_all_figures.py",
         "scripts/reproduce_metrics.py", "scripts/check_weights.py",
+        "scripts/run_tests.py",
         "skills/dotsafenet-paper-reproducer/SKILL.md",
         "skills/dotsafenet-safety-profiler/SKILL.md",
         "weights/weights_manifest.tsv",
@@ -58,6 +59,14 @@ def validate_package(check_hashes: bool = False) -> dict:
     errors.extend(f"missing: figures/{name}" for name in FIGURE_NAMES if not (ROOT / "figures" / name).is_file())
     if errors:
         return {"status": "failed", "errors": errors, "warnings": []}
+
+    figure_requirements = {
+        line.split(";", 1)[0].strip().lower()
+        for line in (ROOT / "requirements-figures.txt").read_text(encoding="utf-8").splitlines()
+        if line.strip() and not line.lstrip().startswith("#")
+    }
+    if not any(requirement.startswith("rdkit") for requirement in figure_requirements):
+        errors.append("requirements-figures.txt does not include RDKit required by Supplementary Figure 6")
 
     targets = read_csv(ROOT / "data/model/target_order.csv")
     socs = read_csv(ROOT / "data/model/soc_order.csv")

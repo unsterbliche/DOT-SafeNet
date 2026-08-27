@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 import subprocess
 import sys
 import time
@@ -68,11 +69,17 @@ def main() -> None:
         return
 
     report = {"python": sys.executable, "figures": [], "status": "passed"}
+    render_env = os.environ.copy()
+    render_env.setdefault("MPLBACKEND", "Agg")
     for name, relative_path in selected:
         entrypoint = ROOT / relative_path
         started = time.time()
         print(f"[render] {name} -> {relative_path}", flush=True)
-        result = subprocess.run([sys.executable, str(entrypoint)], cwd=entrypoint.parent)
+        result = subprocess.run(
+            [sys.executable, str(entrypoint)],
+            cwd=entrypoint.parent,
+            env=render_env,
+        )
         report["figures"].append({
             "figure": name,
             "entrypoint": relative_path,

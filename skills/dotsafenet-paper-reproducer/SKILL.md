@@ -11,15 +11,15 @@ Use the numbered entrypoints under `reproduce/`; their directory names match the
 
 1. Locate the release root. It must contain `data/model/target_order.csv`, `scripts/validate_release.py`, and `configs/pipeline.yaml`.
 2. Read `references/release_contract.md` before selecting a test.
-3. Run `scripts/reproduce.py --release-root <path> audit`.
-4. Run the requested operation:
-   - `metrics` recalculates the reported DOT-SafeNet results from fixed prediction tables.
-   - `figures --check-only` validates all manuscript figure entrypoints.
-   - `figures --figure "Figure 5"` renders one exact manuscript figure.
-   - `figures` renders every code-derived figure.
-   - `tests` runs syntax, data-contract, figure and metric tests.
-   - `weights --checkpoint-root <path>` checks all 37 selected checkpoint files.
-5. Report the executed command, Python executable, pass/fail state, and generated report paths.
+3. Run the requested command from the release root:
+   - `python scripts/validate_release.py` audits the release package and fixed data contracts.
+   - `python scripts/reproduce_metrics.py` recalculates the reported DOT-SafeNet results from fixed prediction tables.
+   - `python scripts/render_all_figures.py --check-only` validates all manuscript figure entrypoints.
+   - `python scripts/render_all_figures.py --figure "Figure 5"` renders one exact manuscript figure.
+   - `python scripts/render_all_figures.py` renders every code-derived figure.
+   - `python scripts/run_tests.py` runs syntax, data-contract, figure and metric tests.
+   - `python scripts/check_weights.py --checkpoint-root <path>` checks all 37 selected checkpoint files.
+4. Report the executed command, Python executable, pass/fail state, and generated report paths.
 
 ## Reproduction levels
 
@@ -36,4 +36,4 @@ Do not report full retraining as reproduced when only fixed prediction tables or
 - Read `references/release_contract.md` for the final figure map and expected counts.
 - Read `references/environment.md` when creating an environment or diagnosing imports.
 - Read `references/model_data_contracts.md` for feature construction, SOC order, model parameters, and checkpoint membership.
-- Use `scripts/reproduce.py` as the stable entrypoint; do not duplicate its subprocess logic in ad hoc shell commands.
+- Use the release-root commands listed above; their names match the public README and validation tests.
