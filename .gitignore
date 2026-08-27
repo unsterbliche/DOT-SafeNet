@@ -3,6 +3,7 @@ __pycache__/
 .DS_Store
 .idea/
 .vscode/
+.venv*/
 weights/checkpoints/
 outputs/
 results/
